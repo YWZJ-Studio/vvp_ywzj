@@ -1,0 +1,14 @@
+{
+  "type": "ywzj_vehicle:rotary_wing_vehicle",
+  "model": "vvp_ywzj:entity/uh60mod",
+  "texture": "vvp_ywzj:textures/entity/uh60mod.png",
+  "slot_texture": "vvp_ywzj:textures/slot/uh60mod.png",
+  "animations": "vvp_ywzj:entity/uh60mod.animation",
+  "animation_controller": "vvp_ywzj:uh60mod_controller",
+  "sounds": {
+    "engine_start": "vvp_ywzj:uh60_start",
+    "engine_stop": "ywzj_vehicle:z10_engine_stop",
+    "engine_run": "vvp_ywzj:uh60_idle"
+  },
+  "tab_index": 200
+}

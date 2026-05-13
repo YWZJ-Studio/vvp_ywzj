@@ -1,0 +1,29 @@
+{
+  "uh60_start": {
+    "sounds": ["vvp_ywzj:vehicle/uh60_start"],
+    "subtitle": "vvp_ywzj.sounds.uh60_start"
+  },
+  "uh60_idle": {
+    "sounds": ["vvp_ywzj:vehicle/uh60_idle"],
+    "subtitle": "vvp_ywzj.sounds.uh60_idle"
+  },
+  "t72_engine_idle": {
+    "sounds": ["vvp_ywzj:vehicle/t72_engine_idle"],
+    "subtitle": "vvp_ywzj.sounds.t72_engine_idle"
+  },
+  "t90_autoreload": {
+    "sounds": ["vvp_ywzj:weapon/t90_autoreload"],
+    "subtitle": "vvp_ywzj.sounds.t90_autoreload"
+  },
+  "mk30_2_abm_shot": {
+    "sounds": [
+      "vvp_ywzj:weapon/mk30_2_abm/mk30_2_abm_shot-001",
+      "vvp_ywzj:weapon/mk30_2_abm/mk30_2_abm_shot-002",
+      "vvp_ywzj:weapon/mk30_2_abm/mk30_2_abm_shot-003",
+      "vvp_ywzj:weapon/mk30_2_abm/mk30_2_abm_shot-004",
+      "vvp_ywzj:weapon/mk30_2_abm/mk30_2_abm_shot-005",
+      "vvp_ywzj:weapon/mk30_2_abm/mk30_2_abm_shot-006"
+    ],
+    "subtitle": "vvp_ywzj.sounds.mk30_2_abm_shot"
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "name": "tigr_controller",
+  "script": "vvp_ywzj:tigr",
+  "parameters": {},
+  "event_animations": {
+    "mg_fire": ["mg_fire"]
+  },
+  "switchable_animations": {
+    "door_left": {
+      "part_id": "door_left",
+      "animation": "door_left"
+    },
+    "door_right": {
+      "part_id": "door_right",
+      "animation": "door_right"
+    },
+    "zaddooor": {
+      "part_id": "zaddooor",
+      "animation": "zaddooor"
+    },
+    "hatch2": {
+      "part_id": "hatch2",
+      "animation": "hatch2"
+    },
+    "hatch8": {
+      "part_id": "hatch8",
+      "animation": "hatch8"
+    },
+    "hatch5": {
+      "part_id": "hatch5",
+      "animation": "hatch5"
+    },
+    "hatch4": {
+      "part_id": "hatch4",
+      "animation": "hatch4"
+    },
+    "bonnet": {
+      "part_id": "bonnet",
+      "animation": "bonnet"
+    }
+  },
+  "graph": {
+    "type": "merge",
+    "inputs": [
+      {
+        "type": "additive",
+        "base": {
+          "type": "merge",
+          "inputs": [
+            {
+              "type": "switchable_animation",
+              "ref": "door_left"
+            },
+            {
+              "type": "switchable_animation",
+              "ref": "door_right"
+            },
+            {
+              "type": "switchable_animation",
+              "ref": "zaddooor"
+            },
+            {
+              "type": "switchable_animation",
+              "ref": "hatch2"
+            },
+            {
+              "type": "switchable_animation",
+              "ref": "hatch8"
+            },
+            {
+              "type": "switchable_animation",
+              "ref": "hatch5"
+            },
+            {
+              "type": "switchable_animation",
+              "ref": "hatch4"
+            },
+            {
+              "type": "switchable_animation",
+              "ref": "bonnet"
+            },
+            {
+              "type": "script",
+              "function": "updateBones"
+            }
+          ]
+        },
+        "add": {
+          "type": "event_animation"
+        }
+      }
+    ]
+  }
+}

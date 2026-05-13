@@ -1,0 +1,14 @@
+{
+  "type": "ywzj_vehicle:wheeled_vehicle",
+  "model": "vvp_ywzj:entity/tigr",
+  "texture": "vvp_ywzj:textures/entity/gaz_tigr.png",
+  "slot_texture": "vvp_ywzj:textures/slot/tigr.png",
+  "animations": "vvp_ywzj:entity/tigr.animation",
+  "animation_controller": "vvp_ywzj:tigr_controller",
+  "sounds": {
+    "engine_start": "ywzj_vehicle:lav150_engine_start",
+    "engine_idle": "ywzj_vehicle:truck_engine_idle",
+    "engine_run": "ywzj_vehicle:truck_engine_run"
+  },
+  "tab_index": 100
+}

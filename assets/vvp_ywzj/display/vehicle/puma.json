@@ -1,0 +1,20 @@
+{
+  "type": "ywzj_vehicle:tracked_vehicle",
+  "model": "vvp_ywzj:entity/puma",
+  "texture": "vvp_ywzj:textures/entity/puma.png",
+  "slot_texture": "vvp_ywzj:textures/slot/puma.png",
+  "animations": "vvp_ywzj:entity/puma.animation",
+  "animation_controller": "vvp_ywzj:puma_controller",
+  "track_config": {
+    "left_track": "tread_l_move",
+    "right_track": "tread_r_move",
+    "module_length": 0.25,
+    "track_width": 3.0
+  },
+  "sounds": {
+    "engine_start": "ywzj_vehicle:ztz99a_engine_start",
+    "engine_idle": "ywzj_vehicle:t72_engine_idle",
+    "engine_run": "ywzj_vehicle:ztz99a_engine_run"
+  },
+  "tab_index": 2
+}

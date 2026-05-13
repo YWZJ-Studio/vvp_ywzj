@@ -1,0 +1,191 @@
+{
+  "type": "ywzj_vehicle:wheeled_vehicle",
+  "attributes": {
+    "brake_force": 0.025,
+    "forward_force": 0.03,
+    "backward_force": 0.02,
+    "max_speed_forward": 0.8,
+    "max_speed_backward": 0.6,
+    "turn_step": 0.4,
+    "max_turn": 2
+  },
+  "max_health": 105,
+  "view_info": {
+    "third_person_center_offset": [0, 4, 0],
+    "third_person_distance": 10,
+    "third_person_center_offset_zoomed": [0, 5, 0],
+    "third_person_distance_zoomed": 0,
+    "sound_distance": 3,
+    "passenger_view_rot": {
+      "rot_by_vehicle_in_third_person": false,
+      "rot_by_vehicle_in_operator": true
+    }
+  },
+  "energy_info": {
+    "energy_capacity": 1,
+    "energy_consumption_per_tick": 0.00001,
+    "engine_particle_offsets": [[-1.3, 2.8, 1.4]]
+  },
+  "structure_model": "vvp_ywzj:vehicle/varta",
+  "parts": [
+    {
+      "id": "passenger_seat1",
+      "name": "passenger_seat1",
+      "type": "ywzj_vehicle:generic",
+      "is_seat": true,
+      "seat_offset": [-0.70394375, 2.5, 1.18831875],
+      "owner_view_offset": [-0.70394375, 2.5, 1.18831875]
+    },
+    {
+      "id": "mg",
+      "name": "mg",
+      "type": "ywzj_vehicle:weapon",
+      "structure_bone": "mg",
+      "seat_offset": [0, 4, 0.09375],
+      "crosshair_style": "circle",
+      "rot_info": {
+        "x_rot_speed": 3,
+        "y_rot_speed": 3,
+        "x_rot_max": 30,
+        "x_rot_min": -85
+      },
+      "operator_on_weapon_unit": false,
+      "optical_sight_offset": [0.3, 0.8, 0.1],
+      "operator_view_offset": [0, 1, 0],
+      "optical_sight_type": "operator",
+      "zoom_max": 1.5,
+      "weapons": [
+        "ywzj_vehicle:gun_12.7mm"
+      ]
+    },
+    {
+      "id": "passenger_seat3",
+      "name": "passenger_seat3",
+      "type": "ywzj_vehicle:generic",
+      "is_seat": true,
+      "seat_offset": [0.70394375, 2.5, 1.18831875],
+      "owner_view_offset": [0.70394375, 2.5, 1.18831875]
+    },
+    {
+      "id": "passenger_seat4",
+      "name": "passenger_seat4",
+      "type": "ywzj_vehicle:generic",
+      "is_seat": true,
+      "seat_offset": [0.70394375, 2.5, 0.31168125],
+      "owner_view_offset": [0.70394375, 2.5, 0.31168125],
+      "seat_rot": 180
+    },
+    {
+      "id": "passenger_seat5",
+      "name": "passenger_seat5",
+      "type": "ywzj_vehicle:generic",
+      "is_seat": true,
+      "seat_offset": [-0.70394375, 2.5, 0.31168125],
+      "owner_view_offset": [-0.70394375, 2.5, 0.31168125],
+      "seat_rot": 180
+    },
+    {
+      "id": "passenger_seat6",
+      "name": "passenger_seat6",
+      "type": "ywzj_vehicle:generic",
+      "is_seat": true,
+      "seat_offset": [0.703125, 2.5, -0.6875],
+      "owner_view_offset": [0.703125, 2.5, -0.6875],
+      "seat_rot": 90
+    },
+    {
+      "id": "passenger_seat7",
+      "name": "passenger_seat7",
+      "type": "ywzj_vehicle:generic",
+      "is_seat": true,
+      "seat_offset": [0.703125, 2.5, -1.5],
+      "owner_view_offset": [0.703125, 2.5, -1.5],
+      "seat_rot": 90
+    },
+    {
+      "id": "passenger_seat8",
+      "name": "passenger_seat8",
+      "type": "ywzj_vehicle:generic",
+      "is_seat": true,
+      "seat_offset": [0.703125, 2.5, -2.25],
+      "owner_view_offset": [0.703125, 2.5, -2.25],
+      "seat_rot": 90
+    },
+    {
+      "id": "passenger_seat9",
+      "name": "passenger_seat9",
+      "type": "ywzj_vehicle:generic",
+      "is_seat": true,
+      "seat_offset": [-0.703125, 2.5, -0.6875],
+      "owner_view_offset": [-0.703125, 2.5, -0.6875],
+      "seat_rot": -90
+    },
+    {
+      "id": "passenger_seat10",
+      "name": "passenger_seat10",
+      "type": "ywzj_vehicle:generic",
+      "is_seat": true,
+      "seat_offset": [-0.703125, 2.5, -1.5],
+      "owner_view_offset": [-0.703125, 2.5, -1.5],
+      "seat_rot": -90
+    },
+    {
+      "id": "passenger_seat11",
+      "name": "passenger_seat11",
+      "type": "ywzj_vehicle:generic",
+      "is_seat": true,
+      "seat_offset": [-0.703125, 2.5, -2.25],
+      "owner_view_offset": [-0.703125, 2.5, -2.25],
+      "seat_rot": -90
+    },
+    {
+      "id": "door_left",
+      "name": "door_left",
+      "type": "ywzj_vehicle:door",
+      "structure_bone": "door_left",
+      "is_seat": false
+    },
+    {
+      "id": "door_right",
+      "name": "door_right",
+      "type": "ywzj_vehicle:door",
+      "structure_bone": "door_right",
+      "is_seat": false
+    },
+    {
+      "id": "door_left2",
+      "name": "door_left2",
+      "type": "ywzj_vehicle:door",
+      "structure_bone": "door_left2",
+      "is_seat": false
+    },
+    {
+      "id": "door_right2",
+      "name": "door_right2",
+      "type": "ywzj_vehicle:door",
+      "structure_bone": "door_right2",
+      "is_seat": false
+    },
+    {
+      "id": "zaddoor",
+      "name": "zaddoor",
+      "type": "ywzj_vehicle:door",
+      "structure_bone": "zaddoor",
+      "is_seat": false
+    },
+    {
+      "id": "luke2",
+      "name": "luke2",
+      "type": "ywzj_vehicle:switchable",
+      "structure_bone": "luke2",
+      "is_seat": false
+    },
+    {
+      "id": "luke3",
+      "name": "luke3",
+      "type": "ywzj_vehicle:switchable",
+      "structure_bone": "luke3",
+      "is_seat": false
+    }
+  ]
+}
