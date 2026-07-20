@@ -3,39 +3,7 @@
 	"script": "vvp_ywzj:pantsir_s1",
 	"parameters": {},
 	"event_animations": {
-		"mg_fire": [
-			"mg_fire"
-		]
-	},
-	"switchable_animations": {
-		"door_left": {
-			"part_id": "door_left",
-			"animation": "door_left"
-		},
-		"door_left2": {
-			"part_id": "door_left2",
-			"animation": "door_left2"
-		},
-		"door_right": {
-			"part_id": "door_right",
-			"animation": "door_right"
-		},
-		"door_right2": {
-			"part_id": "door_right2",
-			"animation": "door_right2"
-		},
-		"zaddoor": {
-			"part_id": "zaddoor",
-			"animation": "zaddoor"
-		},
-		"luke2": {
-			"part_id": "luke2",
-			"animation": "luke2"
-		},
-		"luke3": {
-			"part_id": "luke3",
-			"animation": "luke3"
-		}
+		"mg_fire": ["mg_fire"]
 	},
 	"graph": {
 		"type": "merge",
@@ -46,36 +14,45 @@
 					"type": "merge",
 					"inputs": [
 						{
-							"type": "switchable_animation",
-							"ref": "door_left"
-						},
-						{
-							"type": "switchable_animation",
-							"ref": "door_left2"
-						},
-						{
-							"type": "switchable_animation",
-							"ref": "door_right"
-						},
-						{
-							"type": "switchable_animation",
-							"ref": "door_right2"
-						},
-						{
-							"type": "switchable_animation",
-							"ref": "zaddoor"
-						},
-						{
-							"type": "switchable_animation",
-							"ref": "luke2"
-						},
-						{
-							"type": "switchable_animation",
-							"ref": "luke3"
-						},
-						{
-							"type": "script",
-							"function": "updateBones"
+							"type": "bone_binding",
+							"special_bindings": [
+								{
+									"bones": ["wheelL0Turn", "wheelR0Turn", "wheelL0", "wheelR0", "wheelL1", "wheelR1", "wheelL2", "wheelR2"],
+									"source": "wheel_rotation",
+									"axis": "x",
+									"param": 1
+								},
+								{
+									"bones": ["wheelL0Turn", "wheelR0Turn"],
+									"source": "steering_angle",
+									"axis": "y",
+									"multiplier": 1,
+									"min": -30,
+									"max": 30
+								},
+								{
+									"bones": ["Steringwhell"],
+									"source": "steering_angle",
+									"axis": "y",
+									"multiplier": 6
+								}
+							],
+							"part_bindings": [
+								{
+									"bone": "turret",
+									"part": "weapon_station",
+									"rotation_type": "y",
+									"axis": "y",
+									"invert": true
+								},
+								{
+									"bone": "barrel",
+									"part": "weapon_station",
+									"rotation_type": "x",
+									"axis": "x",
+									"invert": true
+								}
+							]
 						}
 					]
 				},

@@ -3,11 +3,12 @@
 	"model": "vvp_ywzj:entity/m142_himars",
 	"texture": "vvp_ywzj:textures/entity/m142_himars.png",
 	"slot_texture": "vvp_ywzj:textures/slot/m142_himars.png",
+	"animations": "vvp_ywzj:entity/m142_himars.animation",
+	"animation_controller": "vvp_ywzj:m142_himars_controller",
 	"sounds": {
 		"engine_start": "ywzj_vehicle:lav150_engine_start",
 		"engine_idle": "ywzj_vehicle:truck_engine_idle",
 		"engine_run": "ywzj_vehicle:truck_engine_run"
 	},
-	"tab_index": 104,
-	"animation_controller": "vvp_ywzj:m142_himars_controller"
+	"tab_index": 104
 }

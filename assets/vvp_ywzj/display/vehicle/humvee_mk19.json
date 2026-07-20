@@ -3,11 +3,12 @@
 	"model": "vvp_ywzj:entity/humvee_mk19",
 	"texture": "vvp_ywzj:textures/entity/humvee_mk19.png",
 	"slot_texture": "vvp_ywzj:textures/slot/humvee_mk19.png",
+	"animations": "vvp_ywzj:entity/humvee_mk19.animation",
+	"animation_controller": "vvp_ywzj:humvee_mk19_controller",
 	"sounds": {
 		"engine_start": "ywzj_vehicle:lav150_engine_start",
 		"engine_idle": "ywzj_vehicle:truck_engine_idle",
 		"engine_run": "ywzj_vehicle:truck_engine_run"
 	},
-	"tab_index": 103,
-	"animation_controller": "vvp_ywzj:humvee_mk19_controller"
+	"tab_index": 103
 }

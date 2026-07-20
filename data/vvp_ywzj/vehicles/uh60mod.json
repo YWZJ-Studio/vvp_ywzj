@@ -2,12 +2,12 @@
 	"type": "ywzj_vehicle:rotary_wing_vehicle",
 	"attributes": {
 		"main_rotor_force": 0.07,
-		"x_rot_speed_acceleration": 1.0,
-		"x_rot_speed_max": 3.0,
-		"y_rot_speed_acceleration": 1.0,
-		"y_rot_speed_max": 4.0,
-		"z_rot_speed_acceleration": 1.0,
-		"z_rot_speed_max": 2.0,
+		"x_rot_speed_acceleration": 1,
+		"x_rot_speed_max": 3,
+		"y_rot_speed_acceleration": 1,
+		"y_rot_speed_max": 4,
+		"z_rot_speed_acceleration": 1,
+		"z_rot_speed_max": 2,
 		"max_air_speed": 1.5,
 		"fast_roping": true,
 		"fast_roping_door_id": "door"
@@ -22,7 +22,7 @@
 	},
 	"energy_info": {
 		"energy_capacity": 0.25,
-		"energy_consumption_per_tick": 1e-05,
+		"energy_consumption_per_tick": 0.00001,
 		"engine_particle_offsets": [
 			[-1.5, 2.5, -2.8],
 			[1.5, 2.5, -2.8]

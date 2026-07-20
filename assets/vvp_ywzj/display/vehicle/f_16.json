@@ -3,6 +3,7 @@
 	"model": "vvp_ywzj:entity/f_16",
 	"texture": "vvp_ywzj:textures/entity/f_16.png",
 	"slot_texture": "vvp_ywzj:textures/slot/f_16.png",
-	"tab_index": 3100,
-	"animation_controller": "vvp_ywzj:f_16_controller"
+	"animations": "vvp_ywzj:entity/f_16.animation",
+	"animation_controller": "vvp_ywzj:f_16_controller",
+	"tab_index": 3100
 }

@@ -23,7 +23,7 @@
 	},
 	"energy_info": {
 		"energy_capacity": 1,
-		"energy_consumption_per_tick": 1e-05,
+		"energy_consumption_per_tick": 0.00001,
 		"engine_particle_offsets": []
 	},
 	"structure_model": "vvp_ywzj:vehicle/tigr",
@@ -60,7 +60,8 @@
 					"id": "vvp_ywzj:tigr_smoke",
 					"part_unit_id": "smoke"
 				}
-			]
+			],
+			"owner_view_offset": [-0.8, 2.2, -0.9]
 		},
 		{
 			"id": "smoke",

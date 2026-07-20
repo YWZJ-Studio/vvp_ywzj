@@ -11,11 +11,7 @@
 	},
 	"max_health": 150,
 	"view_info": {
-		"third_person_center_offset": [
-			0,
-			3,
-			0
-		],
+		"third_person_center_offset": [0, 3, 0],
 		"third_person_distance": 8,
 		"sound_distance": 4,
 		"passenger_view_rot": {
@@ -34,16 +30,64 @@
 			"name": "seat",
 			"type": "ywzj_vehicle:generic",
 			"is_seat": true,
-			"seat_offset": [
-				0,
-				2,
-				0
-			],
-			"owner_view_offset": [
-				0,
-				2,
-				0
-			]
+			"seat_offset": [0.625, 2.67, 2.828],
+			"owner_view_offset": [0.625, 2.67, 2.828]
+		},
+		{
+			"id": "passenger_seat2",
+			"name": "passenger_seat2",
+			"type": "ywzj_vehicle:generic",
+			"is_seat": true,
+			"seat_offset": [-0.625, 2.67, 2.828],
+			"owner_view_offset": [-0.625, 2.67, 2.828]
+		},
+		{
+			"id": "passenger_seat3",
+			"name": "passenger_seat3",
+			"type": "ywzj_vehicle:generic",
+			"is_seat": true,
+			"seat_offset": [-1.063, 3, 0.203],
+			"owner_view_offset": [-1.063, 3, 0.203]
+		},
+		{
+			"id": "passenger_seat4",
+			"name": "passenger_seat4",
+			"type": "ywzj_vehicle:generic",
+			"is_seat": true,
+			"seat_offset": [-1.063, 3, -0.984],
+			"owner_view_offset": [-1.063, 3, -0.984]
+		},
+		{
+			"id": "passenger_seat5",
+			"name": "passenger_seat5",
+			"type": "ywzj_vehicle:generic",
+			"is_seat": true,
+			"seat_offset": [-1.063, 3, -2.047],
+			"owner_view_offset": [-1.063, 3, -2.047]
+		},
+		{
+			"id": "passenger_seat6",
+			"name": "passenger_seat6",
+			"type": "ywzj_vehicle:generic",
+			"is_seat": true,
+			"seat_offset": [1.063, 3, 0.203],
+			"owner_view_offset": [1.063, 3, 0.203]
+		},
+		{
+			"id": "passenger_seat7",
+			"name": "passenger_seat7",
+			"type": "ywzj_vehicle:generic",
+			"is_seat": true,
+			"seat_offset": [1.063, 3, -0.984],
+			"owner_view_offset": [1.063, 3, -0.984]
+		},
+		{
+			"id": "passenger_seat8",
+			"name": "passenger_seat8",
+			"type": "ywzj_vehicle:generic",
+			"is_seat": true,
+			"seat_offset": [1.063, 3, -2.047],
+			"owner_view_offset": [1.063, 3, -2.047]
 		}
 	],
 	"experimental": true

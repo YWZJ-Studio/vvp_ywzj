@@ -3,11 +3,12 @@
 	"model": "vvp_ywzj:entity/ah_64",
 	"texture": "vvp_ywzj:textures/entity/ah_64.png",
 	"slot_texture": "vvp_ywzj:textures/slot/ah_64.png",
+	"animations": "vvp_ywzj:entity/ah_64.animation",
+	"animation_controller": "vvp_ywzj:ah_64_controller",
 	"sounds": {
 		"engine_start": "vvp_ywzj:uh60_start",
 		"engine_stop": "ywzj_vehicle:z10_engine_stop",
 		"engine_run": "vvp_ywzj:uh60_idle"
 	},
-	"tab_index": 2101,
-	"animation_controller": "vvp_ywzj:ah_64_controller"
+	"tab_index": 2101
 }

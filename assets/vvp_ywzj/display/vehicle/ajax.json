@@ -3,11 +3,12 @@
 	"model": "vvp_ywzj:entity/ajax",
 	"texture": "vvp_ywzj:textures/entity/ajax.png",
 	"slot_texture": "vvp_ywzj:textures/slot/ajax.png",
+	"animations": "vvp_ywzj:entity/ajax.animation",
+	"animation_controller": "vvp_ywzj:ajax_controller",
 	"sounds": {
 		"engine_start": "ywzj_vehicle:ztz99a_engine_start",
 		"engine_idle": "ywzj_vehicle:t72_engine_idle",
 		"engine_run": "ywzj_vehicle:ztz99a_engine_run"
 	},
-	"tab_index": 1201,
-	"animation_controller": "vvp_ywzj:ajax_controller"
+	"tab_index": 1201
 }

@@ -6,11 +6,11 @@
 				"identifier": "geometry.unknown",
 				"texture_width": 16,
 				"texture_height": 16,
-				"visible_bounds_width": 2,
-				"visible_bounds_height": 2,
+				"visible_bounds_width": 10,
+				"visible_bounds_height": 6,
 				"visible_bounds_offset": [
 					0,
-					1,
+					2,
 					0
 				]
 			},
@@ -25,14 +25,109 @@
 					"cubes": [
 						{
 							"origin": [
-								-8,
+								-42,
 								0,
-								-8
+								-57
 							],
 							"size": [
-								16,
-								16,
-								16
+								84,
+								44,
+								114
+							],
+							"uv": [
+								0,
+								0
+							]
+						}
+					]
+				},
+				{
+					"name": "vehicle_body",
+					"pivot": [
+						0,
+						0,
+						0
+					],
+					"cubes": [
+						{
+							"origin": [
+								-40,
+								8,
+								-55
+							],
+							"size": [
+								80,
+								31,
+								110
+							],
+							"uv": [
+								0,
+								0
+							]
+						},
+						{
+							"origin": [
+								-32,
+								31,
+								-42
+							],
+							"size": [
+								64,
+								12,
+								72
+							],
+							"uv": [
+								0,
+								0
+							]
+						}
+					]
+				},
+				{
+					"name": "cannon",
+					"pivot": [
+						0,
+						35.5,
+						14.75
+					],
+					"cubes": [
+						{
+							"origin": [
+								-14,
+								27.5,
+								0.75
+							],
+							"size": [
+								28,
+								12,
+								28
+							],
+							"uv": [
+								0,
+								0
+							]
+						}
+					]
+				},
+				{
+					"name": "cannon_barrel",
+					"parent": "cannon",
+					"pivot": [
+						10.86105,
+						48.1053,
+						5.19703
+					],
+					"cubes": [
+						{
+							"origin": [
+								8.86105,
+								46.1053,
+								-22.80297
+							],
+							"size": [
+								4,
+								4,
+								28
 							],
 							"uv": [
 								0,

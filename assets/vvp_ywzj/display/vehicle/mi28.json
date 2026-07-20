@@ -3,11 +3,12 @@
 	"model": "vvp_ywzj:entity/mi28",
 	"texture": "vvp_ywzj:textures/entity/mi28.png",
 	"slot_texture": "vvp_ywzj:textures/slot/mi28.png",
+	"animations": "vvp_ywzj:entity/mi28.animation",
+	"animation_controller": "vvp_ywzj:mi28_controller",
 	"sounds": {
 		"engine_start": "vvp_ywzj:uh60_start",
 		"engine_stop": "ywzj_vehicle:z10_engine_stop",
 		"engine_run": "vvp_ywzj:uh60_idle"
 	},
-	"tab_index": 2005,
-	"animation_controller": "vvp_ywzj:mi28_controller"
+	"tab_index": 2005
 }

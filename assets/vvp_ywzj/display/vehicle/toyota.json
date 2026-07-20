@@ -3,11 +3,12 @@
 	"model": "vvp_ywzj:entity/toyota",
 	"texture": "vvp_ywzj:textures/entity/toyota.png",
 	"slot_texture": "vvp_ywzj:textures/slot/toyota.png",
+	"animations": "vvp_ywzj:entity/toyota.animation",
+	"animation_controller": "vvp_ywzj:toyota_controller",
 	"sounds": {
 		"engine_start": "ywzj_vehicle:lav150_engine_start",
 		"engine_idle": "ywzj_vehicle:truck_engine_idle",
 		"engine_run": "ywzj_vehicle:truck_engine_run"
 	},
-	"tab_index": 207,
-	"animation_controller": "vvp_ywzj:toyota_controller"
+	"tab_index": 207
 }

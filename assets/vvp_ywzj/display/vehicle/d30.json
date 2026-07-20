@@ -3,6 +3,7 @@
 	"model": "vvp_ywzj:entity/d30",
 	"texture": "vvp_ywzj:textures/entity/d30.png",
 	"slot_texture": "vvp_ywzj:textures/slot/d30.png",
-	"tab_index": 4001,
-	"animation_controller": "vvp_ywzj:d30_controller"
+	"animations": "vvp_ywzj:entity/d30.animation",
+	"animation_controller": "vvp_ywzj:d30_controller",
+	"tab_index": 4001
 }

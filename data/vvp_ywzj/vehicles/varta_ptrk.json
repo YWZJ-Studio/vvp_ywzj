@@ -11,11 +11,7 @@
 	},
 	"max_health": 175,
 	"view_info": {
-		"third_person_center_offset": [
-			0,
-			3,
-			0
-		],
+		"third_person_center_offset": [0, 3, 0],
 		"third_person_distance": 8,
 		"sound_distance": 4,
 		"passenger_view_rot": {
@@ -33,23 +29,11 @@
 			"id": "weapon_station",
 			"name": "weapon_station",
 			"type": "ywzj_vehicle:weapon",
-			"structure_bone": "weapon_station",
-			"seat_offset": [
-				0,
-				2,
-				0
-			],
-			"owner_view_offset": [
-				0,
-				2.5,
-				0
-			],
+			"structure_bone": "turret",
+			"seat_offset": [-0.70394375, 2.5, 1.18831875],
+			"owner_view_offset": [-0.70394375, 2.85, 1.18831875],
 			"operator_on_weapon_unit": false,
-			"optical_sight_offset": [
-				0,
-				0.5,
-				1
-			],
+			"optical_sight_offset": [0, 0, 0.75],
 			"optical_sight_type": "crt",
 			"fire_control_sensor_type": "eo",
 			"with_stabilizer": true,
@@ -63,20 +47,93 @@
 			},
 			"bolts": [
 				{
-					"offset": [
-						0,
-						0.25,
-						0.5
-					],
+					"offset": [0, 0.25, 0.5],
 					"barrel_length": 1,
 					"x_rot": 0,
 					"y_rot": 0
 				}
 			],
-			"weapons": [
-				"vvp_ywzj:m2_50cal",
-				"vvp_ywzj:9m113"
-			]
+			"weapons": ["vvp_ywzj:m2_50cal", "vvp_ywzj:9m113"]
+		},
+		{
+			"id": "passenger_seat1",
+			"name": "passenger_seat1",
+			"type": "ywzj_vehicle:generic",
+			"is_seat": true,
+			"seat_offset": [0.70394375, 2.5, 1.18831875],
+			"owner_view_offset": [0.70394375, 2.5, 1.18831875]
+		},
+		{
+			"id": "passenger_seat2",
+			"name": "passenger_seat2",
+			"type": "ywzj_vehicle:generic",
+			"is_seat": true,
+			"seat_offset": [0.70394375, 2.5, 0.31168125],
+			"owner_view_offset": [0.70394375, 2.5, 0.31168125],
+			"seat_rot": 180
+		},
+		{
+			"id": "passenger_seat3",
+			"name": "passenger_seat3",
+			"type": "ywzj_vehicle:generic",
+			"is_seat": true,
+			"seat_offset": [-0.70394375, 2.5, 0.31168125],
+			"owner_view_offset": [-0.70394375, 2.5, 0.31168125],
+			"seat_rot": 180
+		},
+		{
+			"id": "passenger_seat4",
+			"name": "passenger_seat4",
+			"type": "ywzj_vehicle:generic",
+			"is_seat": true,
+			"seat_offset": [0.703125, 2.4, -0.6875],
+			"owner_view_offset": [0.703125, 2.4, -0.6875],
+			"seat_rot": 90
+		},
+		{
+			"id": "passenger_seat5",
+			"name": "passenger_seat5",
+			"type": "ywzj_vehicle:generic",
+			"is_seat": true,
+			"seat_offset": [0.703125, 2.4, -1.5],
+			"owner_view_offset": [0.703125, 2.4, -1.5],
+			"seat_rot": 90
+		},
+		{
+			"id": "passenger_seat6",
+			"name": "passenger_seat6",
+			"type": "ywzj_vehicle:generic",
+			"is_seat": true,
+			"seat_offset": [0.703125, 2.4, -2.25],
+			"owner_view_offset": [0.703125, 2.4, -2.25],
+			"seat_rot": 90
+		},
+		{
+			"id": "passenger_seat7",
+			"name": "passenger_seat7",
+			"type": "ywzj_vehicle:generic",
+			"is_seat": true,
+			"seat_offset": [-0.703125, 2.4, -0.6875],
+			"owner_view_offset": [-0.703125, 2.4, -0.6875],
+			"seat_rot": -90
+		},
+		{
+			"id": "passenger_seat8",
+			"name": "passenger_seat8",
+			"type": "ywzj_vehicle:generic",
+			"is_seat": true,
+			"seat_offset": [-0.703125, 2.4, -1.5],
+			"owner_view_offset": [-0.703125, 2.4, -1.5],
+			"seat_rot": -90
+		},
+		{
+			"id": "passenger_seat9",
+			"name": "passenger_seat9",
+			"type": "ywzj_vehicle:generic",
+			"is_seat": true,
+			"seat_offset": [-0.703125, 2.4, -2.25],
+			"owner_view_offset": [-0.703125, 2.4, -2.25],
+			"seat_rot": -90
 		}
 	],
 	"experimental": true

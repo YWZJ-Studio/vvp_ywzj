@@ -3,9 +3,7 @@
 	"script": "vvp_ywzj:kornet",
 	"parameters": {},
 	"event_animations": {
-		"mg_fire": [
-			"mg_fire"
-		]
+		"mg_fire": ["mg_fire"]
 	},
 	"switchable_animations": {
 		"door_left": {

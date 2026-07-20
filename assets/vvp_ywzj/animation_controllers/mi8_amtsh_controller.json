@@ -13,9 +13,7 @@
 		}
 	},
 	"event_animations": {
-		"auto_cannon_fire": [
-			"auto_cannon_fire"
-		]
+		"auto_cannon_fire": ["auto_cannon_fire"]
 	},
 	"graph": {
 		"type": "merge",

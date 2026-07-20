@@ -3,11 +3,12 @@
 	"model": "vvp_ywzj:entity/sosna",
 	"texture": "vvp_ywzj:textures/entity/sosna.png",
 	"slot_texture": "vvp_ywzj:textures/slot/sosna.png",
+	"animations": "vvp_ywzj:entity/sosna.animation",
+	"animation_controller": "vvp_ywzj:sosna_controller",
 	"sounds": {
 		"engine_start": "ywzj_vehicle:ztz99a_engine_start",
 		"engine_idle": "ywzj_vehicle:t72_engine_idle",
 		"engine_run": "ywzj_vehicle:ztz99a_engine_run"
 	},
-	"tab_index": 1013,
-	"animation_controller": "vvp_ywzj:sosna_controller"
+	"tab_index": 1013
 }

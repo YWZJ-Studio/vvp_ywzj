@@ -3,9 +3,7 @@
 	"script": "vvp_ywzj:bmpt_3k",
 	"parameters": {},
 	"event_animations": {
-		"turret_fire": [
-			"turret_shoot"
-		]
+		"turret_fire": ["turret_shoot"]
 	},
 	"graph": {
 		"type": "merge",
@@ -19,31 +17,13 @@
 							"type": "bone_binding",
 							"special_bindings": [
 								{
-									"bones": [
-										"wheelL0",
-										"wheelL1",
-										"wheelL2",
-										"wheelL3",
-										"wheelL4",
-										"wheelL5",
-										"wheelL6",
-										"wheelL7"
-									],
+									"bones": ["wheelL0", "wheelL1", "wheelL2", "wheelL3", "wheelL4", "wheelL5", "wheelL6", "wheelL7"],
 									"source": "left_wheel_rotation",
 									"axis": "x",
 									"param": -0.375
 								},
 								{
-									"bones": [
-										"wheelR0",
-										"wheelR1",
-										"wheelR2",
-										"wheelR3",
-										"wheelR4",
-										"wheelR5",
-										"wheelR6",
-										"wheelR7"
-									],
+									"bones": ["wheelR0", "wheelR1", "wheelR2", "wheelR3", "wheelR4", "wheelR5", "wheelR6", "wheelR7"],
 									"source": "right_wheel_rotation",
 									"axis": "x",
 									"param": -0.375

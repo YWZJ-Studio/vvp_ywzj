@@ -3,11 +3,12 @@
 	"model": "vvp_ywzj:entity/stryker",
 	"texture": "vvp_ywzj:textures/entity/stryker.png",
 	"slot_texture": "vvp_ywzj:textures/slot/stryker.png",
+	"animations": "vvp_ywzj:entity/stryker.animation",
+	"animation_controller": "vvp_ywzj:stryker_controller",
 	"sounds": {
 		"engine_start": "ywzj_vehicle:lav150_engine_start",
 		"engine_idle": "ywzj_vehicle:truck_engine_idle",
 		"engine_run": "ywzj_vehicle:truck_engine_run"
 	},
-	"tab_index": 101,
-	"animation_controller": "vvp_ywzj:stryker_controller"
+	"tab_index": 101
 }

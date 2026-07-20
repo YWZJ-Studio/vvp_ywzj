@@ -3,11 +3,12 @@
 	"model": "vvp_ywzj:entity/m60",
 	"texture": "vvp_ywzj:textures/entity/m60.png",
 	"slot_texture": "vvp_ywzj:textures/slot/m60.png",
+	"animations": "vvp_ywzj:entity/m60.animation",
+	"animation_controller": "vvp_ywzj:m60_controller",
 	"sounds": {
 		"engine_start": "ywzj_vehicle:ztz99a_engine_start",
 		"engine_idle": "ywzj_vehicle:t72_engine_idle",
 		"engine_run": "ywzj_vehicle:ztz99a_engine_run"
 	},
-	"tab_index": 1105,
-	"animation_controller": "vvp_ywzj:m60_controller"
+	"tab_index": 1105
 }

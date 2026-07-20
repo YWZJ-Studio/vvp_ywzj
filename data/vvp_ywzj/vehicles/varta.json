@@ -23,7 +23,7 @@
 	},
 	"energy_info": {
 		"energy_capacity": 1,
-		"energy_consumption_per_tick": 1e-05,
+		"energy_consumption_per_tick": 0.00001,
 		"engine_particle_offsets": [
 			[-1.3, 2.8, 1.4]
 		]
@@ -56,9 +56,8 @@
 			"operator_view_offset": [0, 1, 0],
 			"optical_sight_type": "operator",
 			"zoom_max": 1.5,
-			"weapons": [
-				"ywzj_vehicle:gun_12.7mm"
-			]
+			"weapons": ["ywzj_vehicle:gun_12.7mm"],
+			"owner_view_offset": [0, 4, 0.09375]
 		},
 		{
 			"id": "passenger_seat3",

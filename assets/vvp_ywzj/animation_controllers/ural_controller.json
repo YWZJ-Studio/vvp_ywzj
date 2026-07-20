@@ -3,38 +3,20 @@
 	"script": "vvp_ywzj:ural",
 	"parameters": {},
 	"event_animations": {
-		"mg_fire": [
-			"mg_fire"
-		]
+		"mg_fire": ["mg_fire"]
 	},
 	"switchable_animations": {
-		"door_left": {
-			"part_id": "door_left",
-			"animation": "door_left"
+		"door_1": {
+			"part_id": "door_1",
+			"animation": "door_1"
 		},
-		"door_left2": {
-			"part_id": "door_left2",
-			"animation": "door_left2"
+		"door_2": {
+			"part_id": "door_2",
+			"animation": "door_2"
 		},
-		"door_right": {
-			"part_id": "door_right",
-			"animation": "door_right"
-		},
-		"door_right2": {
-			"part_id": "door_right2",
-			"animation": "door_right2"
-		},
-		"zaddoor": {
-			"part_id": "zaddoor",
-			"animation": "zaddoor"
-		},
-		"luke2": {
-			"part_id": "luke2",
-			"animation": "luke2"
-		},
-		"luke3": {
-			"part_id": "luke3",
-			"animation": "luke3"
+		"bonnet": {
+			"part_id": "bonnet",
+			"animation": "bonnet"
 		}
 	},
 	"graph": {
@@ -47,35 +29,41 @@
 					"inputs": [
 						{
 							"type": "switchable_animation",
-							"ref": "door_left"
+							"ref": "door_1"
 						},
 						{
 							"type": "switchable_animation",
-							"ref": "door_left2"
+							"ref": "door_2"
 						},
 						{
 							"type": "switchable_animation",
-							"ref": "door_right"
+							"ref": "bonnet"
 						},
 						{
-							"type": "switchable_animation",
-							"ref": "door_right2"
-						},
-						{
-							"type": "switchable_animation",
-							"ref": "zaddoor"
-						},
-						{
-							"type": "switchable_animation",
-							"ref": "luke2"
-						},
-						{
-							"type": "switchable_animation",
-							"ref": "luke3"
-						},
-						{
-							"type": "script",
-							"function": "updateBones"
+							"type": "bone_binding",
+							"special_bindings": [
+								{
+									"bones": ["wheelL0Turn", "wheelR0Turn", "wheelL1", "wheelR1", "wheelL2", "wheelR2"],
+									"source": "wheel_rotation",
+									"axis": "x",
+									"param": -0.68
+								},
+								{
+									"bones": ["wheelL0Turn", "wheelR0Turn"],
+									"source": "steering_angle",
+									"axis": "y",
+									"multiplier": 1,
+									"min": -30,
+									"max": 30
+								},
+								{
+									"bones": ["ctrl"],
+									"source": "steering_angle",
+									"axis": "z",
+									"multiplier": 6
+								}
+							],
+							"part_bindings": []
 						}
 					]
 				},

@@ -3,11 +3,12 @@
 	"model": "vvp_ywzj:entity/pantsir_s1",
 	"texture": "vvp_ywzj:textures/entity/pantsir_s1.png",
 	"slot_texture": "vvp_ywzj:textures/slot/pantsir_s1.png",
+	"animations": "vvp_ywzj:entity/pantsir_s1.animation",
+	"animation_controller": "vvp_ywzj:pantsir_s1_controller",
 	"sounds": {
 		"engine_start": "ywzj_vehicle:lav150_engine_start",
 		"engine_idle": "ywzj_vehicle:truck_engine_idle",
 		"engine_run": "ywzj_vehicle:truck_engine_run"
 	},
-	"tab_index": 1,
-	"animation_controller": "vvp_ywzj:pantsir_s1_controller"
+	"tab_index": 1
 }

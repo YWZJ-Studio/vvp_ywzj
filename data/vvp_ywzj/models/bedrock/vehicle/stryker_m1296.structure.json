@@ -6,11 +6,11 @@
 				"identifier": "geometry.unknown",
 				"texture_width": 16,
 				"texture_height": 16,
-				"visible_bounds_width": 2,
-				"visible_bounds_height": 2,
+				"visible_bounds_width": 10,
+				"visible_bounds_height": 6,
 				"visible_bounds_offset": [
 					0,
-					1,
+					2,
 					0
 				]
 			},
@@ -25,14 +25,141 @@
 					"cubes": [
 						{
 							"origin": [
-								-8,
+								-28,
 								0,
-								-8
+								-59
 							],
 							"size": [
-								16,
-								16,
-								16
+								56,
+								41,
+								125.5
+							],
+							"uv": [
+								0,
+								0
+							]
+						}
+					]
+				},
+				{
+					"name": "vehicle_body",
+					"pivot": [
+						0,
+						0,
+						0
+					],
+					"cubes": [
+						{
+							"origin": [
+								-26,
+								10,
+								-46
+							],
+							"size": [
+								52,
+								29,
+								78
+							],
+							"uv": [
+								0,
+								0
+							]
+						},
+						{
+							"origin": [
+								-26,
+								22,
+								-57
+							],
+							"size": [
+								52,
+								17,
+								11
+							],
+							"uv": [
+								0,
+								0
+							]
+						},
+						{
+							"origin": [
+								-26,
+								18.8,
+								16.5
+							],
+							"size": [
+								52,
+								20,
+								48
+							],
+							"uv": [
+								0,
+								0
+							]
+						},
+						{
+							"origin": [
+								-1,
+								25,
+								-47
+							],
+							"size": [
+								23,
+								15,
+								28
+							],
+							"uv": [
+								0,
+								0
+							]
+						}
+					]
+				},
+				{
+					"name": "turret",
+					"pivot": [
+						0.60911,
+						51.22272,
+						-17.68434
+					],
+					"cubes": [
+						{
+							"origin": [
+								-20.625,
+								-7.375,
+								-19.125
+							],
+							"size": [
+								41.25,
+								14.75,
+								38.25
+							],
+							"uv": [
+								0,
+								0
+							]
+						}
+					]
+				},
+				{
+					"name": "turret_barrel",
+					"parent": "turret",
+					"pivot": [
+						-0.29945,
+						51.58049,
+						-5.36069
+					],
+					"cubes": [
+						{
+							"origin": [
+								-2.29945,
+								49.58049,
+								-5.36069
+							],
+							"size": [
+								4,
+								4,
+								44.98283
 							],
 							"uv": [
 								0,

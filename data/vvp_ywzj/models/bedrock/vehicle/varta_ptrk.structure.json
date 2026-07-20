@@ -6,11 +6,11 @@
 				"identifier": "geometry.unknown",
 				"texture_width": 16,
 				"texture_height": 16,
-				"visible_bounds_width": 2,
-				"visible_bounds_height": 2,
+				"visible_bounds_width": 10,
+				"visible_bounds_height": 6,
 				"visible_bounds_offset": [
 					0,
-					1,
+					2,
 					0
 				]
 			},
@@ -25,14 +25,109 @@
 					"cubes": [
 						{
 							"origin": [
-								-8,
+								-23,
 								0,
-								-8
+								-51
 							],
 							"size": [
+								45.5,
+								53,
+								114
+							],
+							"uv": [
+								0,
+								0
+							]
+						}
+					]
+				},
+				{
+					"name": "vehicle_body",
+					"pivot": [
+						0,
+						0,
+						0
+					],
+					"cubes": [
+						{
+							"origin": [
+								-21,
+								22,
+								-49
+							],
+							"size": [
+								41.5,
+								30,
+								81
+							],
+							"uv": [
+								0,
+								0
+							]
+						},
+						{
+							"origin": [
+								-20,
+								22,
+								32
+							],
+							"size": [
+								40,
 								16,
-								16,
-								16
+								29
+							],
+							"uv": [
+								0,
+								0
+							]
+						}
+					]
+				},
+				{
+					"name": "turret",
+					"pivot": [
+						0.05858,
+						57.58585,
+						3.94887
+					],
+					"cubes": [
+						{
+							"origin": [
+								-13.94142,
+								49.58585,
+								-10.05113
+							],
+							"size": [
+								28,
+								12,
+								28
+							],
+							"uv": [
+								0,
+								0
+							]
+						}
+					]
+				},
+				{
+					"name": "turret_barrel",
+					"parent": "turret",
+					"pivot": [
+						-0.02802,
+						59.87168,
+						8.52312
+					],
+					"cubes": [
+						{
+							"origin": [
+								-2.02802,
+								57.87168,
+								-19.47688
+							],
+							"size": [
+								4,
+								4,
+								28
 							],
 							"uv": [
 								0,
