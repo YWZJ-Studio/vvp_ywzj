@@ -1,0 +1,8 @@
+{
+	"type": "ywzj_vehicle:fixed_wing_vehicle",
+	"model": "vvp_ywzj:entity/tu22m3",
+	"texture": "vvp_ywzj:textures/entity/tu22m3.png",
+	"slot_texture": "vvp_ywzj:textures/slot/tu22m3.png",
+	"tab_index": 3001,
+	"animation_controller": "vvp_ywzj:tu22m3_controller"
+}

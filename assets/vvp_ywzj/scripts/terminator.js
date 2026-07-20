@@ -16,3 +16,5 @@ function prepareBones() {
 
 
 }
+
+function updateBones(context) {}

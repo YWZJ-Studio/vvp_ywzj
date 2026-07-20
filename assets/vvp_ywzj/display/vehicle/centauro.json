@@ -1,0 +1,13 @@
+{
+	"type": "ywzj_vehicle:wheeled_vehicle",
+	"model": "vvp_ywzj:entity/centauro",
+	"texture": "vvp_ywzj:textures/entity/centauro.png",
+	"slot_texture": "vvp_ywzj:textures/slot/centauro.png",
+	"sounds": {
+		"engine_start": "ywzj_vehicle:lav150_engine_start",
+		"engine_idle": "ywzj_vehicle:truck_engine_idle",
+		"engine_run": "ywzj_vehicle:truck_engine_run"
+	},
+	"tab_index": 203,
+	"animation_controller": "vvp_ywzj:centauro_controller"
+}

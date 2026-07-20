@@ -1,0 +1,13 @@
+{
+	"type": "ywzj_vehicle:wheeled_vehicle",
+	"model": "vvp_ywzj:entity/fmtv",
+	"texture": "vvp_ywzj:textures/entity/fmtv.png",
+	"slot_texture": "vvp_ywzj:textures/slot/fmtv.png",
+	"sounds": {
+		"engine_start": "ywzj_vehicle:lav150_engine_start",
+		"engine_idle": "ywzj_vehicle:truck_engine_idle",
+		"engine_run": "ywzj_vehicle:truck_engine_run"
+	},
+	"tab_index": 100,
+	"animation_controller": "vvp_ywzj:fmtv_controller"
+}

@@ -1,0 +1,21 @@
+{
+	"type": "ywzj_vehicle:cannon",
+	"name": "M61 Vulcan 20mm",
+	"caliber": 20,
+	"damage": 25,
+	"velocity": 20,
+	"headshot_multiplier": 1.5,
+	"recoil": 0.2,
+	"shoot_interval": 10,
+	"max_capacity": 511,
+	"reload": {
+		"time": 80,
+		"ammo": "ywzj_vehicle:ammo_auto_cannon"
+	},
+	"explosion": {
+		"explode": true,
+		"damage": 4,
+		"radius": 0.5,
+		"destroy_block": true
+	}
+}

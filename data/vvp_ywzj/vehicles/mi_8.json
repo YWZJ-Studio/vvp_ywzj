@@ -1,0 +1,53 @@
+{
+	"type": "ywzj_vehicle:rotary_wing_vehicle",
+	"attributes": {
+		"main_rotor_force": 0.0343,
+		"ceiling": 256,
+		"x_rot_speed_acceleration": 1.5,
+		"x_rot_speed_max": 4,
+		"y_rot_speed_acceleration": 1.5,
+		"y_rot_speed_max": 4,
+		"z_rot_speed_acceleration": 1.5,
+		"z_rot_speed_max": 4,
+		"max_air_speed": 1.2
+	},
+	"max_health": 250,
+	"view_info": {
+		"third_person_center_offset": [
+			0,
+			5,
+			0
+		],
+		"third_person_distance": 12,
+		"sound_distance": 8
+	},
+	"energy_info": {
+		"energy_capacity": 0.25,
+		"energy_consumption_per_tick": 0.00001
+	},
+	"structure_model": "vvp_ywzj:vehicle/mi_8",
+	"parts": [
+		{
+			"id": "seat",
+			"name": "seat",
+			"type": "ywzj_vehicle:generic",
+			"is_seat": true,
+			"seat_offset": [
+				0,
+				3,
+				0
+			],
+			"owner_view_offset": [
+				0,
+				3,
+				0
+			]
+		}
+	],
+	"center_offset": [
+		0,
+		1.5,
+		0
+	],
+	"experimental": true
+}

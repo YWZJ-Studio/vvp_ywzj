@@ -1,0 +1,21 @@
+{
+	"type": "ywzj_vehicle:vehicle_printing",
+	"materials": [
+		{
+			"count": 64,
+			"ingredient": {
+				"tag": "c:ingots/iron"
+			}
+		}
+	],
+	"result": {
+		"id": "ywzj_vehicle:vehicle_spawn_item",
+		"count": 1,
+		"components": {
+			"minecraft:custom_data": {
+				"YwzjVehicleId": "vvp_ywzj:mi_28"
+			}
+		}
+	},
+	"printingTime": 1200
+}

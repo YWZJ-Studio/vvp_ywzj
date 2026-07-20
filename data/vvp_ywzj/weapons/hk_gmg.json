@@ -1,0 +1,21 @@
+{
+	"type": "ywzj_vehicle:cannon",
+	"name": "HK GMG 40mm",
+	"caliber": 40,
+	"damage": 20,
+	"velocity": 20,
+	"headshot_multiplier": 1.5,
+	"recoil": 0.2,
+	"shoot_interval": 180,
+	"max_capacity": 32,
+	"reload": {
+		"time": 80,
+		"ammo": "ywzj_vehicle:ammo_auto_cannon"
+	},
+	"explosion": {
+		"explode": true,
+		"damage": 30,
+		"radius": 3,
+		"destroy_block": true
+	}
+}

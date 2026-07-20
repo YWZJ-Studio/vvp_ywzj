@@ -1,0 +1,21 @@
+{
+	"type": "ywzj_vehicle:cannon",
+	"name": "M224 60mm Mortar",
+	"caliber": 60,
+	"damage": 120,
+	"velocity": 20,
+	"headshot_multiplier": 1.5,
+	"recoil": 0.2,
+	"shoot_interval": 1200,
+	"max_capacity": 1,
+	"reload": {
+		"time": 80,
+		"ammo": "ywzj_vehicle:ammo_auto_cannon"
+	},
+	"explosion": {
+		"explode": true,
+		"damage": 100,
+		"radius": 7,
+		"destroy_block": true
+	}
+}

@@ -1,0 +1,80 @@
+{
+	"type": "ywzj_vehicle:tracked_vehicle",
+	"attributes": {
+		"brake_acceleration": 0.025,
+		"forward_acceleration": 0.01,
+		"backward_acceleration": 0.01,
+		"max_speed_forward": 0.5,
+		"max_speed_backward": 0.2,
+		"turn_acceleration": 1,
+		"max_turn": 2
+	},
+	"max_health": 250,
+	"view_info": {
+		"third_person_center_offset": [
+			0,
+			3,
+			0
+		],
+		"third_person_distance": 8,
+		"sound_distance": 4
+	},
+	"energy_info": {
+		"energy_capacity": 1,
+		"energy_consumption_per_tick": 0.00001
+	},
+	"structure_model": "vvp_ywzj:vehicle/t90_pror_rem1",
+	"parts": [
+		{
+			"id": "weapon_station",
+			"name": "weapon_station",
+			"type": "ywzj_vehicle:weapon",
+			"structure_bone": "weapon_station",
+			"seat_offset": [
+				0,
+				2,
+				0
+			],
+			"owner_view_offset": [
+				0,
+				2.5,
+				0
+			],
+			"operator_on_weapon_unit": false,
+			"optical_sight_offset": [
+				0,
+				0.5,
+				1
+			],
+			"optical_sight_type": "crt",
+			"fire_control_sensor_type": "eo",
+			"with_stabilizer": true,
+			"zoom_max": 8,
+			"crosshair_style": "circle",
+			"rot_info": {
+				"x_rot_speed": 3,
+				"y_rot_speed": 3,
+				"x_rot_max": 45,
+				"x_rot_min": -20
+			},
+			"bolts": [
+				{
+					"offset": [
+						0,
+						0.25,
+						0.5
+					],
+					"barrel_length": 1,
+					"x_rot": 0,
+					"y_rot": 0
+				}
+			],
+			"weapons": [
+				"vvp_ywzj:cannon_125mm",
+				"vvp_ywzj:coax_7_62mm",
+				"vvp_ywzj:nswt_12_7mm"
+			]
+		}
+	],
+	"experimental": true
+}

@@ -1,0 +1,21 @@
+{
+	"type": "ywzj_vehicle:cannon",
+	"name": "M242 Bushmaster 25mm",
+	"caliber": 25,
+	"damage": 35,
+	"velocity": 20,
+	"headshot_multiplier": 1.5,
+	"recoil": 0.2,
+	"shoot_interval": 120,
+	"max_capacity": 200,
+	"reload": {
+		"time": 80,
+		"ammo": "ywzj_vehicle:ammo_auto_cannon"
+	},
+	"explosion": {
+		"explode": true,
+		"damage": 8,
+		"radius": 1,
+		"destroy_block": true
+	}
+}

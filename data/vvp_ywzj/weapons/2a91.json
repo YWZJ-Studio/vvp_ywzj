@@ -1,0 +1,21 @@
+{
+	"type": "ywzj_vehicle:cannon",
+	"name": "2A91 57mm",
+	"caliber": 57,
+	"damage": 90,
+	"velocity": 20,
+	"headshot_multiplier": 1.5,
+	"recoil": 0.2,
+	"shoot_interval": 180,
+	"max_capacity": 120,
+	"reload": {
+		"time": 80,
+		"ammo": "ywzj_vehicle:ammo_auto_cannon"
+	},
+	"explosion": {
+		"explode": true,
+		"damage": 20,
+		"radius": 2,
+		"destroy_block": true
+	}
+}

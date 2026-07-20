@@ -1,0 +1,8 @@
+{
+	"type": "ywzj_vehicle:generic",
+	"model": "vvp_ywzj:entity/d30",
+	"texture": "vvp_ywzj:textures/entity/d30.png",
+	"slot_texture": "vvp_ywzj:textures/slot/d30.png",
+	"tab_index": 4001,
+	"animation_controller": "vvp_ywzj:d30_controller"
+}

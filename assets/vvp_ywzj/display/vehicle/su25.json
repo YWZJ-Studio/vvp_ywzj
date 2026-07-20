@@ -1,0 +1,8 @@
+{
+	"type": "ywzj_vehicle:fixed_wing_vehicle",
+	"model": "vvp_ywzj:entity/su25",
+	"texture": "vvp_ywzj:textures/entity/su25.png",
+	"slot_texture": "vvp_ywzj:textures/slot/su25.png",
+	"tab_index": 3000,
+	"animation_controller": "vvp_ywzj:su25_controller"
+}

@@ -1,0 +1,93 @@
+{
+	"type": "ywzj_vehicle:fixed_wing_vehicle",
+	"attributes": {
+		"thrust": 0.02,
+		"thrust_k": 1.2,
+		"ceiling": 512,
+		"x_rot_input_step": 0.3,
+		"y_rot_input_step": 0.5,
+		"z_rot_input_step": 0.2,
+		"air_drag_k_min": 0.002,
+		"air_drag_k_max": 0.008,
+		"lift_to_drag_k": 3,
+		"x_rot_input_drag_k": 1,
+		"y_rot_input_drag_k": 0.25,
+		"z_rot_input_drag_k": 0.125,
+		"landing_gear_drag_k": 0.5,
+		"turn_rate_by_speed": 0.4,
+		"x_turn_rate": 2.5,
+		"y_turn_rate": 3,
+		"z_turn_rate": 8
+	},
+	"max_health": 300,
+	"view_info": {
+		"third_person_center_offset": [
+			0,
+			5,
+			0
+		],
+		"third_person_distance": 14,
+		"sound_distance": 8
+	},
+	"energy_info": {
+		"energy_capacity": 0.25,
+		"energy_consumption_per_tick": 0.00001
+	},
+	"structure_model": "vvp_ywzj:vehicle/f_16",
+	"parts": [
+		{
+			"id": "weapon_station",
+			"name": "weapon_station",
+			"type": "ywzj_vehicle:weapon",
+			"structure_bone": "weapon_station",
+			"seat_offset": [
+				0,
+				2.8,
+				0
+			],
+			"owner_view_offset": [
+				0,
+				3.3,
+				0
+			],
+			"operator_on_weapon_unit": false,
+			"optical_sight_offset": [
+				0,
+				0.5,
+				1
+			],
+			"optical_sight_type": "none",
+			"fire_control_sensor_type": "ccip",
+			"with_stabilizer": true,
+			"zoom_max": 8,
+			"crosshair_style": "big_cross",
+			"rot_info": {
+				"x_rot_speed": 0,
+				"y_rot_speed": 0
+			},
+			"bolts": [
+				{
+					"offset": [
+						0,
+						0.25,
+						0.5
+					],
+					"barrel_length": 1,
+					"x_rot": 0,
+					"y_rot": 0
+				}
+			],
+			"weapons": [
+				"vvp_ywzj:m61",
+				"vvp_ywzj:x25"
+			]
+		}
+	],
+	"center_offset": [
+		0,
+		1.625,
+		0
+	],
+	"with_warning_receiver": true,
+	"experimental": true
+}

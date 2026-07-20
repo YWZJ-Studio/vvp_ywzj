@@ -1,0 +1,21 @@
+{
+	"type": "ywzj_vehicle:cannon",
+	"name": "CT40 40mm Cannon",
+	"caliber": 40,
+	"damage": 70,
+	"velocity": 20,
+	"headshot_multiplier": 1.5,
+	"recoil": 0.2,
+	"shoot_interval": 180,
+	"max_capacity": 200,
+	"reload": {
+		"time": 80,
+		"ammo": "ywzj_vehicle:ammo_auto_cannon"
+	},
+	"explosion": {
+		"explode": true,
+		"damage": 12,
+		"radius": 1.5,
+		"destroy_block": true
+	}
+}

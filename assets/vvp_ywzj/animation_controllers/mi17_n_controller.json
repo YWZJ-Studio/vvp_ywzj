@@ -1,0 +1,48 @@
+{
+	"name": "mi17_n_controller",
+	"script": "vvp_ywzj:mi17_n",
+	"parameters": {},
+	"switchable_animations": {
+		"door_1": {
+			"part_id": "door_1",
+			"animation": "door_1"
+		},
+		"door_2": {
+			"part_id": "door_2",
+			"animation": "door_2"
+		}
+	},
+	"event_animations": {
+		"auto_cannon_fire": [
+			"auto_cannon_fire"
+		]
+	},
+	"graph": {
+		"type": "merge",
+		"inputs": [
+			{
+				"type": "additive",
+				"base": {
+					"type": "merge",
+					"inputs": [
+						{
+							"type": "switchable_animation",
+							"ref": "door_1"
+						},
+						{
+							"type": "switchable_animation",
+							"ref": "door_2"
+						},
+						{
+							"type": "script",
+							"function": "updateBones"
+						}
+					]
+				},
+				"add": {
+					"type": "event_animation"
+				}
+			}
+		]
+	}
+}

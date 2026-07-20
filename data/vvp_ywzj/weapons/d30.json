@@ -1,0 +1,21 @@
+{
+	"type": "ywzj_vehicle:cannon",
+	"name": "D-30 122mm Howitzer",
+	"caliber": 122,
+	"damage": 800,
+	"velocity": 24,
+	"headshot_multiplier": 1.5,
+	"recoil": 1,
+	"shoot_interval": 1000,
+	"max_capacity": 1,
+	"reload": {
+		"time": 100,
+		"ammo": "ywzj_vehicle:ammo_artillery"
+	},
+	"explosion": {
+		"explode": true,
+		"damage": 160,
+		"radius": 10,
+		"destroy_block": true
+	}
+}

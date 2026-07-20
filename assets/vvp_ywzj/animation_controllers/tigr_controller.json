@@ -3,7 +3,9 @@
 	"script": "vvp_ywzj:tigr",
 	"parameters": {},
 	"event_animations": {
-		"mg_fire": ["mg_fire"]
+		"mg_fire": [
+			"mg_fire"
+		]
 	},
 	"switchable_animations": {
 		"door_left": {
