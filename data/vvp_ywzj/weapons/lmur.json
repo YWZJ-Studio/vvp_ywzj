@@ -1,22 +1,31 @@
 {
-  "type": "ywzj_vehicle:missile",
-  "name": "lmur",
-  "damage": 129,
-  "headshot_multiplier": 1.5,
-  "shoot_interval": 1000,
-  "max_capacity": 4,
-  "reload": {
-    "time": 120,
-    "ammo": "ywzj_vehicle:ammo_missile"
-  },
-  "x_rot_max": 30,
-  "x_rot_min": -10,
-  "y_rot_max": 15,
-  "y_rot_min": -15,
-  "explosion": {
-    "explode": true,
-    "damage": 60,
-    "radius": 6,
-    "destroy_block": true
-  }
+	"type": "ywzj_vehicle:missile",
+	"name": "lmur",
+	"damage": 1000,
+	"headshot_multiplier": 1.5,
+	"shoot_interval": 1000,
+	"max_capacity": 4,
+	"reload": {
+		"time": 100,
+		"ammo": "ywzj_vehicle:ammo_missile"
+	},
+	"x_rot_max": 60,
+	"x_rot_min": -10,
+	"y_rot_max": 15,
+	"y_rot_min": -15,
+	"explosion": {
+		"explode": true,
+		"damage": 200,
+		"radius": 6,
+		"proximity_fuze": true,
+		"proximity_radius": 2,
+		"destroy_block": true
+	},
+	"mass": 0.05,
+	"thrust": 0.03,
+	"motor_burn_time": 600,
+	"drag_coefficient": 0.005,
+	"max_g": 18,
+	"reference_speed": 3,
+	"guidance": "SACLOS"
 }

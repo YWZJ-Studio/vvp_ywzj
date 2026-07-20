@@ -1,24 +1,24 @@
 {
-  "type": "ywzj_vehicle:cannon",
-  "name": "MK 30-2/ABM",
-  "caliber": 30,
-  "tracer_r": 0,
-  "tracer_g": 1,
-  "tracer_b": 0,
-  "damage": 50,
-  "velocity": 32,
-  "headshot_multiplier": 1.5,
-  "recoil": 0.2,
-  "shoot_interval": 300,
-  "max_capacity": 100,
-  "reload": {
-    "time": 80,
-    "ammo": "ywzj_vehicle:ammo_auto_cannon"
-  },
-  "explosion": {
-    "explode": true,
-    "damage": 5,
-    "radius": 0.5,
-    "destroy_block": true
-  }
+	"type": "ywzj_vehicle:cannon",
+	"name": "MK 30-2/ABM",
+	"caliber": 30,
+	"tracer_r": 0,
+	"tracer_g": 1,
+	"tracer_b": 0,
+	"damage": 50,
+	"velocity": 32,
+	"headshot_multiplier": 1.5,
+	"recoil": 0.2,
+	"shoot_interval": 300,
+	"max_capacity": 100,
+	"reload": {
+		"time": 80,
+		"ammo": "ywzj_vehicle:ammo_auto_cannon"
+	},
+	"explosion": {
+		"explode": true,
+		"damage": 5,
+		"radius": 0.5,
+		"destroy_block": true
+	}
 }

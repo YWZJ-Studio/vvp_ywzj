@@ -1,103 +1,103 @@
 {
-  "type": "ywzj_vehicle:tracked_vehicle",
-  "attributes": {
-    "brake_acceleration": 0.025,
-    "forward_acceleration": 0.01,
-    "backward_acceleration": 0.01,
-    "max_speed_forward": 0.5,
-    "max_speed_backward": 0.2,
-    "turn_acceleration": 1,
-    "max_turn": 2
-  },
-  "max_health": 275,
-  "view_info": {
-    "third_person_center_offset": [0, 4, 0],
-    "third_person_distance": 10,
-    "sound_distance": 7
-  },
-  "energy_info": {
-    "energy_capacity": 1,
-    "energy_consumption_per_tick": 0.00001,
-    "engine_particle_offsets": []
-  },
-  "physics_info": {
-    "can_destroy_block": true
-  },
-  "structure_model": "vvp_ywzj:vehicle/puma",
-  "parts": [
-    {
-      "id": "turret",
-      "name": "turret",
-      "type": "ywzj_vehicle:weapon",
-      "structure_bone": "turret",
-      "fire_control_sensor_type": "eo",
-      "fire_control_lock_type": "aim_hit",
-      "seat_offset": [0.8, 1.8, 1.5],
-      "operator_on_weapon_unit": false,
-      "crosshair_style": "circle",
-      "rot_info": {
-        "x_rot_speed": 2.25,
-        "y_rot_speed": 2.25,
-        "x_rot_max": 10,
-        "x_rot_min": -45
-      },
-      "optical_sight_offset": [0.5, 1, 0],
-      "operator_view_offset": [0, 1.5, 0],
-      "optical_sight_type": "crt",
-      "with_stabilizer": true,
-      "zoom_min": 2,
-      "zoom_max": 14.7,
-      "weapons": [
-        "vvp_ywzj:mk30_2_abm",
-        {
-          "id": "vvp_ywzj:mg4",
-          "part_unit_id": "turret_machine_gun"
-        },
-        {
-          "id": "vvp_ywzj:puma_smoke",
-          "part_unit_id": "turret_smoke_grenade"
-        }
-      ]
-    },
-    {
-      "id": "turret_machine_gun",
-      "name": "turret_machine_gun",
-      "type": "ywzj_vehicle:weapon",
-      "structure_bone": "turret_machine_gun",
-      "fire_control_sensor_type": "eo",
-      "fire_control_lock_type": "aim_hit",
-      "is_seat": false,
-      "base": "turret",
-      "rot_info": {
-        "x_rot_speed": 2.25,
-        "y_rot_speed": 0,
-        "x_rot_max": 10,
-        "x_rot_min": -45
-      }
-    },
-    {
-      "id": "turret_smoke_grenade",
-      "name": "turret_smoke_grenade",
-      "type": "ywzj_vehicle:weapon",
-      "structure_bone": "turret_smoke_grenade",
-      "is_seat": false,
-      "base": "turret",
-      "rot_info": {
-        "x_rot_speed": 0,
-        "y_rot_speed": 0
-      }
-    },
-    {
-      "id": "seat2",
-      "name": "seat2",
-      "type": "ywzj_vehicle:generic",
-      "seat_offset": [-0.8, 1.8, 1.5]
-    },
-    {
-      "id": "seat3",
-      "name": "seat3",
-      "type": "ywzj_vehicle:generic",
-      "seat_offset": [0, 1.8, 1.2]
-    }
-  ]
+	"type": "ywzj_vehicle:tracked_vehicle",
+	"attributes": {
+		"brake_acceleration": 0.025,
+		"forward_acceleration": 0.01,
+		"backward_acceleration": 0.01,
+		"max_speed_forward": 0.5,
+		"max_speed_backward": 0.2,
+		"turn_acceleration": 1,
+		"max_turn": 2
+	},
+	"max_health": 275,
+	"view_info": {
+		"third_person_center_offset": [0, 4, 0],
+		"third_person_distance": 10,
+		"sound_distance": 7
+	},
+	"energy_info": {
+		"energy_capacity": 1,
+		"energy_consumption_per_tick": 1e-05,
+		"engine_particle_offsets": []
+	},
+	"physics_info": {
+		"can_destroy_block": true
+	},
+	"structure_model": "vvp_ywzj:vehicle/puma",
+	"parts": [
+		{
+			"id": "turret",
+			"name": "turret",
+			"type": "ywzj_vehicle:weapon",
+			"structure_bone": "turret",
+			"fire_control_sensor_type": "eo",
+			"fire_control_lock_type": "aim_hit",
+			"seat_offset": [0.8, 1.8, 1.5],
+			"operator_on_weapon_unit": false,
+			"crosshair_style": "circle",
+			"rot_info": {
+				"x_rot_speed": 2.25,
+				"y_rot_speed": 2.25,
+				"x_rot_max": 10,
+				"x_rot_min": -45
+			},
+			"optical_sight_offset": [0.5, 1, 0],
+			"operator_view_offset": [0, 1.5, 0],
+			"optical_sight_type": "crt",
+			"with_stabilizer": true,
+			"zoom_min": 2,
+			"zoom_max": 14.7,
+			"weapons": [
+				"vvp_ywzj:mk30_2_abm",
+				{
+					"id": "vvp_ywzj:mg4",
+					"part_unit_id": "turret_machine_gun"
+				},
+				{
+					"id": "vvp_ywzj:puma_smoke",
+					"part_unit_id": "turret_smoke_grenade"
+				}
+			]
+		},
+		{
+			"id": "turret_machine_gun",
+			"name": "turret_machine_gun",
+			"type": "ywzj_vehicle:weapon",
+			"structure_bone": "turret_machine_gun",
+			"fire_control_sensor_type": "eo",
+			"fire_control_lock_type": "aim_hit",
+			"is_seat": false,
+			"base": "turret",
+			"rot_info": {
+				"x_rot_speed": 2.25,
+				"y_rot_speed": 0,
+				"x_rot_max": 10,
+				"x_rot_min": -45
+			}
+		},
+		{
+			"id": "turret_smoke_grenade",
+			"name": "turret_smoke_grenade",
+			"type": "ywzj_vehicle:weapon",
+			"structure_bone": "turret_smoke_grenade",
+			"is_seat": false,
+			"base": "turret",
+			"rot_info": {
+				"x_rot_speed": 0,
+				"y_rot_speed": 0
+			}
+		},
+		{
+			"id": "seat2",
+			"name": "seat2",
+			"type": "ywzj_vehicle:generic",
+			"seat_offset": [-0.8, 1.8, 1.5]
+		},
+		{
+			"id": "seat3",
+			"name": "seat3",
+			"type": "ywzj_vehicle:generic",
+			"seat_offset": [0, 1.8, 1.2]
+		}
+	]
 }

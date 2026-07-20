@@ -1,9 +1,9 @@
 {
-  "type": "ywzj_vehicle:weapon",
-  "model": "vvp_ywzj:entity/hellfire",
-  "texture": "vvp_ywzj:textures/entity/hellfire.png",
-  "sounds": {
-    "fire": "ywzj_vehicle:missile_launch",
-    "reload": "ywzj_vehicle:common_reload"
-  }
+	"type": "ywzj_vehicle:weapon",
+	"model": "vvp_ywzj:entity/hellfire",
+	"texture": "vvp_ywzj:textures/entity/hellfire.png",
+	"sounds": {
+		"fire": "ywzj_vehicle:missile_launch",
+		"reload": "ywzj_vehicle:common_reload"
+	}
 }

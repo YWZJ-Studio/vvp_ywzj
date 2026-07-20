@@ -1,11 +1,15 @@
 {
-  "namespace": "vvp_ywzj",
-  "title": "Vintage Vehicle Pack",
-  "description": "VVP - Vintage Vehicle Pack",
-  "version": "1.0.0",
-  "date": "2026-01-01",
-  "license": "All Rights Reserved",
-  "authors": ["Team VVP, ROIF, FL, YWZJ"],
-  "url": "",
-  "dependencies": {"ywzj_vehicle": "[0.3.0,)"}
+	"namespace": "vvp_ywzj",
+	"title": "Vintage Vehicle Pack",
+	"description": "VVP - Vintage Vehicle Pack",
+	"version": "1.0.0",
+	"date": "2026-01-01",
+	"license": "All Rights Reserved",
+	"authors": [
+		"Team VVP, ROIF, FL, YWZJ"
+	],
+	"url": "",
+	"dependencies": {
+		"ywzj_vehicle": "[0.3.0,)"
+	}
 }

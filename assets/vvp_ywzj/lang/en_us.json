@@ -1,17 +1,16 @@
 {
-  "entity.vvp_ywzj.t90a": "T-90A",
-  "entity.vvp_ywzj.terminator": "BMPT Terminator",
-  "entity.vvp_ywzj.puma": "PUMA",
-  "entity.vvp_ywzj.tigr": "Tigr",
-  "entity.vvp_ywzj.varta": "Varta",
-  "entity.vvp_ywzj.uh60mod": "UH-60 Mod",
-  "entity.vvp_ywzj.mi_28": "Mi-28",
-
-  "vvp_ywzj.t90a": "T-90A",
-  "vvp_ywzj.terminator": "BMPT Terminator",
-  "vvp_ywzj.puma": "PUMA",
-  "vvp_ywzj.tigr": "Tigr",
-  "vvp_ywzj.varta": "Varta",
-  "vvp_ywzj.uh60mod": "UH-60 Mod",
-  "vvp_ywzj.mi_28": "Mi-28"
+	"entity.vvp_ywzj.t90a": "T-90A",
+	"entity.vvp_ywzj.terminator": "BMPT Terminator",
+	"entity.vvp_ywzj.puma": "PUMA",
+	"entity.vvp_ywzj.tigr": "Tigr",
+	"entity.vvp_ywzj.varta": "Varta",
+	"entity.vvp_ywzj.uh60mod": "UH-60 Mod",
+	"entity.vvp_ywzj.mi_28": "Mi-28",
+	"vvp_ywzj.t90a": "T-90A",
+	"vvp_ywzj.terminator": "BMPT Terminator",
+	"vvp_ywzj.puma": "PUMA",
+	"vvp_ywzj.tigr": "Tigr",
+	"vvp_ywzj.varta": "Varta",
+	"vvp_ywzj.uh60mod": "UH-60 Mod",
+	"vvp_ywzj.mi_28": "Mi-28"
 }
