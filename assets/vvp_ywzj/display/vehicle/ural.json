@@ -10,6 +10,21 @@
 			"bone": "TENTY",
 			"texture": "vvp_ywzj:textures/entity/ural.png",
 			"type": "transparent"
+		},
+		{
+			"bone": "OL",
+			"texture": "vvp_ywzj:textures/entity/ural.png",
+			"type": "transparent"
+		},
+		{
+			"bone": "LER",
+			"texture": "vvp_ywzj:textures/entity/ural.png",
+			"type": "transparent"
+		},
+		{
+			"bone": "LER2",
+			"texture": "vvp_ywzj:textures/entity/ural.png",
+			"type": "transparent"
 		}
 	],
 	"sounds": {

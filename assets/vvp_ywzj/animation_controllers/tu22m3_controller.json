@@ -6,14 +6,127 @@
 		"landing_gear": {
 			"part_id": "landing_gear",
 			"animation": "landing_gear"
+		},
+		"door_1": {
+			"part_id": "door_1",
+			"animation": "door_1"
+		},
+		"door_2": {
+			"part_id": "door_2",
+			"animation": "door_2"
+		},
+		"door_3": {
+			"part_id": "door_3",
+			"animation": "door_3"
+		},
+		"door_4": {
+			"part_id": "door_4",
+			"animation": "door_4"
+		}
+	},
+	"state_machines": {
+		"wing": {
+			"start_state": "init",
+			"states": {
+				"init": {
+					"on_enter": [
+						{
+							"type": "play_animation",
+							"animation": "wing_off",
+							"play_type": "loop",
+							"track": "wing_off"
+						},
+						{
+							"type": "play_animation",
+							"animation": "wing_on",
+							"play_type": "loop",
+							"track": "wing_on"
+						}
+					],
+					"transitions": [
+						{
+							"target": "wing_off",
+							"condition": {
+								"type": "script",
+								"script": "context.getSpeed() > 1.5"
+							},
+							"duration": 0
+						},
+						{
+							"target": "wing_on",
+							"condition": {
+								"type": "script",
+								"script": "context.getSpeed() <= 1.5"
+							},
+							"duration": 0
+						}
+					],
+					"evaluate": {
+						"type": "track",
+						"track": ""
+					}
+				},
+				"wing_on": {
+					"transitions": [
+						{
+							"target": "wing_off",
+							"condition": {
+								"type": "script",
+								"script": "context.getSpeed() > 1.5"
+							},
+							"duration": 1
+						}
+					],
+					"evaluate": {
+						"type": "track",
+						"track": "wing_on"
+					}
+				},
+				"wing_off": {
+					"transitions": [
+						{
+							"target": "wing_on",
+							"condition": {
+								"type": "script",
+								"script": "context.getSpeed() <= 1.5"
+							},
+							"duration": 1
+						}
+					],
+					"evaluate": {
+						"type": "track",
+						"track": "wing_off"
+					}
+				}
+			}
 		}
 	},
 	"graph": {
 		"type": "merge",
 		"inputs": [
 			{
+				"type": "state_machine",
+				"ref": "wing"
+			},
+			{
 				"type": "switchable_animation",
 				"ref": "landing_gear"
+			},
+			{
+				"type": "switchable_animation",
+				"ref": "door_1"
+			},
+			{
+				"type": "switchable_animation",
+				"ref": "door_2"
+			},
+			{
+				"type": "switchable_animation",
+				"ref": "door_3"
+			},
+			{
+				"type": "switchable_animation",
+				"ref": "door_4"
 			},
 			{
 				"type": "script",
@@ -22,3 +135,4 @@
 		]
 	}
 }
+

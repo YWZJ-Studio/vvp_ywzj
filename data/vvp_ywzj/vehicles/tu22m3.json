@@ -2,65 +2,165 @@
 	"type": "ywzj_vehicle:fixed_wing_vehicle",
 	"attributes": {
 		"thrust": 0.02,
-		"thrust_k": 1.2,
+		"thrust_k": 1.4,
 		"ceiling": 512,
-		"x_rot_input_step": 0.3,
+		"x_rot_input_step": 0.4,
 		"y_rot_input_step": 0.5,
 		"z_rot_input_step": 0.2,
 		"air_drag_k_min": 0.002,
 		"air_drag_k_max": 0.008,
 		"lift_to_drag_k": 3,
-		"x_rot_input_drag_k": 1,
+		"x_rot_input_drag_k": 1.2,
 		"y_rot_input_drag_k": 0.25,
 		"z_rot_input_drag_k": 0.125,
-		"landing_gear_drag_k": 0.5,
 		"turn_rate_by_speed": 0.4,
-		"x_turn_rate": 2.5,
-		"y_turn_rate": 3,
-		"z_turn_rate": 8
+		"x_turn_rate": 1,
+		"y_turn_rate": 1,
+		"z_turn_rate": 3,
+		"vortex_offsets": [[7.640625, 4.2359375, -4.6046875], [-7.640625, 4.2359375, -4.6046875]],
+		"afterburner_offsets": [[1.284375, 5.25, -18.85, 1.5], [-1.284375, 5.25, -18.85, 1.5]]
 	},
-	"max_health": 300,
+	"landing_gear_part_id": "landing_gear",
+	"max_health": 500,
 	"view_info": {
-		"third_person_center_offset": [0, 5, 0],
-		"third_person_distance": 14,
+		"third_person_center_offset": [0, 6, 0],
+		"third_person_distance": 32,
+		"third_person_center_offset_zoomed": [0, 7, 0],
+		"third_person_distance_zoomed": 4,
 		"sound_distance": 8
 	},
 	"energy_info": {
 		"energy_capacity": 0.25,
 		"energy_consumption_per_tick": 0.00001
 	},
+	"defense_stats": {
+		"damage_threshold": 10,
+		"impact_multiplier": 3
+	},
+	"with_warning_receiver": true,
+	"center_offset": [0, 4.146875, 0],
 	"structure_model": "vvp_ywzj:vehicle/tu22m3",
 	"parts": [
 		{
-			"id": "weapon_station",
-			"name": "weapon_station",
+			"id": "sighting_system",
+			"name": "sighting_system",
 			"type": "ywzj_vehicle:weapon",
-			"structure_bone": "weapon_station",
-			"seat_offset": [0, 2.8, 0],
-			"owner_view_offset": [0, 3.3, 0],
+			"structure_bone": "sighting_system",
+			"seat_offset": [0.646875, 5.553125, 14.1078125],
 			"operator_on_weapon_unit": false,
-			"optical_sight_offset": [0, 0.5, 1],
+			"rot_info": {
+				"x_rot_speed": 15,
+				"y_rot_speed": 15,
+				"x_rot_min": 0,
+				"x_rot_max": 45,
+				"y_rot_min": -30,
+				"y_rot_max": 30
+			},
+			"optical_sight_offset": [0, 0, 0],
+			"operator_view_offset": [0, 0, 0],
 			"optical_sight_type": "none",
-			"fire_control_sensor_type": "ccip",
 			"with_stabilizer": true,
-			"zoom_max": 8,
+			"with_focus_locker": true,
+			"with_thermal_imager": true,
+			"zoom_max": 16,
+			"sub_part_unit_ids": ["radar"],
+			"weapons": [
+				{
+					"id": "vvp_ywzj:fab500",
+					"part_unit_id": "fab500"
+				},
+				{
+					"id": "ywzj_vehicle:decoy_flare",
+					"part_unit_id": "decoy_flare"
+				}
+			]
+		},
+		{
+			"id": "fab500",
+			"name": "fab500",
+			"type": "ywzj_vehicle:weapon",
+			"structure_bone": "fab500",
+			"render_model": true,
+			"ammo_capacity": 16,
+			"is_seat": false,
+			"fire_control_sensor_type": "ccip",
 			"crosshair_style": "big_cross",
 			"rot_info": {
 				"x_rot_speed": 0,
 				"y_rot_speed": 0
+			}
+		},
+		{
+			"id": "radar",
+			"name": "radar",
+			"type": "ywzj_vehicle:radar",
+			"structure_bone": "radar",
+			"is_seat": false,
+			"rot_info": {
+				"x_rot_speed": 0,
+				"y_rot_speed": 30,
+				"y_rot_max": 60,
+				"y_rot_min": -60
 			},
-			"bolts": [
-				{
-					"offset": [0, 0.25, 0.5],
-					"barrel_length": 1,
-					"x_rot": 0,
-					"y_rot": 0
-				}
-			],
-			"weapons": ["vvp_ywzj:x25"]
+			"radar_type": "PNA-D",
+			"scan_sector_angle": 90,
+			"max_scan_distance": 4096
+		},
+		{
+			"id": "landing_gear",
+			"name": "landing_gear",
+			"type": "ywzj_vehicle:landing_gear",
+			"structure_bone": "landing_gear",
+			"is_seat": false
+		},
+		{
+			"id": "door_1",
+			"name": "door_1",
+			"type": "ywzj_vehicle:door",
+			"structure_bone": "door_1",
+			"is_seat": false
+		},
+		{
+			"id": "door_2",
+			"name": "door_2",
+			"type": "ywzj_vehicle:door",
+			"structure_bone": "door_2",
+			"is_seat": false
+		},
+		{
+			"id": "door_3",
+			"name": "door_3",
+			"type": "ywzj_vehicle:door",
+			"structure_bone": "door_3",
+			"is_seat": false
+		},
+		{
+			"id": "door_4",
+			"name": "door_4",
+			"type": "ywzj_vehicle:door",
+			"structure_bone": "door_4",
+			"is_seat": false
+		},
+		{
+			"id": "seat2",
+			"name": "seat2",
+			"type": "ywzj_vehicle:generic",
+			"seat_offset": [-0.646875, 5.553125, 14.1078125],
+			"owner_view_offset": [-0.646875, 5.553125, 14.1078125]
+		},
+		{
+			"id": "seat3",
+			"name": "seat3",
+			"type": "ywzj_vehicle:generic",
+			"seat_offset": [0.4984375, 5.6625, 11.496875],
+			"owner_view_offset": [0.4984375, 5.6625, 11.496875]
+		},
+		{
+			"id": "seat4",
+			"name": "seat4",
+			"type": "ywzj_vehicle:generic",
+			"seat_offset": [-0.4984375, 5.6625, 11.496875],
+			"owner_view_offset": [-0.4984375, 5.6625, 11.496875]
 		}
-	],
-	"center_offset": [0, 1.625, 0],
-	"with_warning_receiver": true,
-	"experimental": true
+	]
 }

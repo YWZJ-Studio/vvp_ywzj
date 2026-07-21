@@ -20,7 +20,7 @@
 									"bones": ["wheel1", "wheel2", "wheel3", "wheel4", "wheel5", "wheel6", "wheel7", "wheel8"],
 									"source": "wheel_rotation",
 									"axis": "x",
-									"param": 1
+									"param": 0.68
 								},
 								{
 									"bones": ["wheel7", "wheel8"],
@@ -44,7 +44,7 @@
 									"part": "weapon_station",
 									"rotation_type": "x",
 									"axis": "x",
-									"invert": true
+									"invert": false
 								}
 							]
 						}
