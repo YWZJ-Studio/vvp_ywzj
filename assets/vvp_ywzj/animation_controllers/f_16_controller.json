@@ -6,6 +6,10 @@
 		"landing_gear": {
 			"part_id": "landing_gear",
 			"animation": "landing_gear"
+		},
+		"door": {
+			"part_id": "door",
+			"animation": "door"
 		}
 	},
 	"graph": {
@@ -14,6 +18,10 @@
 			{
 				"type": "switchable_animation",
 				"ref": "landing_gear"
+			},
+			{
+				"type": "switchable_animation",
+				"ref": "door"
 			},
 			{
 				"type": "script",
