@@ -1,9 +1,10 @@
 {
 	"type": "ywzj_vehicle:rocket",
 	"name": "80mm Rocket",
-	"damage": 85,
+	"damage": 100,
 	"headshot_multiplier": 1.5,
-	"shoot_interval": 400,
+	"inaccuracy": 0.05,
+	"shoot_interval": 200,
 	"max_capacity": 52,
 	"reload": {
 		"time": 80,
@@ -11,8 +12,8 @@
 	},
 	"explosion": {
 		"explode": true,
-		"damage": 42,
-		"radius": 6,
+		"damage": 100,
+		"radius": 2,
 		"destroy_block": true
 	}
 }
