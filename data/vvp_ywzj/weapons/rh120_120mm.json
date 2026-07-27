@@ -1,0 +1,20 @@
+{
+	"type": "ywzj_vehicle:cannon",
+	"name": "Rh-120",
+	"caliber": 120,
+	"damage": 1100,
+	"headshot_multiplier": 1,
+	"recoil": 1,
+	"shoot_interval": 400,
+	"max_capacity": 1,
+	"reload": {
+		"time": 100,
+		"ammo": "ywzj_vehicle:ammo_artillery"
+	},
+	"explosion": {
+		"explode": true,
+		"damage": 200,
+		"radius": 8,
+		"destroy_block": true
+	}
+}
