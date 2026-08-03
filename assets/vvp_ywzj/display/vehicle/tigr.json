@@ -5,6 +5,43 @@
 	"slot_texture": "vvp_ywzj:textures/slot/tigr.png",
 	"animations": "vvp_ywzj:entity/tigr.animation",
 	"animation_controller": "vvp_ywzj:tigr_controller",
+	"special_bone_effects": [
+		{
+			"bone": "DOOR",
+			"texture": "vvp_ywzj:textures/entity/gaz_tigr.png",
+			"type": "transparent"
+		},
+		{
+			"bone": "DOOR2",
+			"texture": "vvp_ywzj:textures/entity/gaz_tigr.png",
+			"type": "transparent"
+		},
+		{
+			"bone": "hatch2",
+			"texture": "vvp_ywzj:textures/entity/gaz_tigr.png",
+			"type": "transparent"
+		},
+		{
+			"bone": "hatch8",
+			"texture": "vvp_ywzj:textures/entity/gaz_tigr.png",
+			"type": "transparent"
+		},
+		{
+			"bone": "hatch5",
+			"texture": "vvp_ywzj:textures/entity/gaz_tigr.png",
+			"type": "transparent"
+		},
+		{
+			"bone": "hatch4",
+			"texture": "vvp_ywzj:textures/entity/gaz_tigr.png",
+			"type": "transparent"
+		},
+		{
+			"bone": "base2",
+			"texture": "vvp_ywzj:textures/entity/gaz_tigr.png",
+			"type": "transparent"
+		}
+	],
 	"sounds": {
 		"engine_start": "ywzj_vehicle:lav150_engine_start",
 		"engine_idle": "ywzj_vehicle:truck_engine_idle",

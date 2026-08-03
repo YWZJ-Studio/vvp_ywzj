@@ -5,6 +5,23 @@
 	"slot_texture": "vvp_ywzj:textures/slot/mi_28.png",
 	"animations": "vvp_ywzj:entity/mi_28.animation",
 	"animation_controller": "vvp_ywzj:mi_28_controller",
+	"special_bone_effects": [
+		{
+			"bone": "DOOR_1",
+			"texture": "vvp_ywzj:textures/entity/mi_28.png",
+			"type": "transparent"
+		},
+		{
+			"bone": "DOOR_2",
+			"texture": "vvp_ywzj:textures/entity/mi_28.png",
+			"type": "transparent"
+		},
+		{
+			"bone": "bone4",
+			"texture": "vvp_ywzj:textures/entity/mi_28.png",
+			"type": "transparent"
+		}
+	],
 	"sounds": {
 		"engine_start": "vvp_ywzj:uh60_start",
 		"engine_stop": "ywzj_vehicle:z10_engine_stop",
