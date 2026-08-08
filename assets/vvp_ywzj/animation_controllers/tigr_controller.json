@@ -5,6 +5,40 @@
 	"event_animations": {
 		"mg_fire": ["mg_fire"]
 	},
+	"switchable_animations": {
+		"door_left": {
+			"part_id": "door_left",
+			"animation": "door_left"
+		},
+		"door_right": {
+			"part_id": "door_right",
+			"animation": "door_right"
+		},
+		"zaddooor": {
+			"part_id": "zaddooor",
+			"animation": "zaddooor"
+		},
+		"hatch2": {
+			"part_id": "hatch2",
+			"animation": "hatch2"
+		},
+		"hatch8": {
+			"part_id": "hatch8",
+			"animation": "hatch8"
+		},
+		"hatch5": {
+			"part_id": "hatch5",
+			"animation": "hatch5"
+		},
+		"hatch4": {
+			"part_id": "hatch4",
+			"animation": "hatch4"
+		},
+		"bonnet": {
+			"part_id": "bonnet",
+			"animation": "bonnet"
+		}
+	},
 	"graph": {
 		"type": "merge",
 		"inputs": [
@@ -56,39 +90,5 @@
 				}
 			}
 		]
-	},
-	"switchable_animations": {
-		"door_left": {
-			"part_id": "door_left",
-			"animation": "door_left"
-		},
-		"door_right": {
-			"part_id": "door_right",
-			"animation": "door_right"
-		},
-		"zaddooor": {
-			"part_id": "zaddooor",
-			"animation": "zaddooor"
-		},
-		"hatch2": {
-			"part_id": "hatch2",
-			"animation": "hatch2"
-		},
-		"hatch8": {
-			"part_id": "hatch8",
-			"animation": "hatch8"
-		},
-		"hatch5": {
-			"part_id": "hatch5",
-			"animation": "hatch5"
-		},
-		"hatch4": {
-			"part_id": "hatch4",
-			"animation": "hatch4"
-		},
-		"bonnet": {
-			"part_id": "bonnet",
-			"animation": "bonnet"
-		}
 	}
 }

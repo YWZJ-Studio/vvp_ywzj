@@ -1,12 +1,12 @@
 {
 	"type": "ywzj_vehicle:cannon",
-	"name": "auto_cannon",
-	"caliber": 25,
-	"damage": 35,
+	"name": "2A42",
+	"caliber": 30,
+	"damage": 30,
 	"velocity": 16,
 	"headshot_multiplier": 1.5,
 	"recoil": 0.2,
-	"shoot_interval": 30,
+	"shoot_interval": 75,
 	"max_capacity": 900,
 	"reload": {
 		"time": 80,

@@ -26,8 +26,8 @@
 	"structure_model": "vvp_ywzj:vehicle/ural",
 	"parts": [
 		{
-			"id": "seat",
-			"name": "seat",
+			"id": "driver_seat",
+			"name": "driver_seat",
 			"type": "ywzj_vehicle:generic",
 			"is_seat": true,
 			"seat_offset": [0.6152125, 2.65, 1.45],

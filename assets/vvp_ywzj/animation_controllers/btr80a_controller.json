@@ -3,7 +3,13 @@
 	"script": "vvp_ywzj:btr80a",
 	"parameters": {},
 	"event_animations": {
-		"mg_fire": ["mg_fire"]
+		"weapon_station_fire": ["turret_shoot"]
+	},
+	"switchable_animations": {
+		"cover": {
+			"part_id": "cover",
+			"animation": "cover"
+		}
 	},
 	"graph": {
 		"type": "merge",
@@ -20,15 +26,45 @@
 									"bones": ["wheel1", "wheel2", "wheel3", "wheel4", "wheel5", "wheel6", "wheel7", "wheel8"],
 									"source": "wheel_rotation",
 									"axis": "x",
-									"param": -0.68
+									"param": 0.68
 								},
 								{
-									"bones": ["wheel7", "wheel8"],
+									"bones": ["wheel1", "wheel2"],
 									"source": "steering_angle",
 									"axis": "y",
 									"multiplier": 1,
 									"min": -30,
 									"max": 30
+								},
+								{
+									"bones": ["wheel3", "wheel4"],
+									"source": "steering_angle",
+									"axis": "y",
+									"multiplier": 1,
+									"min": -15,
+									"max": 15
+								},
+								{
+									"bones": ["wheel5", "wheel6"],
+									"source": "steering_angle",
+									"axis": "y",
+									"multiplier": -1,
+									"min": -15,
+									"max": 15
+								},
+								{
+									"bones": ["wheel7", "wheel8"],
+									"source": "steering_angle",
+									"axis": "y",
+									"multiplier": -1,
+									"min": -30,
+									"max": 30
+								},
+								{
+									"bones": ["ctrl"],
+									"source": "steering_angle",
+									"axis": "y",
+									"multiplier": 6
 								}
 							],
 							"part_bindings": [
@@ -45,8 +81,19 @@
 									"rotation_type": "x",
 									"axis": "x",
 									"invert": false
+								},
+								{
+									"bone": "mm",
+									"part": "weapon_station",
+									"rotation_type": "x",
+									"axis": "x",
+									"invert": false
 								}
 							]
+						},
+						{
+							"type": "switchable_animation",
+							"ref": "cover"
 						}
 					]
 				},
