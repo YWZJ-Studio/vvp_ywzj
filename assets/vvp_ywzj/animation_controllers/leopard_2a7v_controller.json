@@ -3,7 +3,8 @@
 	"script": "vvp_ywzj:leopard_2a7v",
 	"parameters": {},
 	"event_animations": {
-		"turret_fire": ["turret_shoot"]
+		"turret_fire": ["turret_shoot"],
+		"ws_mg_fire": ["ws_mg_shoot"]
 	},
 	"graph": {
 		"type": "merge",

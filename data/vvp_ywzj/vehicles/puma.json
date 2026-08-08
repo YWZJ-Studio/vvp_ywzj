@@ -45,16 +45,18 @@
 			"operator_view_offset": [0, 1.5, 0],
 			"optical_sight_type": "crt",
 			"with_stabilizer": true,
+			"with_thermal_imager": true,
 			"zoom_min": 2,
 			"zoom_max": 14.7,
 			"weapons": [
 				"vvp_ywzj:mk30_2_abm",
 				{
 					"id": "vvp_ywzj:mg4",
-					"part_unit_id": "turret_machine_gun"
+					"part_unit_id": "turret_machine_gun",
+					"secondary": true
 				},
 				{
-					"id": "vvp_ywzj:puma_smoke",
+					"id": "ywzj_vehicle:launcher_smoke_grenade",
 					"part_unit_id": "turret_smoke_grenade"
 				}
 			]
@@ -80,6 +82,7 @@
 			"name": "turret_smoke_grenade",
 			"type": "ywzj_vehicle:weapon",
 			"structure_bone": "turret_smoke_grenade",
+			"ammo_capacity": 6,
 			"is_seat": false,
 			"base": "turret",
 			"rot_info": {
@@ -88,16 +91,24 @@
 			}
 		},
 		{
+			"id": "track",
+			"name": "track",
+			"type": "ywzj_vehicle:track",
+			"structure_bone": "tracks"
+		},
+		{
 			"id": "seat2",
 			"name": "seat2",
 			"type": "ywzj_vehicle:generic",
-			"seat_offset": [-0.8, 1.8, 1.5]
+			"seat_offset": [-0.8, 1.8, 1.5],
+			"owner_view_offset": [-0.8, 4, 1.5]
 		},
 		{
 			"id": "seat3",
 			"name": "seat3",
 			"type": "ywzj_vehicle:generic",
-			"seat_offset": [0, 1.8, 1.2]
+			"seat_offset": [0, 1.8, 1.2],
+			"owner_view_offset": [0, 4, 1.2]
 		}
 	]
 }

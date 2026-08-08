@@ -5,23 +5,12 @@ function updateBones(context) {
     const propellerRotation = (previousPropellerRotation + context.getPower() / 5) % 360
     context.setFloat("propellerRotation", propellerRotation)
 
-    let d1 = 0
-    let d2 = 0
-    const control = context.getControlUnit()
-    if (control.left || control.right) {
-        d1 = control.left ? -10 : 10
-    }
-    if (control.forward || control.backward) {
-        d2 = control.forward ? 10 : -10
-    } else {
-        d2 = Math.max(-10, Math.min(10, (control.xRot - context.getXRot()) / 30 * 10))
-    }
-
     const builder = createPoseBuilder()
     builder.setRotation("propeller", 0, -propellerRotation, 0)
     builder.setRotation("tailPropeller", -propellerRotation * 5, 0, 0)
     builder.setRotation("tailPropeller2", propellerRotation * 5, 0, 0)
-    builder.setRotation("bone10", d2, 0, d1)
+
+    builder.setRotation("bone10", context.getPitchInput() * -10, 0, -context.getRollInput() * -10)
     builder.setRotation("bone11", -context.getCollectivePitch() / 100 * 20, 0, 0);
 
     builder.setRotation("mg", 0, -context.getPartYRot("auto_cannon"), 0)

@@ -1,7 +1,7 @@
 {
 	"type": "ywzj_vehicle:rotary_wing_vehicle",
 	"attributes": {
-		"main_rotor_force": 0.07,
+		"main_rotor_force": 0.0392,
 		"x_rot_speed_acceleration": 1,
 		"x_rot_speed_max": 3,
 		"y_rot_speed_acceleration": 1,
@@ -24,8 +24,8 @@
 		"energy_capacity": 0.25,
 		"energy_consumption_per_tick": 0.00001,
 		"engine_particle_offsets": [
-			[-1.5, 2.5, -2.8],
-			[1.5, 2.5, -2.8]
+			[1.5125, 3.1078125, -3.3296875],
+			[-1.5125, 3.1078125, -3.3296875]
 		]
 	},
 	"with_warning_receiver": true,
@@ -51,6 +51,8 @@
 			"operator_view_offset": [0.71, 1.7, -1.69],
 			"optical_sight_type": "crt",
 			"with_stabilizer": true,
+			"with_focus_locker": true,
+			"with_thermal_imager": true,
 			"zoom_max": 12,
 			"weapons": [
 				{
@@ -72,6 +74,7 @@
 			"name": "missile",
 			"type": "ywzj_vehicle:weapon",
 			"structure_bone": "missile",
+			"ammo_capacity": 8,
 			"fire_control_sensor_type": "eo",
 			"fire_control_lock_type": "aim_hit",
 			"is_seat": false,

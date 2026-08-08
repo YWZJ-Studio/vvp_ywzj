@@ -5,12 +5,7 @@
 	"slot_texture": "vvp_ywzj:textures/slot/puma.png",
 	"animations": "vvp_ywzj:entity/puma.animation",
 	"animation_controller": "vvp_ywzj:puma_controller",
-	"track_config": {
-		"left_track": "tread_l_move",
-		"right_track": "tread_r_move",
-		"module_length": 0.25,
-		"track_width": 3
-	},
+	"track_config": {},
 	"sounds": {
 		"engine_start": "ywzj_vehicle:ztz99a_engine_start",
 		"engine_idle": "ywzj_vehicle:t72_engine_idle",

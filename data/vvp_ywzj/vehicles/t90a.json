@@ -31,6 +31,7 @@
 			"id": "turret",
 			"name": "turret",
 			"type": "ywzj_vehicle:weapon",
+			"render_bone": "cannon",
 			"structure_bone": "turret",
 			"seat_offset": [-0.5, 1.5, 0.375],
 			"rot_info": {
@@ -44,12 +45,14 @@
 			"fire_control_lock_type": "aim_hit",
 			"optical_sight_type": "crt",
 			"with_stabilizer": true,
+			"with_thermal_imager": true,
 			"zoom_max": 8,
 			"weapons": [
-				"ywzj_vehicle:cannon_125mm",
+				["ywzj_vehicle:cannon_125mm_apfsds", "ywzj_vehicle:cannon_125mm_heat"],
 				{
 					"id": "ywzj_vehicle:gun_7.62mm",
-					"part_unit_id": "turret_machine_gun"
+					"part_unit_id": "turret_machine_gun",
+					"secondary": true
 				},
 				{
 					"id": "ywzj_vehicle:launcher_smoke_grenade",
@@ -87,6 +90,7 @@
 			"id": "commander_machine_gun",
 			"name": "commander_machine_gun",
 			"type": "ywzj_vehicle:weapon",
+			"render_bone": "gun_cannon",
 			"structure_bone": "aagun",
 			"seat_offset": [0.5, 1.5, 0.275],
 			"operator_on_weapon_unit": false,

@@ -11,7 +11,11 @@
 	},
 	"max_health": 325,
 	"view_info": {
-		"third_person_center_offset": [0, 3, 0],
+		"third_person_center_offset": [
+			0,
+			3,
+			0
+		],
 		"third_person_distance": 8,
 		"sound_distance": 4
 	},
@@ -22,14 +26,26 @@
 	"structure_model": "vvp_ywzj:vehicle/bmp_3",
 	"parts": [
 		{
-			"id": "weapon_station",
-			"name": "weapon_station",
+			"id": "turret",
+			"name": "turret",
 			"type": "ywzj_vehicle:weapon",
-			"structure_bone": "weapon_station",
-			"seat_offset": [0, 2, 0],
-			"owner_view_offset": [0, 2.5, 0],
+			"structure_bone": "turret",
+			"seat_offset": [
+				0,
+				2,
+				0
+			],
+			"owner_view_offset": [
+				0,
+				2.5,
+				0
+			],
 			"operator_on_weapon_unit": false,
-			"optical_sight_offset": [0, 0.5, 1],
+			"optical_sight_offset": [
+				0,
+				0.5,
+				1
+			],
 			"optical_sight_type": "crt",
 			"fire_control_sensor_type": "eo",
 			"with_stabilizer": true,
@@ -43,13 +59,27 @@
 			},
 			"bolts": [
 				{
-					"offset": [0, 0.25, 0.5],
+					"offset": [
+						0,
+						0.25,
+						0.5
+					],
 					"barrel_length": 1,
 					"x_rot": 0,
 					"y_rot": 0
 				}
 			],
-			"weapons": ["vvp_ywzj:2a72", "vvp_ywzj:coax_7_62mm", "vvp_ywzj:9m113"]
+			"weapons": [
+				"vvp_ywzj:2a72",
+				"vvp_ywzj:coax_7_62mm",
+				"vvp_ywzj:9m113"
+			]
+		},
+		{
+			"id": "track",
+			"name": "track",
+			"type": "ywzj_vehicle:track",
+			"structure_bone": "tracks"
 		}
 	],
 	"experimental": true

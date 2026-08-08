@@ -42,6 +42,7 @@
 			"fire_control_lock_type": "aim_hit",
 			"optical_sight_type": "crt",
 			"with_stabilizer": true,
+			"with_thermal_imager": true,
 			"zoom_max": 8,
 			"weapons": [
 				"vvp_ywzj:rh120_120mm",
@@ -62,7 +63,6 @@
 			"type": "ywzj_vehicle:weapon",
 			"structure_bone": "turret_mg",
 			"is_seat": false,
-			"base": "turret",
 			"rot_info": {
 				"x_rot_speed": 1.5,
 				"y_rot_speed": 0,
@@ -77,7 +77,6 @@
 			"structure_bone": "turret_smoke_grenade",
 			"ammo_capacity": 16,
 			"is_seat": false,
-			"base": "turret",
 			"rot_info": {
 				"x_rot_speed": 0,
 				"y_rot_speed": 0
@@ -90,7 +89,6 @@
 			"structure_bone": "ws_mg",
 			"seat_offset": [0.5, 2, 0.5],
 			"operator_on_weapon_unit": false,
-			"base": "turret",
 			"rot_info": {
 				"x_rot_speed": 4.5,
 				"y_rot_speed": 4.5,

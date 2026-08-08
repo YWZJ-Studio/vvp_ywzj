@@ -37,6 +37,16 @@
 			"type": "transparent"
 		},
 		{
+			"bone": "zaddooor",
+			"texture": "vvp_ywzj:textures/entity/gaz_tigr.png",
+			"type": "transparent"
+		},
+		{
+			"bone": "zaddooor2",
+			"texture": "vvp_ywzj:textures/entity/gaz_tigr.png",
+			"type": "transparent"
+		},
+		{
 			"bone": "base2",
 			"texture": "vvp_ywzj:textures/entity/gaz_tigr.png",
 			"type": "transparent"

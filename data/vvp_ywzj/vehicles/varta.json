@@ -23,10 +23,7 @@
 	},
 	"energy_info": {
 		"energy_capacity": 1,
-		"energy_consumption_per_tick": 0.00001,
-		"engine_particle_offsets": [
-			[-1.3, 2.8, 1.4]
-		]
+		"energy_consumption_per_tick": 0.00001
 	},
 	"structure_model": "vvp_ywzj:vehicle/varta",
 	"parts": [

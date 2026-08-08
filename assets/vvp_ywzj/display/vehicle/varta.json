@@ -27,6 +27,11 @@
 			"type": "transparent"
 		},
 		{
+			"bone": "zaddoor",
+			"texture": "vvp_ywzj:textures/entity/varta.png",
+			"type": "transparent"
+		},
+		{
 			"bone": "base2",
 			"texture": "vvp_ywzj:textures/entity/varta.png",
 			"type": "transparent"

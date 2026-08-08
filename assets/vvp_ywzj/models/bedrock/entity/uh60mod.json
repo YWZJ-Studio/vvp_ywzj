@@ -5227,7 +5227,7 @@
 					]
 				},
 				{
-					"name": "Ligths6",
+					"name": "illum_Ligths6",
 					"parent": "base",
 					"pivot": [5.46128, 73.28539, 198.62271],
 					"cubes": [
@@ -6295,7 +6295,7 @@
 					]
 				},
 				{
-					"name": "Ligths",
+					"name": "illum_Ligths",
 					"parent": "mh_60l",
 					"pivot": [-60.36418, 38.39397, -20.21981],
 					"cubes": [
@@ -6316,8 +6316,8 @@
 					]
 				},
 				{
-					"name": "Ligths2",
-					"parent": "Ligths",
+					"name": "illum_Ligths2",
+					"parent": "illum_Ligths",
 					"pivot": [49, 42.86086, -23.2837],
 					"cubes": [
 						{
@@ -7478,7 +7478,7 @@
 				{
 					"name": "propeller",
 					"parent": "root2",
-					"pivot": [-0.35878, 64.69873, 2.33921],
+					"pivot": [-0.0821, 66.98314, 2.72783],
 					"cubes": [
 						{
 							"origin": [-2.30559, 56.18455, 0.5761],

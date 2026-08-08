@@ -21,6 +21,17 @@
 					}
 				}
 			}
+		},
+		"ws_mg_shoot": {
+			"animation_length": 0.0417,
+			"bones": {
+				"passengerWeaponStationPitch": {
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.0417": [0, 0, 1]
+					}
+				}
+			}
 		}
 	}
 }

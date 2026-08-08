@@ -3,7 +3,7 @@
 	"script": "vvp_ywzj:varta",
 	"parameters": {},
 	"event_animations": {
-		"mg_fire": ["mg_fire"]
+		"mg_fire": ["mg_shoot"]
 	},
 	"switchable_animations": {
 		"door_left": {

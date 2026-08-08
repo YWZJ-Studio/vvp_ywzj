@@ -2,75 +2,124 @@
 	"type": "ywzj_vehicle:wheeled_vehicle",
 	"attributes": {
 		"brake_force": 0.025,
-		"forward_force": 0.03,
+		"forward_force": 0.02,
 		"backward_force": 0.02,
 		"max_speed_forward": 0.8,
-		"max_speed_backward": 0.4,
+		"max_speed_backward": 0.2,
 		"turn_step": 0.4,
 		"max_turn": 2
 	},
-	"max_health": 380,
+	"max_health": 1000,
 	"view_info": {
-		"third_person_center_offset": [0, 3, 0],
-		"third_person_distance": 8,
-		"sound_distance": 4,
-		"passenger_view_rot": {
-			"rot_by_vehicle_in_third_person": false,
-			"rot_by_vehicle_in_operator": true
-		}
+		"third_person_center_offset": [0, 6, 0],
+		"third_person_distance": 12,
+		"sound_distance": 7
 	},
 	"energy_info": {
 		"energy_capacity": 1,
-		"energy_consumption_per_tick": 0.00001
+		"energy_consumption_per_tick": 0.00001,
+		"engine_particle_offsets": []
 	},
 	"structure_model": "vvp_ywzj:vehicle/pantsir_s1",
 	"parts": [
 		{
-			"id": "weapon_station",
-			"name": "weapon_station",
+			"id": "turret",
+			"name": "turret",
 			"type": "ywzj_vehicle:weapon",
 			"structure_bone": "turret",
-			"seat_offset": [-0.75, 2.7, 2.4125],
-			"owner_view_offset": [-0.75, 3.0500000000000003, 2.4125],
+			"seat_offset": [0.75625, 2.7140625, 4.3],
 			"operator_on_weapon_unit": false,
-			"optical_sight_offset": [0, 0, 0.75],
-			"optical_sight_type": "crt",
-			"fire_control_sensor_type": "eo",
-			"with_stabilizer": true,
-			"zoom_max": 8,
-			"crosshair_style": "circle",
 			"rot_info": {
 				"x_rot_speed": 3,
 				"y_rot_speed": 3,
-				"x_rot_max": 45,
-				"x_rot_min": -20
+				"x_rot_max": 5,
+				"x_rot_min": -45
 			},
-			"bolts": [
+			"optical_sight_offset": [0, 1.5, 2],
+			"operator_view_offset": [0.7, -0.7, 6.3],
+			"optical_sight_type": "crt",
+			"sub_part_unit_ids": ["lock_radar", "scan_radar"],
+			"weapons": [
+				"vvp_ywzj:2a38m",
 				{
-					"offset": [0, 0.25, 0.5],
-					"barrel_length": 1,
-					"x_rot": 0,
-					"y_rot": 0
+					"id": "vvp_ywzj:57e6",
+					"part_unit_id": "turret_missile"
 				}
-			],
-			"weapons": ["vvp_ywzj:2a42", "vvp_ywzj:57e6"]
+			]
 		},
 		{
-			"id": "passenger_seat1",
-			"name": "passenger_seat1",
-			"type": "ywzj_vehicle:generic",
-			"is_seat": true,
-			"seat_offset": [0.75, 2.7, 2.4125],
-			"owner_view_offset": [0.75, 2.7, 2.4125]
+			"id": "turret_missile",
+			"name": "turret_missile",
+			"type": "ywzj_vehicle:weapon",
+			"structure_bone": "turret_missile",
+			"fire_control_sensor_type": "rf",
+			"parent_weapon_unit_aim": true,
+			"crosshair_style": "none",
+			"is_seat": false,
+			"rot_info": {
+				"x_rot_speed": 3,
+				"y_rot_speed": 0,
+				"x_rot_max": 0,
+				"x_rot_min": -45
+			}
 		},
 		{
-			"id": "passenger_seat2",
-			"name": "passenger_seat2",
+			"id": "lock_radar",
+			"name": "lock_radar",
+			"type": "ywzj_vehicle:radar",
+			"structure_bone": "lock_radar",
+			"is_seat": false,
+			"ui_hide": true,
+			"rot_info": {
+				"x_rot_speed": 0,
+				"y_rot_speed": 15,
+				"y_rot_max": 30,
+				"y_rot_min": -30
+			},
+			"scan_sector_angle": 80,
+			"max_scan_distance": 4096
+		},
+		{
+			"id": "scan_radar",
+			"name": "scan_radar",
+			"type": "ywzj_vehicle:radar",
+			"structure_bone": "scan_radar",
+			"is_seat": false,
+			"base": "turret",
+			"rot_info": {
+				"x_rot_speed": 0,
+				"y_rot_speed": 15
+			},
+			"scan_sector_angle": 80,
+			"max_scan_distance": 4096
+		},
+		{
+			"id": "seat_1",
+			"name": "seat_1",
 			"type": "ywzj_vehicle:generic",
-			"is_seat": true,
-			"seat_offset": [-0.0479, 2.7, 2.4125],
-			"owner_view_offset": [-0.0479, 2.7, 2.4125]
+			"seat_offset": [-0.04375, 2.7140625, 4.3],
+			"owner_view_offset": [-0.04375, 2.7140625, 4.3]
+		},
+		{
+			"id": "seat_2",
+			"name": "seat_2",
+			"type": "ywzj_vehicle:generic",
+			"seat_offset": [-0.7953125, 2.7140625, 4.3],
+			"owner_view_offset": [-0.7953125, 2.7140625, 4.3]
+		},
+		{
+			"id": "door_1",
+			"name": "door_1",
+			"type": "ywzj_vehicle:door",
+			"structure_bone": "door_1",
+			"is_seat": false
+		},
+		{
+			"id": "door_2",
+			"name": "door_2",
+			"type": "ywzj_vehicle:door",
+			"structure_bone": "door_2",
+			"is_seat": false
 		}
-	],
-	"experimental": true
+	]
 }

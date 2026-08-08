@@ -20,7 +20,7 @@
 									"bones": ["wheel1", "wheel2", "wheel3", "wheel4"],
 									"source": "wheel_rotation",
 									"axis": "x",
-									"param": 1
+									"param": -1
 								},
 								{
 									"bones": ["wheel1", "wheel2"],

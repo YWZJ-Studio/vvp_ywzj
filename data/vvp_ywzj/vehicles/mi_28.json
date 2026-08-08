@@ -1,7 +1,7 @@
 {
 	"type": "ywzj_vehicle:rotary_wing_vehicle",
 	"attributes": {
-		"main_rotor_force": 0.07,
+		"main_rotor_force": 0.0392,
 		"x_rot_speed_acceleration": 1,
 		"x_rot_speed_max": 3,
 		"y_rot_speed_acceleration": 1,
@@ -67,27 +67,11 @@
 			]
 		},
 		{
-			"id": "sighting_system2",
-			"name": "sighting_system2",
-			"type": "ywzj_vehicle:weapon",
-			"structure_bone": "sighting_system",
+			"id": "passenger_seat2",
+			"name": "passenger_seat2",
+			"type": "ywzj_vehicle:generic",
 			"seat_offset": [0, 2.8, 3.1],
-			"operator_on_weapon_unit": false,
-			"fire_control_lock_type": "aim_hit",
-			"rot_info": {
-				"x_rot_speed": 3,
-				"y_rot_speed": 3,
-				"x_rot_max": 45,
-				"x_rot_min": -13,
-				"y_rot_max": 90,
-				"y_rot_min": -90
-			},
-			"optical_sight_offset": [0, 0.6, 1.2],
-			"operator_view_offset": [0, 1.4, -1.5],
-			"optical_sight_type": "crt",
-			"with_stabilizer": true,
-			"zoom_max": 12,
-			"weapons": []
+			"owner_view_offset": [0, 2.8, 3.2]
 		},
 		{
 			"id": "auto_cannon",

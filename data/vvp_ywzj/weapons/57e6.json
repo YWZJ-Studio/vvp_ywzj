@@ -1,8 +1,9 @@
 {
 	"type": "ywzj_vehicle:missile",
-	"name": "57E6 Surface-to-Air Missile",
-	"damage": 320,
+	"name": "57E6",
+	"damage": 99,
 	"headshot_multiplier": 1.5,
+	"recoil": 0.6,
 	"shoot_interval": 1000,
 	"max_capacity": 12,
 	"reload": {
@@ -15,8 +16,10 @@
 	"y_rot_min": -180,
 	"explosion": {
 		"explode": true,
-		"damage": 150,
+		"damage": 999,
 		"radius": 8,
+		"proximity_fuze": true,
+		"proximity_radius": 2,
 		"destroy_block": true
 	},
 	"seeker_fov": 30,
@@ -25,7 +28,7 @@
 	"motor_burn_time": 600,
 	"drag_coefficient": 0.005,
 	"max_g": 18,
-	"reference_speed": 2,
+	"reference_speed": 6,
 	"guidance": "HOMING",
-	"homing_mode": "IR"
+	"homing_mode": "SEMI_ACTIVE_RADAR"
 }

@@ -702,6 +702,17 @@
 					}
 				}
 			}
+		},
+		"commander_machine_gun_shoot": {
+			"animation_length": 0.0417,
+			"bones": {
+				"bone": {
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.0417": [0, 0, 1]
+					}
+				}
+			}
 		}
 	}
 }

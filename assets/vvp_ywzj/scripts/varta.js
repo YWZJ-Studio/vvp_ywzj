@@ -17,7 +17,7 @@ function updateBones(context) {
     builder.setRotation("wheelR0Turn", wheelRotation, -turnRotation, 0)
     builder.setRotation("wheelL1", wheelRotation, 0, 0)
     builder.setRotation("wheelR1", wheelRotation, 0, 0)
-    builder.setRotation("fxp", turnRotation * 8, 0, 0)
+    builder.setRotation("fxp", turnRotation * -8, 0, 0)
 
     builder.setRotation("turret", 0, -context.getPartYRot("mg"), 0)
     builder.setRotation("barrel", context.getPartXRot("mg"), 0, 0)
