@@ -45,22 +45,6 @@
 									"max": 15
 								},
 								{
-									"bones": ["wheel5", "wheel6"],
-									"source": "steering_angle",
-									"axis": "y",
-									"multiplier": -1,
-									"min": -15,
-									"max": 15
-								},
-								{
-									"bones": ["wheel7", "wheel8"],
-									"source": "steering_angle",
-									"axis": "y",
-									"multiplier": -1,
-									"min": -30,
-									"max": 30
-								},
-								{
 									"bones": ["ctrl"],
 									"source": "steering_angle",
 									"axis": "y",

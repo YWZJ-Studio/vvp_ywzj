@@ -3,7 +3,8 @@
 	"script": "vvp_ywzj:stryker",
 	"parameters": {},
 	"event_animations": {
-		"mg_fire": ["mg_fire"]
+		"turret_fire": ["turret_shoot"],
+		"turret_mg_fire": ["mg_shoot"]
 	},
 	"graph": {
 		"type": "merge",
@@ -31,23 +32,45 @@
 									"max": 30
 								},
 								{
-									"bones": ["steeringwheel"],
+									"bones": ["wheelL0", "wheelR0"],
 									"source": "steering_angle",
 									"axis": "y",
+									"multiplier": 1,
+									"min": -15,
+									"max": 15
+								},
+								{
+									"bones": ["steeringwheel"],
+									"source": "steering_angle",
+									"axis": "z",
 									"multiplier": 6
 								}
 							],
 							"part_bindings": [
 								{
 									"bone": "turret",
-									"part": "weapon_station",
+									"part": "turret",
 									"rotation_type": "y",
 									"axis": "y",
 									"invert": true
 								},
 								{
 									"bone": "barrel",
-									"part": "weapon_station",
+									"part": "turret",
+									"rotation_type": "x",
+									"axis": "x",
+									"invert": true
+								},
+								{
+									"bone": "M2Mashingun",
+									"part": "turret_mg",
+									"rotation_type": "y",
+									"axis": "y",
+									"invert": true
+								},
+								{
+									"bone": "stovol",
+									"part": "turret_mg",
 									"rotation_type": "x",
 									"axis": "x",
 									"invert": true
