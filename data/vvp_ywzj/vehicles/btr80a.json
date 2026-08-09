@@ -92,13 +92,6 @@
 			}
 		},
 		{
-			"id": "cover",
-			"name": "cover",
-			"type": "ywzj_vehicle:switchable",
-			"structure_bone": "cover",
-			"is_seat": false
-		},
-		{
 			"id": "passenger_seat3",
 			"name": "passenger_seat3",
 			"type": "ywzj_vehicle:generic",
@@ -177,6 +170,13 @@
 			"seat_offset": [-0.3265625, 1.875, -1.3953125],
 			"owner_view_offset": [-0.3265625, 1.875, -1.3953125],
 			"seat_rot": 90
+		},
+		{
+			"id": "cover",
+			"name": "cover",
+			"type": "ywzj_vehicle:switchable",
+			"structure_bone": "cover",
+			"is_seat": false
 		}
 	]
 }

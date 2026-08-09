@@ -2,8 +2,16 @@
 	"name": "fmtv_controller",
 	"script": "vvp_ywzj:fmtv",
 	"parameters": {},
-	"event_animations": {
-		"mg_fire": ["mg_fire"]
+	"event_animations": {},
+	"switchable_animations": {
+		"door_left": {
+			"part_id": "door_left",
+			"animation": "door_left"
+		},
+		"door_right": {
+			"part_id": "door_right",
+			"animation": "door_right"
+		}
 	},
 	"graph": {
 		"type": "merge",
@@ -29,9 +37,23 @@
 									"multiplier": 1,
 									"min": -30,
 									"max": 30
+								},
+								{
+									"bones": ["fxp"],
+									"source": "steering_angle",
+									"axis": "z",
+									"multiplier": 6
 								}
 							],
 							"part_bindings": []
+						},
+						{
+							"type": "switchable_animation",
+							"ref": "door_left"
+						},
+						{
+							"type": "switchable_animation",
+							"ref": "door_right"
 						}
 					]
 				},

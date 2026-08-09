@@ -56,7 +56,8 @@
 			"is_seat": true,
 			"seat_offset": [0.9902125, 3.0, -0.59856875],
 			"owner_view_offset": [0.9902125, 3.0, -0.59856875],
-			"seat_rot": 90
+			"seat_rot": 90,
+			"dismount_offset": [0, 1.678125, -5.634375]
 		},
 		{
 			"id": "passenger_seat5",
@@ -65,7 +66,8 @@
 			"is_seat": true,
 			"seat_offset": [0.9902125, 3.0, -1.53606875],
 			"owner_view_offset": [0.9902125, 3.0, -1.53606875],
-			"seat_rot": 90
+			"seat_rot": 90,
+			"dismount_offset": [0, 1.678125, -5.634375]
 		},
 		{
 			"id": "passenger_seat6",
@@ -74,7 +76,8 @@
 			"is_seat": true,
 			"seat_offset": [0.9902125, 3.0, -2.66106875],
 			"owner_view_offset": [0.9902125, 3.0, -2.66106875],
-			"seat_rot": 90
+			"seat_rot": 90,
+			"dismount_offset": [0, 1.678125, -5.634375]
 		},
 		{
 			"id": "passenger_seat7",
@@ -83,7 +86,8 @@
 			"is_seat": true,
 			"seat_offset": [0.9902125, 3.0, -3.66106875],
 			"owner_view_offset": [0.9902125, 3.0, -3.66106875],
-			"seat_rot": 90
+			"seat_rot": 90,
+			"dismount_offset": [0, 1.678125, -5.634375]
 		},
 		{
 			"id": "passenger_seat8",
@@ -92,7 +96,8 @@
 			"is_seat": true,
 			"seat_offset": [0.9902125, 3.0, -4.59856875],
 			"owner_view_offset": [0.9902125, 3.0, -4.59856875],
-			"seat_rot": 90
+			"seat_rot": 90,
+			"dismount_offset": [0, 1.678125, -5.634375]
 		},
 		{
 			"id": "passenger_seat9",
@@ -101,7 +106,8 @@
 			"is_seat": true,
 			"seat_offset": [-0.9902125, 3.0, -0.59856875],
 			"owner_view_offset": [-0.9902125, 3.0, -0.59856875],
-			"seat_rot": -90
+			"seat_rot": -90,
+			"dismount_offset": [0, 1.678125, -5.634375]
 		},
 		{
 			"id": "passenger_seat10",
@@ -110,7 +116,8 @@
 			"is_seat": true,
 			"seat_offset": [-0.9902125, 3.0, -1.53606875],
 			"owner_view_offset": [-0.9902125, 3.0, -1.53606875],
-			"seat_rot": -90
+			"seat_rot": -90,
+			"dismount_offset": [0, 1.678125, -5.634375]
 		},
 		{
 			"id": "passenger_seat11",
@@ -119,7 +126,8 @@
 			"is_seat": true,
 			"seat_offset": [-0.9902125, 3.0, -2.66106875],
 			"owner_view_offset": [-0.9902125, 3.0, -2.66106875],
-			"seat_rot": -90
+			"seat_rot": -90,
+			"dismount_offset": [0, 1.678125, -5.634375]
 		},
 		{
 			"id": "passenger_seat12",
@@ -128,7 +136,8 @@
 			"is_seat": true,
 			"seat_offset": [-0.9902125, 3.0, -3.66106875],
 			"owner_view_offset": [-0.9902125, 3.0, -3.66106875],
-			"seat_rot": -90
+			"seat_rot": -90,
+			"dismount_offset": [0, 1.678125, -5.634375]
 		},
 		{
 			"id": "passenger_seat13",
@@ -137,7 +146,8 @@
 			"is_seat": true,
 			"seat_offset": [-0.9902125, 3.0, -4.59856875],
 			"owner_view_offset": [-0.9902125, 3.0, -4.59856875],
-			"seat_rot": -90
+			"seat_rot": -90,
+			"dismount_offset": [0, 1.678125, -5.634375]
 		},
 		{
 			"id": "door_1",
@@ -156,7 +166,7 @@
 		{
 			"id": "bonnet",
 			"name": "bonnet",
-			"type": "ywzj_vehicle:door",
+			"type": "ywzj_vehicle:switchable",
 			"structure_bone": "bonnet",
 			"is_seat": false
 		}
