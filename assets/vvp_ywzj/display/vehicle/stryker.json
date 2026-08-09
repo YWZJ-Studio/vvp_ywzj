@@ -5,6 +5,13 @@
 	"slot_texture": "vvp_ywzj:textures/slot/stryker.png",
 	"animations": "vvp_ywzj:entity/stryker.animation",
 	"animation_controller": "vvp_ywzj:stryker_controller",
+	"special_bone_effects": [
+		{
+			"bone": "Thehatch",
+			"texture": "vvp_ywzj:textures/entity/stryker.png",
+			"type": "transparent"
+		}
+	],
 	"sounds": {
 		"engine_start": "ywzj_vehicle:lav150_engine_start",
 		"engine_idle": "ywzj_vehicle:truck_engine_idle",

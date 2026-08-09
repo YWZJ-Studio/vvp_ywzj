@@ -6,6 +6,12 @@
 		"turret_fire": ["turret_shoot"],
 		"turret_mg_fire": ["mg_shoot"]
 	},
+	"switchable_animations": {
+		"hatch": {
+			"part_id": "hatch",
+			"animation": "hatch"
+		}
+	},
 	"graph": {
 		"type": "merge",
 		"inputs": [
@@ -76,6 +82,10 @@
 									"invert": true
 								}
 							]
+						},
+						{
+							"type": "switchable_animation",
+							"ref": "hatch"
 						}
 					]
 				},

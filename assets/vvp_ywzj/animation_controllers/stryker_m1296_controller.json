@@ -3,7 +3,13 @@
 	"script": "vvp_ywzj:stryker_m1296",
 	"parameters": {},
 	"event_animations": {
-		"mg_fire": ["mg_fire"]
+		"turret_fire": ["turret_shoot"]
+	},
+	"switchable_animations": {
+		"hatch": {
+			"part_id": "hatch",
+			"animation": "hatch"
+		}
 	},
 	"graph": {
 		"type": "merge",
@@ -31,28 +37,40 @@
 									"max": 30
 								},
 								{
-									"bones": ["steeringwheel"],
+									"bones": ["wheelL0", "wheelR0"],
 									"source": "steering_angle",
 									"axis": "y",
+									"multiplier": 1,
+									"min": -15,
+									"max": 15
+								},
+								{
+									"bones": ["steeringwheel"],
+									"source": "steering_angle",
+									"axis": "z",
 									"multiplier": 6
 								}
 							],
 							"part_bindings": [
 								{
 									"bone": "turret",
-									"part": "weapon_station",
+									"part": "turret",
 									"rotation_type": "y",
 									"axis": "y",
 									"invert": true
 								},
 								{
 									"bone": "barrel",
-									"part": "weapon_station",
+									"part": "turret",
 									"rotation_type": "x",
 									"axis": "x",
 									"invert": true
 								}
 							]
+						},
+						{
+							"type": "switchable_animation",
+							"ref": "hatch"
 						}
 					]
 				},

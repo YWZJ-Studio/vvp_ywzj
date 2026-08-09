@@ -30,6 +30,8 @@
 			"id": "turret",
 			"name": "turret",
 			"type": "ywzj_vehicle:weapon",
+			"max_health": 100,
+			"render_bone": "turret",
 			"structure_bone": "turret",
 			"operator_on_weapon_unit": true,
 			"seat_offset": [0.678125, 2.3, -1.0765625],
@@ -70,6 +72,8 @@
 			"id": "turret_mg",
 			"name": "turret_mg",
 			"type": "ywzj_vehicle:weapon",
+			"max_health": 100,
+			"render_bone": "M2Mashingun",
 			"structure_bone": "turret_mg",
 			"is_seat": true,
 			"seat_offset": [-0.9921875, 2.3, -0.884375],
@@ -91,8 +95,17 @@
 			"name": "passenger_seat",
 			"type": "ywzj_vehicle:generic",
 			"is_seat": true,
-			"seat_offset": [0.5375, 3, 2.303125],
+			"seat_offset": [0.5375, 2, 2.303125],
 			"owner_view_offset": [0.5375, 3, 2.303125]
+		},
+		{
+			"id": "hatch",
+			"name": "hatch",
+			"type": "ywzj_vehicle:door",
+			"max_health": 100,
+			"render_bone": "Thehatch",
+			"structure_bone": "hatch",
+			"is_seat": false
 		}
 	]
 }
