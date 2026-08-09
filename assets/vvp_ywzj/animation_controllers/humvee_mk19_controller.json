@@ -3,7 +3,25 @@
 	"script": "vvp_ywzj:humvee_mk19",
 	"parameters": {},
 	"event_animations": {
-		"mg_fire": ["mg_fire"]
+		"turret_fire": ["turret_shoot"]
+	},
+	"switchable_animations": {
+		"door_1": {
+			"part_id": "door_1",
+			"animation": "door_1"
+		},
+		"door_2": {
+			"part_id": "door_2",
+			"animation": "door_2"
+		},
+		"door_3": {
+			"part_id": "door_3",
+			"animation": "door_3"
+		},
+		"door_4": {
+			"part_id": "door_4",
+			"animation": "door_4"
+		}
 	},
 	"graph": {
 		"type": "merge",
@@ -33,26 +51,46 @@
 								{
 									"bones": ["steeringwheel"],
 									"source": "steering_angle",
-									"axis": "y",
+									"axis": "z",
 									"multiplier": 6
 								}
 							],
 							"part_bindings": [
 								{
 									"bone": "cannon",
-									"part": "weapon_station",
+									"part": "turret",
 									"rotation_type": "y",
 									"axis": "y",
 									"invert": true
 								},
 								{
 									"bone": "barrel",
-									"part": "weapon_station",
+									"part": "turret",
 									"rotation_type": "x",
 									"axis": "x",
 									"invert": true
 								}
 							]
+						},
+						{
+							"type": "switchable_animation",
+							"ref": "door_1"
+						},
+						{
+							"type": "switchable_animation",
+							"ref": "door_2"
+						},
+						{
+							"type": "switchable_animation",
+							"ref": "door_3"
+						},
+						{
+							"type": "switchable_animation",
+							"ref": "door_4"
+						},
+						{
+							"type": "script",
+							"function": "updateBones"
 						}
 					]
 				},

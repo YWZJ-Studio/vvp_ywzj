@@ -62,8 +62,7 @@
 					"id": "ywzj_vehicle:launcher_smoke_grenade",
 					"part_unit_id": "smoke"
 				}
-			],
-			"owner_view_offset": [-0.8, 2.2, -0.9]
+			]
 		},
 		{
 			"id": "smoke",

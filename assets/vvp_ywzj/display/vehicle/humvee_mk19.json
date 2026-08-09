@@ -5,6 +5,38 @@
 	"slot_texture": "vvp_ywzj:textures/slot/humvee_mk19.png",
 	"animations": "vvp_ywzj:entity/humvee_mk19.animation",
 	"animation_controller": "vvp_ywzj:humvee_mk19_controller",
+	"special_bone_effects": [
+		{
+			"bone": "door",
+			"texture": "vvp_ywzj:textures/entity/humvee_mk19.png",
+			"type": "transparent"
+		},
+		{
+			"bone": "door2",
+			"texture": "vvp_ywzj:textures/entity/humvee_mk19.png",
+			"type": "transparent"
+		},
+		{
+			"bone": "door3",
+			"texture": "vvp_ywzj:textures/entity/humvee_mk19.png",
+			"type": "transparent"
+		},
+		{
+			"bone": "door4",
+			"texture": "vvp_ywzj:textures/entity/humvee_mk19.png",
+			"type": "transparent"
+		},
+		{
+			"bone": "base2",
+			"texture": "vvp_ywzj:textures/entity/humvee_mk19.png",
+			"type": "transparent"
+		},
+		{
+			"bone": "Thehatch",
+			"texture": "vvp_ywzj:textures/entity/humvee_mk19.png",
+			"type": "transparent"
+		}
+	],
 	"sounds": {
 		"engine_start": "ywzj_vehicle:lav150_engine_start",
 		"engine_idle": "ywzj_vehicle:truck_engine_idle",

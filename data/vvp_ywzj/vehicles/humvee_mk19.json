@@ -21,23 +21,34 @@
 	},
 	"energy_info": {
 		"energy_capacity": 1,
-		"energy_consumption_per_tick": 0.00001
+		"energy_consumption_per_tick": 0.00001,
+		"engine_particle_offsets": [[1.420793125, 2.474123125, -1.990275]]
+	},
+	"physics_info": {
+		"destroy_explosion_velocity": 0.3
 	},
 	"structure_model": "vvp_ywzj:vehicle/humvee_mk19",
 	"parts": [
 		{
-			"id": "weapon_station",
-			"name": "weapon_station",
+			"id": "driver_seat",
+			"name": "driver_seat",
+			"type": "ywzj_vehicle:generic",
+			"is_seat": true,
+			"seat_offset": [0.890625, 1.890625, 0.20625],
+			"owner_view_offset": [0.77, 1.890625, 0.20625]
+		},
+		{
+			"id": "turret",
+			"name": "turret",
 			"type": "ywzj_vehicle:weapon",
-			"structure_bone": "cannon",
-			"seat_offset": [0, 2, 0],
-			"owner_view_offset": [0, 2.5, 0],
-			"operator_on_weapon_unit": false,
-			"optical_sight_offset": [0, 0.5, 1],
-			"optical_sight_type": "crt",
-			"fire_control_sensor_type": "eo",
-			"with_stabilizer": true,
-			"zoom_max": 8,
+			"max_health": 100,
+			"render_bone": "Thehatch",
+			"structure_bone": "turret",
+			"seat_offset": [0, 3, -0.2625],
+			"operator_view_offset": [-0.02, 0.4, -0.2],
+			"operator_on_weapon_unit": true,
+			"optical_sight_type": "operator",
+			"zoom_max": 2,
 			"crosshair_style": "circle",
 			"rot_info": {
 				"x_rot_speed": 3,
@@ -45,16 +56,67 @@
 				"x_rot_max": 45,
 				"x_rot_min": -20
 			},
-			"bolts": [
-				{
-					"offset": [0, 0.25, 0.5],
-					"barrel_length": 1,
-					"x_rot": 0,
-					"y_rot": 0
-				}
-			],
 			"weapons": ["vvp_ywzj:hk_gmg"]
+		},
+		{
+			"id": "passenger_seat2",
+			"name": "passenger_seat2",
+			"type": "ywzj_vehicle:generic",
+			"is_seat": true,
+			"seat_offset": [-0.890625, 1.890625, 0.20625],
+			"owner_view_offset": [-0.77, 1.890625, 0.20625]
+		},
+		{
+			"id": "passenger_seat3",
+			"name": "passenger_seat3",
+			"type": "ywzj_vehicle:generic",
+			"is_seat": true,
+			"seat_offset": [0.890625, 1.890625, -0.734375],
+			"owner_view_offset": [0.77, 1.890625, -0.734375]
+		},
+		{
+			"id": "passenger_seat4",
+			"name": "passenger_seat4",
+			"type": "ywzj_vehicle:generic",
+			"is_seat": true,
+			"seat_offset": [-0.890625, 1.890625, -0.734375],
+			"owner_view_offset": [-0.77, 1.890625, -0.734375]
+		},
+		{
+			"id": "door_1",
+			"name": "door_1",
+			"type": "ywzj_vehicle:door",
+			"max_health": 100,
+			"render_bone": "door",
+			"structure_bone": "door_1",
+			"is_seat": false
+		},
+		{
+			"id": "door_2",
+			"name": "door_2",
+			"type": "ywzj_vehicle:door",
+			"max_health": 100,
+			"render_bone": "door2",
+			"structure_bone": "door_2",
+			"is_seat": false
+		},
+		{
+			"id": "door_3",
+			"name": "door_3",
+			"type": "ywzj_vehicle:door",
+			"max_health": 100,
+			"render_bone": "door3",
+			"structure_bone": "door_3",
+			"is_seat": false
+		},
+		{
+			"id": "door_4",
+			"name": "door_4",
+			"type": "ywzj_vehicle:door",
+			"max_health": 100,
+			"render_bone": "door4",
+			"structure_bone": "door_4",
+			"is_seat": false
 		}
-	],
-	"experimental": true
+	]
 }
