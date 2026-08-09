@@ -2,8 +2,20 @@
 	"name": "m142_himars_controller",
 	"script": "vvp_ywzj:m142_himars",
 	"parameters": {},
-	"event_animations": {
-		"mg_fire": ["mg_fire"]
+	"event_animations": {},
+	"switchable_animations": {
+		"door_left": {
+			"part_id": "door_left",
+			"animation": "door_left"
+		},
+		"door_right": {
+			"part_id": "door_right",
+			"animation": "door_right"
+		},
+		"hatch": {
+			"part_id": "hatch",
+			"animation": "hatch"
+		}
 	},
 	"graph": {
 		"type": "merge",
@@ -33,26 +45,42 @@
 								{
 									"bones": ["rul3"],
 									"source": "steering_angle",
-									"axis": "y",
+									"axis": "z",
 									"multiplier": 6
 								}
 							],
 							"part_bindings": [
 								{
 									"bone": "cannon",
-									"part": "weapon_station",
+									"part": "turret",
 									"rotation_type": "y",
 									"axis": "y",
 									"invert": true
 								},
 								{
 									"bone": "barrel",
-									"part": "weapon_station",
+									"part": "turret",
 									"rotation_type": "x",
 									"axis": "x",
 									"invert": true
 								}
 							]
+						},
+						{
+							"type": "switchable_animation",
+							"ref": "door_left"
+						},
+						{
+							"type": "switchable_animation",
+							"ref": "door_right"
+						},
+						{
+							"type": "switchable_animation",
+							"ref": "hatch"
+						},
+						{
+							"type": "script",
+							"function": "updateBones"
 						}
 					]
 				},

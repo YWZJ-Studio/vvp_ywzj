@@ -21,40 +21,73 @@
 	},
 	"energy_info": {
 		"energy_capacity": 1,
-		"energy_consumption_per_tick": 0.00001
+		"energy_consumption_per_tick": 0.00001,
+		"engine_particle_offsets": [[1.2796875, 3.3859375, 1.8]]
 	},
 	"structure_model": "vvp_ywzj:vehicle/m142_himars",
 	"parts": [
 		{
-			"id": "weapon_station",
-			"name": "weapon_station",
+			"id": "driver_seat",
+			"name": "driver_seat",
+			"type": "ywzj_vehicle:generic",
+			"is_seat": true,
+			"seat_offset": [0.7453125, 2.853125, 3.290625],
+			"owner_view_offset": [0.7453125, 3, 3.290625]
+		},
+		{
+			"id": "turret",
+			"name": "turret",
 			"type": "ywzj_vehicle:weapon",
-			"structure_bone": "cannon",
-			"seat_offset": [0, 2, 0],
-			"owner_view_offset": [0, 2.5, 0],
+			"structure_bone": "turret",
+			"seat_offset": [-0.7453125, 2.853125, 3.290625],
+			"operator_view_offset": [-0.77438375, 1.263749375, 5.798311875],
 			"operator_on_weapon_unit": false,
 			"optical_sight_offset": [0, 0.5, 1],
-			"optical_sight_type": "crt",
-			"fire_control_sensor_type": "eo",
-			"with_stabilizer": true,
-			"zoom_max": 8,
-			"crosshair_style": "circle",
+			"optical_sight_type": "none",
+			"fire_control_sensor_type": "loc",
 			"rot_info": {
-				"x_rot_speed": 3,
-				"y_rot_speed": 3,
-				"x_rot_max": 45,
+				"x_rot_speed": 2,
+				"y_rot_speed": 2,
+				"x_rot_max": 0,
 				"x_rot_min": -20
 			},
-			"bolts": [
-				{
-					"offset": [0, 0.25, 0.5],
-					"barrel_length": 1,
-					"x_rot": 0,
-					"y_rot": 0
-				}
-			],
 			"weapons": ["vvp_ywzj:himars_missile"]
+		},
+		{
+			"id": "turret_body",
+			"name": "turret_body",
+			"type": "ywzj_vehicle:generic",
+			"structure_bone": "turret_body",
+			"is_seat": false
+		},
+		{
+			"id": "passenger_seat2",
+			"name": "passenger_seat2",
+			"type": "ywzj_vehicle:generic",
+			"is_seat": true,
+			"seat_offset": [0.0328125, 2.9109375, 3.1484375],
+			"owner_view_offset": [0.0328125, 2.9109375, 3.1484375]
+		},
+		{
+			"id": "door_left",
+			"name": "door_left",
+			"type": "ywzj_vehicle:door",
+			"structure_bone": "door_left",
+			"is_seat": false
+		},
+		{
+			"id": "door_right",
+			"name": "door_right",
+			"type": "ywzj_vehicle:door",
+			"structure_bone": "door_right",
+			"is_seat": false
+		},
+		{
+			"id": "hatch",
+			"name": "hatch",
+			"type": "ywzj_vehicle:switchable",
+			"structure_bone": "hatch",
+			"is_seat": false
 		}
-	],
-	"experimental": true
+	]
 }

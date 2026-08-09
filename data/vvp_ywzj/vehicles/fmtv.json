@@ -135,6 +135,13 @@
 			"type": "ywzj_vehicle:door",
 			"structure_bone": "door_right",
 			"is_seat": false
+		},
+		{
+			"id": "hatch",
+			"name": "hatch",
+			"type": "ywzj_vehicle:switchable",
+			"structure_bone": "hatch",
+			"is_seat": false
 		}
 	]
 }

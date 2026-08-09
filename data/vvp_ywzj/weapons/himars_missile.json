@@ -1,18 +1,41 @@
 {
-	"type": "ywzj_vehicle:rocket",
+	"type": "ywzj_vehicle:missile",
 	"name": "M142 HIMARS Rocket",
-	"damage": 300,
+	"life": 400,
+	"caliber": 22.7,
+	"damage": 1000,
 	"headshot_multiplier": 1.5,
-	"shoot_interval": 400,
+	"shoot_interval": 1000,
 	"max_capacity": 6,
 	"reload": {
-		"time": 80,
-		"ammo": "ywzj_vehicle:ammo_rocket"
+		"time": 100,
+		"ammo": "ywzj_vehicle:ammo_missile"
 	},
+	"x_rot_max": 90,
+	"x_rot_min": -90,
+	"y_rot_max": 180,
+	"y_rot_min": -180,
 	"explosion": {
 		"explode": true,
 		"damage": 220,
 		"radius": 14,
 		"destroy_block": true
-	}
+	},
+	"mass": 0.1,
+	"thrust": 0.05,
+	"engine_nozzle_offset": [0, 0, -1.6],
+	"motor_burn_time": 200,
+	"drag_coefficient": 0.005,
+	"max_g": 16,
+	"reference_speed": 0.1,
+	"guidance": "PRESET",
+	"preset_cruise_altitude": 32,
+	"preset_max_ascent_lead": 128,
+	"preset_ascent_radius": 16,
+	"preset_dive_radius": 16,
+	"preset_dive_altitude_factor": 0.75,
+	"preset_dive_lead_factor": 1.0,
+	"preset_cruise_altitude_gain": 0.002,
+	"preset_cruise_vertical_damping": 0.05,
+	"preset_cruise_max_vertical_component": 0.5
 }

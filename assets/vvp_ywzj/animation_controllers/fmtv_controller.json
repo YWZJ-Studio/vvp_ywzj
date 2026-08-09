@@ -11,6 +11,10 @@
 		"door_right": {
 			"part_id": "door_right",
 			"animation": "door_right"
+		},
+		"hatch": {
+			"part_id": "hatch",
+			"animation": "hatch"
 		}
 	},
 	"graph": {
@@ -54,6 +58,10 @@
 						{
 							"type": "switchable_animation",
 							"ref": "door_right"
+						},
+						{
+							"type": "switchable_animation",
+							"ref": "hatch"
 						}
 					]
 				},
