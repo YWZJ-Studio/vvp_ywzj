@@ -2,12 +2,12 @@
 	"namespace": "vvp_ywzj",
 	"title": "Vintage Vehicle Pack",
 	"description": "VVP - Vintage Vehicle Pack",
-	"version": "0.2.0",
+	"version": "0.2.1",
 	"date": "2026-01-01",
 	"license": "All Rights Reserved",
 	"authors": ["Team VVP, ROIF, FL, YWZJ"],
 	"url": "",
 	"dependencies": {
-		"ywzj_vehicle": "[0.5.8.1,)"
+		"ywzj_vehicle": "[0.5.8.2,)"
 	}
 }

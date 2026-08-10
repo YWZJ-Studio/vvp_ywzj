@@ -3,7 +3,7 @@
 	"script": "vvp_ywzj:btr_3",
 	"parameters": {},
 	"event_animations": {
-		"mg_fire": ["mg_fire"]
+		"turret_fire": ["turret_shoot"]
 	},
 	"graph": {
 		"type": "merge",
@@ -29,19 +29,27 @@
 									"multiplier": 1,
 									"min": -30,
 									"max": 30
+								},
+								{
+									"bones": ["wheelR0", "wheelR1"],
+									"source": "steering_angle",
+									"axis": "y",
+									"multiplier": 1,
+									"min": -15,
+									"max": 15
 								}
 							],
 							"part_bindings": [
 								{
 									"bone": "turret",
-									"part": "weapon_station",
+									"part": "turret",
 									"rotation_type": "y",
 									"axis": "y",
 									"invert": true
 								},
 								{
 									"bone": "barrel",
-									"part": "weapon_station",
+									"part": "turret",
 									"rotation_type": "x",
 									"axis": "x",
 									"invert": true

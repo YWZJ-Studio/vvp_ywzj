@@ -2,7 +2,7 @@
 	"type": "ywzj_vehicle:missile",
 	"name": "M142 HIMARS Rocket",
 	"life": 400,
-	"caliber": 22.7,
+	"caliber": 227,
 	"damage": 1000,
 	"headshot_multiplier": 1.5,
 	"shoot_interval": 1000,
