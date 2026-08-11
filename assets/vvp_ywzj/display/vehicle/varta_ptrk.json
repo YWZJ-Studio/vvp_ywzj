@@ -5,6 +5,38 @@
 	"slot_texture": "vvp_ywzj:textures/slot/varta_ptrk.png",
 	"animations": "vvp_ywzj:entity/varta_ptrk.animation",
 	"animation_controller": "vvp_ywzj:varta_ptrk_controller",
+	"special_bone_effects": [
+		{
+			"bone": "DOOR4",
+			"texture": "vvp_ywzj:textures/entity/varta_ptrk.png",
+			"type": "transparent"
+		},
+		{
+			"bone": "DOOR5",
+			"texture": "vvp_ywzj:textures/entity/varta_ptrk.png",
+			"type": "transparent"
+		},
+		{
+			"bone": "DOOR",
+			"texture": "vvp_ywzj:textures/entity/varta_ptrk.png",
+			"type": "transparent"
+		},
+		{
+			"bone": "DOOR2",
+			"texture": "vvp_ywzj:textures/entity/varta_ptrk.png",
+			"type": "transparent"
+		},
+		{
+			"bone": "DOOR3",
+			"texture": "vvp_ywzj:textures/entity/varta_ptrk.png",
+			"type": "transparent"
+		},
+		{
+			"bone": "base2",
+			"texture": "vvp_ywzj:textures/entity/varta_ptrk.png",
+			"type": "transparent"
+		}
+	],
 	"sounds": {
 		"engine_start": "ywzj_vehicle:lav150_engine_start",
 		"engine_idle": "ywzj_vehicle:truck_engine_idle",
