@@ -2,8 +2,24 @@
 	"name": "bushmaster_controller",
 	"script": "vvp_ywzj:bushmaster",
 	"parameters": {},
-	"event_animations": {
-		"mg_fire": ["mg_fire"]
+	"event_animations": {},
+	"switchable_animations": {
+		"door_1": {
+			"part_id": "door_1",
+			"animation": "door_1"
+		},
+		"door_2": {
+			"part_id": "door_2",
+			"animation": "door_2"
+		},
+		"door_3": {
+			"part_id": "door_3",
+			"animation": "door_3"
+		},
+		"hatch": {
+			"part_id": "hatch",
+			"animation": "hatch"
+		}
 	},
 	"graph": {
 		"type": "merge",
@@ -33,11 +49,27 @@
 								{
 									"bones": ["rul"],
 									"source": "steering_angle",
-									"axis": "y",
+									"axis": "z",
 									"multiplier": 6
 								}
 							],
 							"part_bindings": []
+						},
+						{
+							"type": "switchable_animation",
+							"ref": "door_1"
+						},
+						{
+							"type": "switchable_animation",
+							"ref": "door_2"
+						},
+						{
+							"type": "switchable_animation",
+							"ref": "door_3"
+						},
+						{
+							"type": "switchable_animation",
+							"ref": "hatch"
 						}
 					]
 				},
