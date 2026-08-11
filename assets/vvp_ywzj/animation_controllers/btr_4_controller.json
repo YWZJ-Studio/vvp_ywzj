@@ -3,7 +3,37 @@
 	"script": "vvp_ywzj:btr_4",
 	"parameters": {},
 	"event_animations": {
-		"mg_fire": ["mg_fire"]
+		"turret_fire": ["turret_shoot"]
+	},
+	"switchable_animations": {
+		"door_1": {
+			"part_id": "door_1",
+			"animation": "door_1"
+		},
+		"door_2": {
+			"part_id": "door_2",
+			"animation": "door_2"
+		},
+		"door_back": {
+			"part_id": "door_back",
+			"animation": "door_back"
+		},
+		"hatch_1": {
+			"part_id": "hatch_1",
+			"animation": "hatch_1"
+		},
+		"hatch_2": {
+			"part_id": "hatch_2",
+			"animation": "hatch_2"
+		},
+		"hatch_3": {
+			"part_id": "hatch_3",
+			"animation": "hatch_3"
+		},
+		"hatch_4": {
+			"part_id": "hatch_4",
+			"animation": "hatch_4"
+		}
 	},
 	"graph": {
 		"type": "merge",
@@ -20,7 +50,7 @@
 									"bones": ["wheelR2", "wheelL0Turn", "wheelR0Turn", "wheelL0", "wheelR0", "wheelL1", "wheelR1", "wheelL2"],
 									"source": "wheel_rotation",
 									"axis": "x",
-									"param": -1
+									"param": 1
 								},
 								{
 									"bones": ["wheelL0Turn", "wheelR0Turn"],
@@ -29,6 +59,14 @@
 									"multiplier": 1,
 									"min": -30,
 									"max": 30
+								},
+								{
+									"bones": ["wheelL0", "wheelR0"],
+									"source": "steering_angle",
+									"axis": "y",
+									"multiplier": 1,
+									"min": -15,
+									"max": 15
 								},
 								{
 									"bones": ["rul"],
@@ -40,19 +78,47 @@
 							"part_bindings": [
 								{
 									"bone": "turret",
-									"part": "weapon_station",
+									"part": "turret",
 									"rotation_type": "y",
 									"axis": "y",
 									"invert": true
 								},
 								{
 									"bone": "barrel",
-									"part": "weapon_station",
+									"part": "turret",
 									"rotation_type": "x",
 									"axis": "x",
 									"invert": true
 								}
 							]
+						},
+						{
+							"type": "switchable_animation",
+							"ref": "door_1"
+						},
+						{
+							"type": "switchable_animation",
+							"ref": "door_2"
+						},
+						{
+							"type": "switchable_animation",
+							"ref": "door_back"
+						},
+						{
+							"type": "switchable_animation",
+							"ref": "hatch_1"
+						},
+						{
+							"type": "switchable_animation",
+							"ref": "hatch_2"
+						},
+						{
+							"type": "switchable_animation",
+							"ref": "hatch_3"
+						},
+						{
+							"type": "switchable_animation",
+							"ref": "hatch_4"
 						}
 					]
 				},

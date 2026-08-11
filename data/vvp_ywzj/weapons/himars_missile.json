@@ -30,12 +30,6 @@
 	"reference_speed": 0.1,
 	"guidance": "PRESET",
 	"preset_cruise_altitude": 32,
-	"preset_max_ascent_lead": 128,
-	"preset_ascent_radius": 16,
-	"preset_dive_radius": 16,
-	"preset_dive_altitude_factor": 0.75,
-	"preset_dive_lead_factor": 1.0,
-	"preset_cruise_altitude_gain": 0.002,
-	"preset_cruise_vertical_damping": 0.05,
-	"preset_cruise_max_vertical_component": 0.5
+	"preset_ascent_distance": 128,
+	"preset_dive_distance": 128
 }
