@@ -37,6 +37,7 @@
 			"optical_sight_type": "crt",
 			"fire_control_sensor_type": "eo",
 			"with_stabilizer": true,
+			"with_thermal_imager": true,
 			"zoom_max": 8,
 			"crosshair_style": "circle",
 			"rot_info": {

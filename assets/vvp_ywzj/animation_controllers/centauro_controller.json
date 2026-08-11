@@ -3,7 +3,8 @@
 	"script": "vvp_ywzj:centauro",
 	"parameters": {},
 	"event_animations": {
-		"mg_fire": ["mg_fire"]
+		"turret_fire": ["turret_shoot"],
+		"passenger_weapon_station_fire": ["passenger_weapon_station_shoot"]
 	},
 	"graph": {
 		"type": "merge",
@@ -29,19 +30,27 @@
 									"multiplier": 1,
 									"min": -30,
 									"max": 30
+								},
+								{
+									"bones": ["wheelL0", "wheelR0"],
+									"source": "steering_angle",
+									"axis": "y",
+									"multiplier": 1,
+									"min": -15,
+									"max": 15
 								}
 							],
 							"part_bindings": [
 								{
 									"bone": "turret",
-									"part": "weapon_station",
+									"part": "turret",
 									"rotation_type": "y",
 									"axis": "y",
 									"invert": true
 								},
 								{
 									"bone": "barrel",
-									"part": "weapon_station",
+									"part": "turret",
 									"rotation_type": "x",
 									"axis": "x",
 									"invert": true

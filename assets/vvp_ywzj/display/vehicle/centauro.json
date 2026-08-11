@@ -5,6 +5,13 @@
 	"slot_texture": "vvp_ywzj:textures/slot/centauro.png",
 	"animations": "vvp_ywzj:entity/centauro.animation",
 	"animation_controller": "vvp_ywzj:centauro_controller",
+	"special_bone_effects": [
+		{
+			"bone": "bone3",
+			"texture": "vvp_ywzj:textures/entity/centauro.png",
+			"type": "transparent"
+		}
+	],
 	"sounds": {
 		"engine_start": "ywzj_vehicle:lav150_engine_start",
 		"engine_idle": "ywzj_vehicle:truck_engine_idle",
