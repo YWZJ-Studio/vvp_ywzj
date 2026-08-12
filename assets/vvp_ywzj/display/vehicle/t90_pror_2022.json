@@ -5,6 +5,7 @@
 	"slot_texture": "vvp_ywzj:textures/slot/t90_pror_2022.png",
 	"animations": "vvp_ywzj:entity/t90_pror_2022.animation",
 	"animation_controller": "vvp_ywzj:t90_pror_2022_controller",
+	"track_config": {},
 	"sounds": {
 		"engine_start": "ywzj_vehicle:ztz99a_engine_start",
 		"engine_idle": "ywzj_vehicle:t72_engine_idle",

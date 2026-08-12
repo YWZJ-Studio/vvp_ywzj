@@ -5,6 +5,7 @@
 	"slot_texture": "vvp_ywzj:textures/slot/t64.png",
 	"animations": "vvp_ywzj:entity/t64.animation",
 	"animation_controller": "vvp_ywzj:t64_controller",
+	"track_config": {},
 	"sounds": {
 		"engine_start": "ywzj_vehicle:ztz99a_engine_start",
 		"engine_idle": "ywzj_vehicle:t72_engine_idle",

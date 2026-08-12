@@ -5,6 +5,7 @@
 	"slot_texture": "vvp_ywzj:textures/slot/chryzantema.png",
 	"animations": "vvp_ywzj:entity/chryzantema.animation",
 	"animation_controller": "vvp_ywzj:chryzantema_controller",
+	"track_config": {},
 	"sounds": {
 		"engine_start": "ywzj_vehicle:ztz99a_engine_start",
 		"engine_idle": "ywzj_vehicle:t72_engine_idle",

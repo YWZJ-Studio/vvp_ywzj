@@ -5,6 +5,7 @@
 	"slot_texture": "vvp_ywzj:textures/slot/oplot.png",
 	"animations": "vvp_ywzj:entity/oplot.animation",
 	"animation_controller": "vvp_ywzj:oplot_controller",
+	"track_config": {},
 	"sounds": {
 		"engine_start": "ywzj_vehicle:ztz99a_engine_start",
 		"engine_idle": "ywzj_vehicle:t72_engine_idle",

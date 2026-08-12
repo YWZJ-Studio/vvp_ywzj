@@ -5,6 +5,7 @@
 	"slot_texture": "vvp_ywzj:textures/slot/leopard_2a4.png",
 	"animations": "vvp_ywzj:entity/leopard_2a4.animation",
 	"animation_controller": "vvp_ywzj:leopard_2a4_controller",
+	"track_config": {},
 	"sounds": {
 		"engine_start": "ywzj_vehicle:ztz99a_engine_start",
 		"engine_idle": "ywzj_vehicle:t72_engine_idle",

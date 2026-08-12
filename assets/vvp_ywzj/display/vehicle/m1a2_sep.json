@@ -5,6 +5,7 @@
 	"slot_texture": "vvp_ywzj:textures/slot/m1a2_sep.png",
 	"animations": "vvp_ywzj:entity/m1a2_sep.animation",
 	"animation_controller": "vvp_ywzj:m1a2_sep_controller",
+	"track_config": {},
 	"sounds": {
 		"engine_start": "ywzj_vehicle:ztz99a_engine_start",
 		"engine_idle": "ywzj_vehicle:t72_engine_idle",
