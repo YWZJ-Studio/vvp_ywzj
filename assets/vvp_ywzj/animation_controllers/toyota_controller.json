@@ -2,9 +2,7 @@
 	"name": "toyota_controller",
 	"script": "vvp_ywzj:toyota",
 	"parameters": {},
-	"event_animations": {
-		"mg_fire": ["mg_fire"]
-	},
+	"event_animations": {},
 	"graph": {
 		"type": "merge",
 		"inputs": [
@@ -20,7 +18,7 @@
 									"bones": ["wheel4", "wheel2", "wheel1", "wheel3"],
 									"source": "wheel_rotation",
 									"axis": "x",
-									"param": -1
+									"param": -0.5
 								},
 								{
 									"bones": ["wheel2", "wheel1"],
@@ -33,7 +31,7 @@
 								{
 									"bones": ["rul"],
 									"source": "steering_angle",
-									"axis": "y",
+									"axis": "z",
 									"multiplier": 6
 								}
 							],
