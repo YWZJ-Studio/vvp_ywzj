@@ -67,8 +67,8 @@
 			]
 		},
 		{
-			"id": "passenger_seat2",
-			"name": "passenger_seat2",
+			"id": "pilot_seat2",
+			"name": "pilot_seat2",
 			"type": "ywzj_vehicle:generic",
 			"seat_offset": [0, 2.8, 3.1],
 			"owner_view_offset": [0, 2.8, 3.2]

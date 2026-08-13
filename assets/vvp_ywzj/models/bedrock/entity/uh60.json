@@ -18,9 +18,9 @@
 				{
 					"name": "direction_fix",
 					"pivot": [
+						-0.17939,
 						0,
-						0,
-						0
+						1.169605
 					],
 					"rotation": [
 						0,

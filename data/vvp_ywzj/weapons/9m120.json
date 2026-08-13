@@ -1,6 +1,6 @@
 {
 	"type": "ywzj_vehicle:missile",
-	"name": "ataka",
+	"name": "9M120 Ataka",
 	"damage": 75,
 	"headshot_multiplier": 1.5,
 	"recoil": 0.5,
@@ -18,8 +18,8 @@
 	"explosion": {
 		"explode": true,
 		"damage": 100,
-		"radius": 12,
-		"destroy_block": false
+		"radius": 6,
+		"destroy_block": true
 	},
 	"guidance": "HOMING"
 }
