@@ -1,6 +1,6 @@
 {
 	"type": "ywzj_vehicle:cannon",
-	"name": "2A42",
+	"name": "2A42 30mm",
 	"caliber": 30,
 	"damage": 30,
 	"velocity": 16,

@@ -10,6 +10,7 @@
 		"max_turn": 2
 	},
 	"max_health": 300,
+	"can_wade": true,
 	"view_info": {
 		"third_person_center_offset": [0, 3, 0],
 		"third_person_distance": 8,
@@ -19,6 +20,9 @@
 		"energy_capacity": 1,
 		"energy_consumption_per_tick": 0.00001,
 		"engine_particle_offsets": [[-1.846875, 2.053125, 0.80625]]
+	},
+	"physics_info": {
+		"density": 0.75
 	},
 	"structure_model": "vvp_ywzj:vehicle/bmp_2_bakhcha",
 	"parts": [
@@ -51,7 +55,7 @@
 					"secondary": true
 				},
 				{
-					"id": "vvp_ywzj:2a70",
+					"ids": ["vvp_ywzj:2a70", "vvp_ywzj:9m117"],
 					"part_unit_id": "turret_missile"
 				},
 				{

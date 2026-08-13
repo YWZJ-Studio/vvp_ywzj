@@ -75,6 +75,69 @@
 			]
 		},
 		{
+			"id": "hatch",
+			"name": "hatch",
+			"type": "ywzj_vehicle:switchable",
+			"structure_bone": "hatch",
+			"is_seat": false
+		},
+		{
+			"id": "hatch2",
+			"name": "hatch2",
+			"type": "ywzj_vehicle:switchable",
+			"structure_bone": "hatch2",
+			"is_seat": false
+		},
+		{
+			"id": "hatch3",
+			"name": "hatch3",
+			"type": "ywzj_vehicle:switchable",
+			"structure_bone": "hatch3",
+			"is_seat": false
+		},
+		{
+			"id": "hatch4",
+			"name": "hatch4",
+			"type": "ywzj_vehicle:switchable",
+			"structure_bone": "hatch4",
+			"is_seat": false
+		},
+		{
+			"id": "hatch5",
+			"name": "hatch5",
+			"type": "ywzj_vehicle:switchable",
+			"structure_bone": "hatch5",
+			"is_seat": false
+		},
+		{
+			"id": "hatch6",
+			"name": "hatch6",
+			"type": "ywzj_vehicle:switchable",
+			"structure_bone": "hatch6",
+			"is_seat": false
+		},
+		{
+			"id": "dor_left",
+			"name": "dor_left",
+			"type": "ywzj_vehicle:switchable",
+			"structure_bone": "dor_left",
+			"is_seat": false
+		},
+		{
+			"id": "dor_right",
+			"name": "dor_right",
+			"type": "ywzj_vehicle:switchable",
+			"structure_bone": "dor_right",
+			"is_seat": false
+		},
+		{
+			"id": "zadoor",
+			"name": "zadoor",
+			"type": "ywzj_vehicle:door",
+			"structure_bone": "zadoor",
+			"is_seat": false
+		},
+		{
 			"id": "track",
 			"name": "track",
 			"type": "ywzj_vehicle:track",

@@ -5,6 +5,44 @@
 	"event_animations": {
 		"turret_fire": ["turret_shoot"]
 	},
+	"switchable_animations": {
+		"hatch": {
+			"part_id": "hatch",
+			"animation": "hatch"
+		},
+		"hatch2": {
+			"part_id": "hatch2",
+			"animation": "hatch2"
+		},
+		"hatch3": {
+			"part_id": "hatch3",
+			"animation": "hatch3"
+		},
+		"hatch4": {
+			"part_id": "hatch4",
+			"animation": "hatch4"
+		},
+		"hatch5": {
+			"part_id": "hatch5",
+			"animation": "hatch5"
+		},
+		"hatch6": {
+			"part_id": "hatch6",
+			"animation": "hatch6"
+		},
+		"dor_left": {
+			"part_id": "dor_left",
+			"animation": "dor_left"
+		},
+		"dor_right": {
+			"part_id": "dor_right",
+			"animation": "dor_right"
+		},
+		"zadoor": {
+			"part_id": "zadoor",
+			"animation": "zadoor"
+		}
+	},
 	"graph": {
 		"type": "merge",
 		"inputs": [
@@ -13,6 +51,42 @@
 				"base": {
 					"type": "merge",
 					"inputs": [
+						{
+							"type": "switchable_animation",
+							"ref": "hatch"
+						},
+						{
+							"type": "switchable_animation",
+							"ref": "hatch2"
+						},
+						{
+							"type": "switchable_animation",
+							"ref": "hatch3"
+						},
+						{
+							"type": "switchable_animation",
+							"ref": "hatch4"
+						},
+						{
+							"type": "switchable_animation",
+							"ref": "hatch5"
+						},
+						{
+							"type": "switchable_animation",
+							"ref": "hatch6"
+						},
+						{
+							"type": "switchable_animation",
+							"ref": "dor_left"
+						},
+						{
+							"type": "switchable_animation",
+							"ref": "dor_right"
+						},
+						{
+							"type": "switchable_animation",
+							"ref": "zadoor"
+						},
 						{
 							"type": "bone_binding",
 							"special_bindings": [

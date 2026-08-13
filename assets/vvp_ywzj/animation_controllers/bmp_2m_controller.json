@@ -43,6 +43,13 @@
 									"rotation_type": "x",
 									"axis": "x",
 									"invert": true
+								},
+								{
+									"bone": "passengerWeaponStationYaw",
+									"part": "turret_frag_grenade",
+									"rotation_type": "x",
+									"axis": "x",
+									"invert": true
 								}
 							]
 						},
