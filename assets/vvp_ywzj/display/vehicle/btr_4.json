@@ -8,17 +8,14 @@
 	"special_bone_effects": [
 		{
 			"bone": "door",
-			"texture": "vvp_ywzj:textures/entity/btr_4.png",
 			"type": "transparent"
 		},
 		{
 			"bone": "door2",
-			"texture": "vvp_ywzj:textures/entity/btr_4.png",
 			"type": "transparent"
 		},
 		{
 			"bone": "base",
-			"texture": "vvp_ywzj:textures/entity/btr_4.png",
 			"type": "transparent"
 		}
 	],

@@ -1,6 +1,6 @@
 {
 	"type": "ywzj_vehicle:cannon",
-	"name": "7.62mm Coaxial Machine Gun",
+	"name": "7.62mm Gun",
 	"caliber": 7.62,
 	"damage": 10,
 	"velocity": 20,

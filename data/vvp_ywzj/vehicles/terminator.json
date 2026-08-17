@@ -18,9 +18,7 @@
 	"energy_info": {
 		"energy_capacity": 1,
 		"energy_consumption_per_tick": 0.00001,
-		"engine_particle_offsets": [
-			[2.2, 1.7, -2.5]
-		]
+		"engine_particle_offsets": [[2.2, 1.7, -2.5]]
 	},
 	"physics_info": {
 		"can_destroy_block": true
@@ -43,20 +41,22 @@
 				"x_rot_max": 4,
 				"x_rot_min": -85
 			},
-			"optical_sight_offset": [-0.565, 0.678, 0.705],
+			"optical_sight_offset": [0.7807375, 1.57155, -1.3671625],
 			"operator_view_offset": [0, 1.5, 0],
 			"optical_sight_type": "crt",
 			"with_stabilizer": true,
-			"zoom_max": 4.5,
+			"with_thermal_imager": true,
+			"zoom_max": 16,
 			"weapons": [
 				"vvp_ywzj:2a42",
 				{
-					"id": "vvp_ywzj:ataka",
+					"id": "vvp_ywzj:9m120",
 					"part_unit_id": "turret_missile"
 				},
 				{
 					"id": "ywzj_vehicle:gun_7.62mm",
-					"part_unit_id": "turret_machine_gun"
+					"part_unit_id": "turret_machine_gun",
+					"secondary": true
 				},
 				{
 					"id": "ywzj_vehicle:launcher_smoke_grenade",

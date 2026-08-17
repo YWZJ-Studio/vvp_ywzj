@@ -8,7 +8,6 @@
 	"special_bone_effects": [
 		{
 			"bone": "Thehatch",
-			"texture": "vvp_ywzj:textures/entity/stryker_m1296.png",
 			"type": "transparent"
 		}
 	],

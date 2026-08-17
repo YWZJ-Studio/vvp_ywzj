@@ -8,22 +8,18 @@
 	"special_bone_effects": [
 		{
 			"bone": "tent",
-			"texture": "vvp_ywzj:textures/entity/fmtv.png",
 			"type": "transparent"
 		},
 		{
 			"bone": "base2",
-			"texture": "vvp_ywzj:textures/entity/fmtv.png",
 			"type": "transparent"
 		},
 		{
 			"bone": "door",
-			"texture": "vvp_ywzj:textures/entity/fmtv.png",
 			"type": "transparent"
 		},
 		{
 			"bone": "door2",
-			"texture": "vvp_ywzj:textures/entity/fmtv.png",
 			"type": "transparent"
 		}
 	],

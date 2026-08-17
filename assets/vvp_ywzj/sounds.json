@@ -34,5 +34,13 @@
 			"vvp_ywzj:weapon/gsh_30_1/gsh_30_1_003"
 		],
 		"subtitle": "vvp_ywzj.sounds.gsh_30_1_shot"
+	},
+	"pkt_shot": {
+		"sounds": [
+			"vvp_ywzj:weapon/pkt/pkt_last_interior-001",
+			"vvp_ywzj:weapon/pkt/pkt_last_interior-002",
+			"vvp_ywzj:weapon/pkt/pkt_last_interior-003"
+		],
+		"subtitle": "vvp_ywzj.sounds.pkt_shot"
 	}
 }

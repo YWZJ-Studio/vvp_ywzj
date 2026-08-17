@@ -8,7 +8,6 @@
 	"special_bone_effects": [
 		{
 			"bone": "bone2",
-			"texture": "vvp_ywzj:textures/entity/btr80a.png",
 			"type": "transparent"
 		}
 	],

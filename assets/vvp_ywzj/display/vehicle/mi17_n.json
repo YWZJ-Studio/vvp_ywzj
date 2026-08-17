@@ -5,6 +5,20 @@
 	"slot_texture": "vvp_ywzj:textures/slot/mi17_n.png",
 	"animations": "vvp_ywzj:entity/mi17_n.animation",
 	"animation_controller": "vvp_ywzj:mi17_n_controller",
+	"special_bone_effects": [
+		{
+			"bone": "door",
+			"type": "transparent"
+		},
+		{
+			"bone": "door2",
+			"type": "transparent"
+		},
+		{
+			"bone": "MI817AMT2",
+			"type": "transparent"
+		}
+	],
 	"sounds": {
 		"engine_start": "vvp_ywzj:uh60_start",
 		"engine_stop": "ywzj_vehicle:z10_engine_stop",

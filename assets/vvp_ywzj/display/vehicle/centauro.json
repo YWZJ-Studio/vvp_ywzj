@@ -8,7 +8,6 @@
 	"special_bone_effects": [
 		{
 			"bone": "bone3",
-			"texture": "vvp_ywzj:textures/entity/centauro.png",
 			"type": "transparent"
 		}
 	],

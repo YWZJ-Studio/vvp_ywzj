@@ -8,7 +8,6 @@
 	"special_bone_effects": [
 		{
 			"bone": "group3",
-			"texture": "vvp_ywzj:textures/entity/tu22m3.png",
 			"type": "transparent"
 		}
 	],

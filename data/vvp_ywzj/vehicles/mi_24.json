@@ -101,6 +101,7 @@
 			"name": "rocket",
 			"type": "ywzj_vehicle:weapon",
 			"structure_bone": "rocket",
+			"ammo_capacity": 88,
 			"is_seat": false,
 			"fire_control_sensor_type": "ccip",
 			"crosshair_style": "cross",

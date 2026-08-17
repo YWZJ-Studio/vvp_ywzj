@@ -3,17 +3,13 @@
 	"script": "vvp_ywzj:mi8_mtv3",
 	"parameters": {},
 	"switchable_animations": {
-		"door_1": {
-			"part_id": "door_1",
-			"animation": "door_1"
-		},
-		"door_2": {
-			"part_id": "door_2",
-			"animation": "door_2"
+		"door": {
+			"part_id": "door",
+			"animation": "door"
 		}
 	},
 	"event_animations": {
-		"auto_cannon_fire": ["auto_cannon_fire"]
+		"mg_fire": ["mg_fire"]
 	},
 	"graph": {
 		"type": "merge",
@@ -25,11 +21,7 @@
 					"inputs": [
 						{
 							"type": "switchable_animation",
-							"ref": "door_1"
-						},
-						{
-							"type": "switchable_animation",
-							"ref": "door_2"
+							"ref": "door"
 						},
 						{
 							"type": "script",

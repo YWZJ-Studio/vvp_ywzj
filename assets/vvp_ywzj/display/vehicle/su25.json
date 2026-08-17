@@ -8,7 +8,6 @@
 	"special_bone_effects": [
 		{
 			"bone": "corpus",
-			"texture": "vvp_ywzj:textures/entity/su25.png",
 			"type": "transparent"
 		}
 	],

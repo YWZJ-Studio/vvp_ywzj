@@ -50,7 +50,7 @@
 			"weapons": [
 				"vvp_ywzj:2a72",
 				{
-					"id": "vvp_ywzj:coax_7_62mm",
+					"id": "vvp_ywzj:gun_7_62mm",
 					"part_unit_id": "turret_machine_gun",
 					"secondary": true
 				},

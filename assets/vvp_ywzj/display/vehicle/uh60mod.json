@@ -8,27 +8,22 @@
 	"special_bone_effects": [
 		{
 			"bone": "DOOR",
-			"texture": "vvp_ywzj:textures/entity/uh60mod.png",
 			"type": "transparent"
 		},
 		{
 			"bone": "DOOR3",
-			"texture": "vvp_ywzj:textures/entity/uh60mod.png",
 			"type": "transparent"
 		},
 		{
 			"bone": "DOOR2",
-			"texture": "vvp_ywzj:textures/entity/uh60mod.png",
 			"type": "transparent"
 		},
 		{
 			"bone": "DOOR4",
-			"texture": "vvp_ywzj:textures/entity/uh60mod.png",
 			"type": "transparent"
 		},
 		{
 			"bone": "KRUS5",
-			"texture": "vvp_ywzj:textures/entity/uh60mod.png",
 			"type": "transparent"
 		}
 	],

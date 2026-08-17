@@ -8,12 +8,10 @@
 	"special_bone_effects": [
 		{
 			"bone": "thecabin",
-			"texture": "vvp_ywzj:textures/entity/f_16.png",
 			"type": "transparent"
 		},
 		{
 			"bone": "body",
-			"texture": "vvp_ywzj:textures/entity/f_16.png",
 			"type": "transparent"
 		}
 	],

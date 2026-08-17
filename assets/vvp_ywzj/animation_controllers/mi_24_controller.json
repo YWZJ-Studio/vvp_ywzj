@@ -12,9 +12,7 @@
 			"animation": "door_2"
 		}
 	},
-	"event_animations": {
-		"auto_cannon_fire": ["auto_cannon_fire"]
-	},
+	"event_animations": {},
 	"graph": {
 		"type": "merge",
 		"inputs": [

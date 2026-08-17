@@ -8,22 +8,18 @@
 	"special_bone_effects": [
 		{
 			"bone": "door2",
-			"texture": "vvp_ywzj:textures/entity/mi_24.png",
 			"type": "transparent"
 		},
 		{
 			"bone": "door3",
-			"texture": "vvp_ywzj:textures/entity/mi_24.png",
 			"type": "transparent"
 		},
 		{
 			"bone": "glass",
-			"texture": "vvp_ywzj:textures/entity/mi_24.png",
 			"type": "transparent"
 		},
 		{
 			"bone": "body30",
-			"texture": "vvp_ywzj:textures/entity/mi_24.png",
 			"type": "transparent"
 		}
 	],
