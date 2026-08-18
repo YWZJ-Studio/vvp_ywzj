@@ -5,6 +5,20 @@
 	"slot_texture": "vvp_ywzj:textures/slot/nh_90.png",
 	"animations": "vvp_ywzj:entity/nh_90.animation",
 	"animation_controller": "vvp_ywzj:nh_90_controller",
+	"special_bone_effects": [
+		{
+			"bone": "group11",
+			"type": "transparent"
+		},
+		{
+			"bone": "group12",
+			"type": "transparent"
+		},
+		{
+			"bone": "group7",
+			"type": "transparent"
+		}
+	],
 	"sounds": {
 		"engine_start": "vvp_ywzj:uh60_start",
 		"engine_stop": "ywzj_vehicle:z10_engine_stop",

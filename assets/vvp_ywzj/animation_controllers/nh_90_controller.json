@@ -3,18 +3,20 @@
 	"script": "vvp_ywzj:nh_90",
 	"parameters": {},
 	"switchable_animations": {
-		"door_1": {
-			"part_id": "door_1",
-			"animation": "door_1"
+		"landing_gear": {
+			"part_id": "landing_gear",
+			"animation": "landing_gear"
 		},
-		"door_2": {
-			"part_id": "door_2",
-			"animation": "door_2"
+		"door_left": {
+			"part_id": "door_left",
+			"animation": "door_left"
+		},
+		"door_right": {
+			"part_id": "door_right",
+			"animation": "door_right"
 		}
 	},
-	"event_animations": {
-		"auto_cannon_fire": ["auto_cannon_fire"]
-	},
+	"event_animations": {},
 	"graph": {
 		"type": "merge",
 		"inputs": [
@@ -25,11 +27,15 @@
 					"inputs": [
 						{
 							"type": "switchable_animation",
-							"ref": "door_1"
+							"ref": "landing_gear"
 						},
 						{
 							"type": "switchable_animation",
-							"ref": "door_2"
+							"ref": "door_left"
+						},
+						{
+							"type": "switchable_animation",
+							"ref": "door_right"
 						},
 						{
 							"type": "script",
