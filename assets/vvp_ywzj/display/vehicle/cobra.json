@@ -5,6 +5,12 @@
 	"slot_texture": "vvp_ywzj:textures/slot/cobra.png",
 	"animations": "vvp_ywzj:entity/cobra.animation",
 	"animation_controller": "vvp_ywzj:cobra_controller",
+	"special_bone_effects": [
+		{
+			"bone": "base2",
+			"type": "transparent"
+		}
+	],
 	"sounds": {
 		"engine_start": "vvp_ywzj:uh60_start",
 		"engine_stop": "ywzj_vehicle:z10_engine_stop",

@@ -27,5 +27,6 @@
 	"drag_coefficient": 0.005,
 	"max_g": 18,
 	"reference_speed": 3,
-	"guidance": "SACLOS"
+	"guidance": "HOMING",
+	"homing_mode": "ELECTRO_OPTICAL"
 }
