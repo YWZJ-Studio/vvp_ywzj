@@ -31,7 +31,7 @@
 							],
 							"part_bindings": [
 								{
-									"bone": "cannon",
+									"bone": "turret",
 									"part": "turret",
 									"rotation_type": "y",
 									"axis": "y",
@@ -45,22 +45,8 @@
 									"invert": true
 								},
 								{
-									"bone": "pkt",
+									"bone": "ATTACK",
 									"part": "turret",
-									"rotation_type": "x",
-									"axis": "x",
-									"invert": true
-								},
-								{
-									"bone": "gun_cannon",
-									"part": "commander_machine_gun",
-									"rotation_type": "y",
-									"axis": "y",
-									"invert": true
-								},
-								{
-									"bone": "gun_cannon",
-									"part": "commander_machine_gun",
 									"rotation_type": "x",
 									"axis": "x",
 									"invert": true

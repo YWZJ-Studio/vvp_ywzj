@@ -18,7 +18,8 @@
 	},
 	"energy_info": {
 		"energy_capacity": 1,
-		"energy_consumption_per_tick": 0.00001
+		"energy_consumption_per_tick": 0.00001,
+		"engine_particle_offsets": [[-2.0375, 1.759375, -3.228125]]
 	},
 	"physics_info": {
 		"density": 0.75
