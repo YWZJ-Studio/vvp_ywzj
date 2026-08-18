@@ -5,6 +5,28 @@
 	"slot_texture": "vvp_ywzj:textures/slot/uh60.png",
 	"animations": "vvp_ywzj:entity/uh60.animation",
 	"animation_controller": "vvp_ywzj:uh60_controller",
+	"special_bone_effects": [
+		{
+			"bone": "DOOR",
+			"type": "transparent"
+		},
+		{
+			"bone": "DOOR3",
+			"type": "transparent"
+		},
+		{
+			"bone": "DOOR2",
+			"type": "transparent"
+		},
+		{
+			"bone": "DOOR4",
+			"type": "transparent"
+		},
+		{
+			"bone": "KRUS5",
+			"type": "transparent"
+		}
+	],
 	"sounds": {
 		"engine_start": "vvp_ywzj:uh60_start",
 		"engine_stop": "ywzj_vehicle:z10_engine_stop",

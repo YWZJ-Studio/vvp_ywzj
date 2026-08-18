@@ -15,9 +15,12 @@ function updateBones(context) {
     const builder = createPoseBuilder()
     builder.setRotation("propeller", 0, -propellerRotation, 0)
     builder.setRotation("tailPropeller", -propellerRotation * 5, 0, 0)
+
     builder.setRotation("Rushag", context.getPitchInput() * 10, 0, -context.getRollInput() * 10)
     builder.setRotation("Rushag2", context.getPitchInput() * 10, 0, -context.getRollInput() * 10)
+
     builder.setRotation("camera", context.getPartXRot("sighting_system"), -context.getPartYRot("sighting_system"), 0)
+
     let remainHellfire = context.getWeaponRemainAmmo("sighting_system", 0)
     for (let i = 0; i < hellfires.length; i++) {
         if (i < hellfires.length - remainHellfire) {
