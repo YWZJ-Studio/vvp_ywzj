@@ -10,18 +10,18 @@
 		"max_turn": 2
 	},
 	"max_health": 325,
+	"can_wade": true,
 	"view_info": {
-		"third_person_center_offset": [
-			0,
-			3,
-			0
-		],
+		"third_person_center_offset": [0, 3, 0],
 		"third_person_distance": 8,
 		"sound_distance": 4
 	},
 	"energy_info": {
 		"energy_capacity": 1,
 		"energy_consumption_per_tick": 0.00001
+	},
+	"physics_info": {
+		"density": 0.75
 	},
 	"structure_model": "vvp_ywzj:vehicle/brm",
 	"parts": [
@@ -30,49 +30,111 @@
 			"name": "turret",
 			"type": "ywzj_vehicle:weapon",
 			"structure_bone": "turret",
-			"seat_offset": [
-				0,
-				2,
-				0
-			],
-			"owner_view_offset": [
-				0,
-				2.5,
-				0
-			],
-			"operator_on_weapon_unit": false,
-			"optical_sight_offset": [
-				0,
-				0.5,
-				1
-			],
+			"operator_on_weapon_unit": true,
+			"seat_offset": [0.68125, 2.55, 0.0390625],
+			"operator_view_offset": [0, 1.5, 0],
+			"optical_sight_offset": [0.672429375, 0.19565625, 0.638465],
 			"optical_sight_type": "crt",
 			"fire_control_sensor_type": "eo",
 			"with_stabilizer": true,
+			"with_thermal_imager": true,
 			"zoom_max": 8,
 			"crosshair_style": "circle",
 			"rot_info": {
 				"x_rot_speed": 3,
 				"y_rot_speed": 3,
-				"x_rot_max": 45,
+				"x_rot_max": 10,
 				"x_rot_min": -20
 			},
-			"bolts": [
-				{
-					"offset": [
-						0,
-						0.25,
-						0.5
-					],
-					"barrel_length": 1,
-					"x_rot": 0,
-					"y_rot": 0
-				}
-			],
 			"weapons": [
 				"vvp_ywzj:2a72",
-				"vvp_ywzj:gun_7_62mm"
+				{
+					"id": "vvp_ywzj:gun_7_62mm",
+					"part_unit_id": "turret_machine_gun",
+					"secondary": true
+				},
+				{
+					"id": "ywzj_vehicle:launcher_smoke_grenade",
+					"part_unit_id": "turret_smoke_grenade"
+				}
 			]
+		},
+		{
+			"id": "turret_machine_gun",
+			"name": "turret_machine_gun",
+			"type": "ywzj_vehicle:weapon",
+			"structure_bone": "turret_mg",
+			"is_seat": false,
+			"rot_info": {
+				"x_rot_speed": 3,
+				"y_rot_speed": 3,
+				"x_rot_max": 10,
+				"x_rot_min": -20
+			}
+		},
+		{
+			"id": "turret_smoke_grenade",
+			"name": "turret_smoke_grenade",
+			"type": "ywzj_vehicle:weapon",
+			"structure_bone": "turret_gr",
+			"ammo_capacity": 6,
+			"is_seat": false,
+			"rot_info": {
+				"x_rot_speed": 0,
+				"y_rot_speed": 0
+			}
+		},
+		{
+			"id": "passenger_seat1",
+			"name": "passenger_seat1",
+			"type": "ywzj_vehicle:generic",
+			"is_seat": true,
+			"seat_offset": [-0.615625, 2.5, 0.0390625],
+			"owner_view_offset": [-0.615625, 3.5, 0.0390625]
+		},
+		{
+			"id": "passenger_seat2",
+			"name": "passenger_seat2",
+			"type": "ywzj_vehicle:generic",
+			"is_seat": true,
+			"seat_offset": [0, 1.65, 1.85],
+			"owner_view_offset": [0, 2.85, 1.85]
+		},
+		{
+			"id": "passenger_seat3",
+			"name": "passenger_seat3",
+			"type": "ywzj_vehicle:generic",
+			"is_seat": true,
+			"seat_offset": [0.65, 1.85, -2.35],
+			"owner_view_offset": [0.65, 2.9, -2.35],
+			"seat_rot": 90
+		},
+		{
+			"id": "passenger_seat4",
+			"name": "passenger_seat4",
+			"type": "ywzj_vehicle:generic",
+			"is_seat": true,
+			"seat_offset": [0.65, 1.85, -3.35],
+			"owner_view_offset": [0.65, 2.9, -3.35],
+			"seat_rot": 90
+		},
+		{
+			"id": "passenger_seat5",
+			"name": "passenger_seat5",
+			"type": "ywzj_vehicle:generic",
+			"is_seat": true,
+			"seat_offset": [-0.65, 1.85, -2.35],
+			"owner_view_offset": [-0.65, 2.9, -2.35],
+			"seat_rot": -90
+		},
+		{
+			"id": "passenger_seat6",
+			"name": "passenger_seat6",
+			"type": "ywzj_vehicle:generic",
+			"is_seat": true,
+			"seat_offset": [-0.65, 1.85, -3.35],
+			"owner_view_offset": [-0.65, 2.9, -3.35],
+			"seat_rot": -90
 		},
 		{
 			"id": "hatch",
@@ -131,6 +193,20 @@
 			"is_seat": false
 		},
 		{
+			"id": "hatch7",
+			"name": "hatch7",
+			"type": "ywzj_vehicle:switchable",
+			"structure_bone": "hatch7",
+			"is_seat": false
+		},
+		{
+			"id": "hatch8",
+			"name": "hatch8",
+			"type": "ywzj_vehicle:switchable",
+			"structure_bone": "hatch8",
+			"is_seat": false
+		},
+		{
 			"id": "zadoor",
 			"name": "zadoor",
 			"type": "ywzj_vehicle:door",
@@ -143,6 +219,5 @@
 			"type": "ywzj_vehicle:track",
 			"structure_bone": "tracks"
 		}
-	],
-	"experimental": true
+	]
 }

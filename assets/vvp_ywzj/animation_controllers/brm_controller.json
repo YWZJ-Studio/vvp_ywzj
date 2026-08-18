@@ -3,7 +3,7 @@
 	"script": "vvp_ywzj:brm",
 	"parameters": {},
 	"event_animations": {
-		"turret_fire": ["turret_shoot"]
+		"turret_fire": ["turret_fire"]
 	},
 	"switchable_animations": {
 		"hatch": {
@@ -105,7 +105,7 @@
 							],
 							"part_bindings": [
 								{
-									"bone": "cannon",
+									"bone": "turret",
 									"part": "turret",
 									"rotation_type": "y",
 									"axis": "y",
@@ -114,27 +114,6 @@
 								{
 									"bone": "barrel",
 									"part": "turret",
-									"rotation_type": "x",
-									"axis": "x",
-									"invert": true
-								},
-								{
-									"bone": "pkt",
-									"part": "turret",
-									"rotation_type": "x",
-									"axis": "x",
-									"invert": true
-								},
-								{
-									"bone": "gun_cannon",
-									"part": "commander_machine_gun",
-									"rotation_type": "y",
-									"axis": "y",
-									"invert": true
-								},
-								{
-									"bone": "gun_cannon",
-									"part": "commander_machine_gun",
 									"rotation_type": "x",
 									"axis": "x",
 									"invert": true
