@@ -3,7 +3,8 @@
 	"script": "vvp_ywzj:2c3m",
 	"parameters": {},
 	"event_animations": {
-		"turret_fire": ["turret_shoot"]
+		"turret_fire": ["turret_fire"],
+		"turret_machine_gun_fire": ["turret_machine_gun_fire"]
 	},
 	"graph": {
 		"type": "merge",
@@ -42,28 +43,14 @@
 									"part": "turret",
 									"rotation_type": "x",
 									"axis": "x",
-									"invert": true
+									"invert": false
 								},
 								{
-									"bone": "pkt",
-									"part": "turret",
+									"bone": "cord2",
+									"part": "turret_machine_gun",
 									"rotation_type": "x",
 									"axis": "x",
-									"invert": true
-								},
-								{
-									"bone": "gun_cannon",
-									"part": "commander_machine_gun",
-									"rotation_type": "y",
-									"axis": "y",
-									"invert": true
-								},
-								{
-									"bone": "gun_cannon",
-									"part": "commander_machine_gun",
-									"rotation_type": "x",
-									"axis": "x",
-									"invert": true
+									"invert": false
 								}
 							]
 						},
