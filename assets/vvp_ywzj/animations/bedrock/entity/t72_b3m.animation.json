@@ -1,4 +1,28 @@
 {
 	"format_version": "1.8.0",
-	"animations": {}
+	"animations": {
+		"turret_shoot": {
+			"animation_length": 0.25,
+			"bones": {
+				"barrel4": {
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.0417": [0, 0, 4],
+						"0.25": [0, 0, 0]
+					}
+				}
+			}
+		},
+		"commander_machine_gun_shoot": {
+			"animation_length": 0.0417,
+			"bones": {
+				"passengerWeaponStationPitch": {
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.0417": [0, 0, 1]
+					}
+				}
+			}
+		}
+	}
 }
