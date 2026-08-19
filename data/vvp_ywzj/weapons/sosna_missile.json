@@ -16,8 +16,7 @@
 	"explosion": {
 		"explode": true,
 		"damage": 120,
-		"radius": 7,
-		"destroy_block": true
+		"radius": 7
 	},
 	"seeker_fov": 30,
 	"mass": 0.05,
@@ -27,5 +26,5 @@
 	"max_g": 18,
 	"reference_speed": 2,
 	"guidance": "HOMING",
-	"homing_mode": "IR"
+	"homing_mode": "ELECTRO_OPTICAL"
 }

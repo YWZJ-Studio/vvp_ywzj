@@ -5,7 +5,11 @@
 	"slot_texture": "vvp_ywzj:textures/slot/brm.png",
 	"animations": "vvp_ywzj:entity/brm.animation",
 	"animation_controller": "vvp_ywzj:brm_controller",
-	"track_config": {},
+	"track_config": {
+		"model": "vvp_ywzj:effect/bmp_3_track_link",
+		"texture": "vvp_ywzj:textures/effect/bmp_3_track_link.png",
+		"module_length": 0.2
+	},
 	"sounds": {
 		"engine_start": "ywzj_vehicle:ztz99a_engine_start",
 		"engine_idle": "ywzj_vehicle:t72_engine_idle",

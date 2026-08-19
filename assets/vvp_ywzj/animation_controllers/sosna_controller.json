@@ -2,9 +2,7 @@
 	"name": "sosna_controller",
 	"script": "vvp_ywzj:sosna",
 	"parameters": {},
-	"event_animations": {
-		"turret_fire": ["turret_shoot"]
-	},
+	"event_animations": {},
 	"graph": {
 		"type": "merge",
 		"inputs": [
@@ -45,22 +43,8 @@
 									"invert": true
 								},
 								{
-									"bone": "pkt",
+									"bone": "PRICEL",
 									"part": "turret",
-									"rotation_type": "x",
-									"axis": "x",
-									"invert": true
-								},
-								{
-									"bone": "gun_cannon",
-									"part": "commander_machine_gun",
-									"rotation_type": "y",
-									"axis": "y",
-									"invert": true
-								},
-								{
-									"bone": "gun_cannon",
-									"part": "commander_machine_gun",
 									"rotation_type": "x",
 									"axis": "x",
 									"invert": true
