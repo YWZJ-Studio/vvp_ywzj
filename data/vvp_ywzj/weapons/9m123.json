@@ -1,6 +1,7 @@
 {
 	"type": "ywzj_vehicle:missile",
 	"name": "9M123 Khrizantema",
+	"caliber": 152,
 	"damage": 850,
 	"headshot_multiplier": 1.5,
 	"shoot_interval": 1000,
@@ -27,5 +28,5 @@
 	"max_g": 18,
 	"reference_speed": 2,
 	"guidance": "HOMING",
-	"homing_mode": "ELECTRO_OPTICAL"
+	"homing_mode": "SEMI_ACTIVE_RADAR"
 }

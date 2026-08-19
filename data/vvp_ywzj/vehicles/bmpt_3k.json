@@ -33,7 +33,7 @@
 			"seat_offset": [0.8, 1.8, 1.5],
 			"operator_on_weapon_unit": false,
 			"operator_view_offset": [0, 1.5, 0],
-			"optical_sight_offset": [0.592436875, 0.852776875, 0.699488125],
+			"optical_sight_offset": [-0.28282125, 0.72232625, -0.521438125],
 			"optical_sight_type": "crt",
 			"fire_control_sensor_type": "eo",
 			"with_stabilizer": true,

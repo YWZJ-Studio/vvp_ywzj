@@ -9,7 +9,7 @@
 		"turn_acceleration": 1,
 		"max_turn": 2
 	},
-	"max_health": 3000,
+	"max_health": 500,
 	"view_info": {
 		"third_person_center_offset": [0, 3, 0],
 		"third_person_distance": 10,
@@ -29,6 +29,8 @@
 			"id": "turret",
 			"name": "turret",
 			"type": "ywzj_vehicle:weapon",
+			"max_health": 100,
+			"render_bone": "turret",
 			"structure_bone": "turret",
 			"seat_offset": [-0.5, 2, 0.5],
 			"rot_info": {
