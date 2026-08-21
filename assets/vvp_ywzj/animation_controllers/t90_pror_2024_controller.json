@@ -1,9 +1,24 @@
 {
-	"name": "t90_pror_2024_controller",
-	"script": "vvp_ywzj:t90_pror_2024",
+	"name": "t90_m_controller",
+	"script": "vvp_ywzj:t90_m",
 	"parameters": {},
 	"event_animations": {
-		"turret_fire": ["turret_shoot"]
+		"turret_fire": ["turret_shoot"],
+		"commander_machine_gun_fire": ["commander_machine_gun_shoot"]
+	},
+	"switchable_animations": {
+		"hatch_1": {
+			"part_id": "hatch_1",
+			"animation": "hatch_1"
+		},
+		"hatch_2": {
+			"part_id": "hatch_2",
+			"animation": "hatch_2"
+		},
+		"hatch_3": {
+			"part_id": "hatch_3",
+			"animation": "hatch_3"
+		}
 	},
 	"graph": {
 		"type": "merge",
@@ -45,13 +60,6 @@
 									"invert": true
 								},
 								{
-									"bone": "pkt",
-									"part": "turret",
-									"rotation_type": "x",
-									"axis": "x",
-									"invert": true
-								},
-								{
 									"bone": "gun_cannon",
 									"part": "commander_machine_gun",
 									"rotation_type": "y",
@@ -59,13 +67,25 @@
 									"invert": true
 								},
 								{
-									"bone": "gun_cannon",
+									"bone": "gun_barrel",
 									"part": "commander_machine_gun",
 									"rotation_type": "x",
 									"axis": "x",
 									"invert": true
 								}
 							]
+						},
+						{
+							"type": "switchable_animation",
+							"ref": "hatch_1"
+						},
+						{
+							"type": "switchable_animation",
+							"ref": "hatch_2"
+						},
+						{
+							"type": "switchable_animation",
+							"ref": "hatch_3"
 						},
 						{
 							"type": "track_animation"

@@ -1,7 +1,7 @@
 {
 	"type": "ywzj_vehicle:wheeled_vehicle",
 	"model": "vvp_ywzj:entity/bushmaster",
-	"texture": "vvp_ywzj:textures/entity/bushmaster.png",
+	"texture": "vvp_ywzj:textures/entity/bushmaster_green.png",
 	"slot_texture": "vvp_ywzj:textures/slot/bushmaster.png",
 	"animations": "vvp_ywzj:entity/bushmaster.animation",
 	"animation_controller": "vvp_ywzj:bushmaster_controller",

@@ -1,14 +1,14 @@
 {
 	"type": "ywzj_vehicle:tracked_vehicle",
 	"model": "vvp_ywzj:entity/bradley",
-	"texture": "vvp_ywzj:textures/entity/bradley.png",
+	"texture": "vvp_ywzj:textures/entity/bradley_usa.png",
 	"slot_texture": "vvp_ywzj:textures/slot/bradley.png",
 	"animations": "vvp_ywzj:entity/bradley.animation",
 	"animation_controller": "vvp_ywzj:bradley_controller",
 	"track_config": {},
 	"sounds": {
 		"engine_start": "ywzj_vehicle:ztz99a_engine_start",
-		"engine_idle": "ywzj_vehicle:t72_engine_idle",
+		"engine_idle": "vvp_ywzj:t72_engine_idle",
 		"engine_run": "ywzj_vehicle:ztz99a_engine_run"
 	},
 	"tab_index": 1100

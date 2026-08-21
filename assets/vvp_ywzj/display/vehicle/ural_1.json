@@ -1,0 +1,32 @@
+{
+	"type": "ywzj_vehicle:wheeled_vehicle",
+	"model": "vvp_ywzj:entity/ural",
+	"texture": "vvp_ywzj:textures/entity/ural_1.png",
+	"slot_texture": "vvp_ywzj:textures/slot/ural.png",
+	"animations": "vvp_ywzj:entity/ural.animation",
+	"animation_controller": "vvp_ywzj:ural_controller",
+	"special_bone_effects": [
+		{
+			"bone": "TENTY",
+			"type": "transparent"
+		},
+		{
+			"bone": "OL",
+			"type": "transparent"
+		},
+		{
+			"bone": "LER",
+			"type": "transparent"
+		},
+		{
+			"bone": "LER2",
+			"type": "transparent"
+		}
+	],
+	"sounds": {
+		"engine_start": "ywzj_vehicle:lav150_engine_start",
+		"engine_idle": "ywzj_vehicle:truck_engine_idle",
+		"engine_run": "ywzj_vehicle:truck_engine_run"
+	},
+	"tab_index": 2
+}

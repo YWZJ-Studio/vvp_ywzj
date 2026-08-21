@@ -1,7 +1,7 @@
 {
 	"type": "ywzj_vehicle:wheeled_vehicle",
 	"model": "vvp_ywzj:entity/stryker_m1296",
-	"texture": "vvp_ywzj:textures/entity/stryker_m1296.png",
+	"texture": "vvp_ywzj:textures/entity/strykers_green.png",
 	"slot_texture": "vvp_ywzj:textures/slot/stryker_m1296.png",
 	"animations": "vvp_ywzj:entity/stryker_m1296.animation",
 	"animation_controller": "vvp_ywzj:stryker_m1296_controller",

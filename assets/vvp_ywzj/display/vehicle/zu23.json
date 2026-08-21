@@ -1,7 +1,7 @@
 {
 	"type": "ywzj_vehicle:generic",
 	"model": "vvp_ywzj:entity/zu23",
-	"texture": "vvp_ywzj:textures/entity/zu23.png",
+	"texture": "vvp_ywzj:textures/entity/zu23_green.png",
 	"slot_texture": "vvp_ywzj:textures/slot/zu23.png",
 	"animations": "vvp_ywzj:entity/zu23.animation",
 	"animation_controller": "vvp_ywzj:zu23_controller",

@@ -1,7 +1,7 @@
 {
 	"type": "ywzj_vehicle:wheeled_vehicle",
 	"model": "vvp_ywzj:entity/varta_ptrk",
-	"texture": "vvp_ywzj:textures/entity/varta_ptrk.png",
+	"texture": "vvp_ywzj:textures/entity/varta_basic.png",
 	"slot_texture": "vvp_ywzj:textures/slot/varta_ptrk.png",
 	"animations": "vvp_ywzj:entity/varta_ptrk.animation",
 	"animation_controller": "vvp_ywzj:varta_ptrk_controller",

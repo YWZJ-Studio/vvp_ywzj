@@ -1,0 +1,22 @@
+{
+	"type": "ywzj_vehicle:fixed_wing_vehicle",
+	"model": "vvp_ywzj:entity/su25",
+	"texture": "vvp_ywzj:textures/entity/su25_1.png",
+	"slot_texture": "vvp_ywzj:textures/slot/su25.png",
+	"animations": "vvp_ywzj:entity/su25.animation",
+	"animation_controller": "vvp_ywzj:su25_controller",
+	"special_bone_effects": [
+		{
+			"bone": "corpus",
+			"type": "transparent"
+		}
+	],
+	"sounds": {
+		"engine_start": "ywzj_vehicle:jet_engine_start",
+		"engine_stop": "ywzj_vehicle:jet_engine_stop",
+		"engine_run": "ywzj_vehicle:jet_engine_run",
+		"engine_thrust": "ywzj_vehicle:jet_engine_thrust",
+		"passby": "ywzj_vehicle:jet_passby"
+	},
+	"tab_index": 3000
+}

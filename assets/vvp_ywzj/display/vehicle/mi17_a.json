@@ -1,7 +1,7 @@
 {
 	"type": "ywzj_vehicle:rotary_wing_vehicle",
 	"model": "vvp_ywzj:entity/mi17_a",
-	"texture": "vvp_ywzj:textures/entity/mi17_a.png",
+	"texture": "vvp_ywzj:textures/entity/mi8.png",
 	"slot_texture": "vvp_ywzj:textures/slot/mi17_a.png",
 	"animations": "vvp_ywzj:entity/mi17_a.animation",
 	"animation_controller": "vvp_ywzj:mi17_a_controller",

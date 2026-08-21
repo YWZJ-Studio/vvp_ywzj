@@ -1,0 +1,28 @@
+{
+	"type": "ywzj_vehicle:wheeled_vehicle",
+	"model": "vvp_ywzj:entity/btr_4",
+	"texture": "vvp_ywzj:textures/entity/btr4_camo.png",
+	"slot_texture": "vvp_ywzj:textures/slot/btr_4.png",
+	"animations": "vvp_ywzj:entity/btr_4.animation",
+	"animation_controller": "vvp_ywzj:btr_4_controller",
+	"special_bone_effects": [
+		{
+			"bone": "door",
+			"type": "transparent"
+		},
+		{
+			"bone": "door2",
+			"type": "transparent"
+		},
+		{
+			"bone": "base",
+			"type": "transparent"
+		}
+	],
+	"sounds": {
+		"engine_start": "ywzj_vehicle:lav150_engine_start",
+		"engine_idle": "ywzj_vehicle:truck_engine_idle",
+		"engine_run": "ywzj_vehicle:truck_engine_run"
+	},
+	"tab_index": 202
+}

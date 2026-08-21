@@ -1,0 +1,15 @@
+{
+	"type": "ywzj_vehicle:tracked_vehicle",
+	"model": "vvp_ywzj:entity/m60",
+	"texture": "vvp_ywzj:textures/entity/m60_camo.png",
+	"slot_texture": "vvp_ywzj:textures/slot/m60.png",
+	"animations": "vvp_ywzj:entity/m60.animation",
+	"animation_controller": "vvp_ywzj:m60_controller",
+	"track_config": {},
+	"sounds": {
+		"engine_start": "ywzj_vehicle:ztz99a_engine_start",
+		"engine_idle": "vvp_ywzj:t72_engine_idle",
+		"engine_run": "ywzj_vehicle:ztz99a_engine_run"
+	},
+	"tab_index": 1105
+}

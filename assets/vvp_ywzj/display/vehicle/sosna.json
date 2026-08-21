@@ -8,7 +8,7 @@
 	"track_config": {},
 	"sounds": {
 		"engine_start": "ywzj_vehicle:ztz99a_engine_start",
-		"engine_idle": "ywzj_vehicle:t72_engine_idle",
+		"engine_idle": "vvp_ywzj:t72_engine_idle",
 		"engine_run": "ywzj_vehicle:ztz99a_engine_run"
 	},
 	"tab_index": 1013

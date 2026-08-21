@@ -1,7 +1,7 @@
 {
 	"type": "ywzj_vehicle:rotary_wing_vehicle",
 	"model": "vvp_ywzj:entity/uh60",
-	"texture": "vvp_ywzj:textures/entity/uh60.png",
+	"texture": "vvp_ywzj:textures/entity/uh60black.png",
 	"slot_texture": "vvp_ywzj:textures/slot/uh60.png",
 	"animations": "vvp_ywzj:entity/uh60.animation",
 	"animation_controller": "vvp_ywzj:uh60_controller",

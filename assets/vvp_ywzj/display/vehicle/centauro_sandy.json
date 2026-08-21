@@ -1,0 +1,20 @@
+{
+	"type": "ywzj_vehicle:wheeled_vehicle",
+	"model": "vvp_ywzj:entity/centauro",
+	"texture": "vvp_ywzj:textures/entity/centauro_sandy.png",
+	"slot_texture": "vvp_ywzj:textures/slot/centauro.png",
+	"animations": "vvp_ywzj:entity/centauro.animation",
+	"animation_controller": "vvp_ywzj:centauro_controller",
+	"special_bone_effects": [
+		{
+			"bone": "bone3",
+			"type": "transparent"
+		}
+	],
+	"sounds": {
+		"engine_start": "ywzj_vehicle:lav150_engine_start",
+		"engine_idle": "ywzj_vehicle:truck_engine_idle",
+		"engine_run": "ywzj_vehicle:truck_engine_run"
+	},
+	"tab_index": 203
+}

@@ -1,0 +1,20 @@
+{
+	"type": "ywzj_vehicle:tracked_vehicle",
+	"model": "vvp_ywzj:entity/t90a",
+	"texture": "vvp_ywzj:textures/entity/t90a_camo.png",
+	"slot_texture": "vvp_ywzj:textures/slot/t90a.png",
+	"animations": "vvp_ywzj:entity/t90a.animation",
+	"animation_controller": "vvp_ywzj:t90a_controller",
+	"track_config": {
+		"left_track": "tread_l_move",
+		"right_track": "tread_r_move",
+		"module_length": 0.25,
+		"track_width": 3
+	},
+	"sounds": {
+		"engine_start": "ywzj_vehicle:ztz99a_engine_start",
+		"engine_idle": "vvp_ywzj:t72_engine_idle",
+		"engine_run": "ywzj_vehicle:ztz99a_engine_run"
+	},
+	"tab_index": 1000
+}

@@ -1,0 +1,40 @@
+{
+	"type": "ywzj_vehicle:wheeled_vehicle",
+	"model": "vvp_ywzj:entity/varta",
+	"texture": "vvp_ywzj:textures/entity/varta_black.png",
+	"slot_texture": "vvp_ywzj:textures/slot/varta.png",
+	"animations": "vvp_ywzj:entity/varta.animation",
+	"animation_controller": "vvp_ywzj:varta_controller",
+	"special_bone_effects": [
+		{
+			"bone": "DOOR4",
+			"type": "transparent"
+		},
+		{
+			"bone": "DOOR5",
+			"type": "transparent"
+		},
+		{
+			"bone": "DOOR",
+			"type": "transparent"
+		},
+		{
+			"bone": "DOOR2",
+			"type": "transparent"
+		},
+		{
+			"bone": "zaddoor",
+			"type": "transparent"
+		},
+		{
+			"bone": "base2",
+			"type": "transparent"
+		}
+	],
+	"sounds": {
+		"engine_start": "ywzj_vehicle:lav150_engine_start",
+		"engine_idle": "ywzj_vehicle:truck_engine_idle",
+		"engine_run": "ywzj_vehicle:truck_engine_run"
+	},
+	"tab_index": 200
+}

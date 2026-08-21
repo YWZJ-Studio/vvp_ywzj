@@ -1,7 +1,7 @@
 {
 	"type": "ywzj_vehicle:wheeled_vehicle",
 	"model": "vvp_ywzj:entity/btr_4",
-	"texture": "vvp_ywzj:textures/entity/btr_4.png",
+	"texture": "vvp_ywzj:textures/entity/btr4.png",
 	"slot_texture": "vvp_ywzj:textures/slot/btr_4.png",
 	"animations": "vvp_ywzj:entity/btr_4.animation",
 	"animation_controller": "vvp_ywzj:btr_4_controller",

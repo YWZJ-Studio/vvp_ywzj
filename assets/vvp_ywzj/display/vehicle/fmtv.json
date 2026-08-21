@@ -1,7 +1,7 @@
 {
 	"type": "ywzj_vehicle:wheeled_vehicle",
 	"model": "vvp_ywzj:entity/fmtv",
-	"texture": "vvp_ywzj:textures/entity/fmtv.png",
+	"texture": "vvp_ywzj:textures/entity/fmtv_green.png",
 	"slot_texture": "vvp_ywzj:textures/slot/fmtv.png",
 	"animations": "vvp_ywzj:entity/fmtv.animation",
 	"animation_controller": "vvp_ywzj:fmtv_controller",

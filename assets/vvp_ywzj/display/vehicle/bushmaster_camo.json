@@ -1,0 +1,32 @@
+{
+	"type": "ywzj_vehicle:wheeled_vehicle",
+	"model": "vvp_ywzj:entity/bushmaster",
+	"texture": "vvp_ywzj:textures/entity/bushmaster_camo.png",
+	"slot_texture": "vvp_ywzj:textures/slot/bushmaster.png",
+	"animations": "vvp_ywzj:entity/bushmaster.animation",
+	"animation_controller": "vvp_ywzj:bushmaster_controller",
+	"special_bone_effects": [
+		{
+			"bone": "DOOR1",
+			"type": "transparent"
+		},
+		{
+			"bone": "DOOR2",
+			"type": "transparent"
+		},
+		{
+			"bone": "DOOR3",
+			"type": "transparent"
+		},
+		{
+			"bone": "base2",
+			"type": "transparent"
+		}
+	],
+	"sounds": {
+		"engine_start": "ywzj_vehicle:lav150_engine_start",
+		"engine_idle": "ywzj_vehicle:truck_engine_idle",
+		"engine_run": "ywzj_vehicle:truck_engine_run"
+	},
+	"tab_index": 206
+}

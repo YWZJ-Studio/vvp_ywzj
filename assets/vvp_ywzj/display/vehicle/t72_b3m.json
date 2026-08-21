@@ -1,14 +1,14 @@
 {
 	"type": "ywzj_vehicle:tracked_vehicle",
 	"model": "vvp_ywzj:entity/t72_b3m",
-	"texture": "vvp_ywzj:textures/entity/t72_b3m.png",
+	"texture": "vvp_ywzj:textures/entity/t72b3m.png",
 	"slot_texture": "vvp_ywzj:textures/slot/t72_b3m.png",
 	"animations": "vvp_ywzj:entity/t72_b3m.animation",
 	"animation_controller": "vvp_ywzj:t72_b3m_controller",
 	"track_config": {},
 	"sounds": {
 		"engine_start": "ywzj_vehicle:ztz99a_engine_start",
-		"engine_idle": "ywzj_vehicle:t72_engine_idle",
+		"engine_idle": "vvp_ywzj:t72_engine_idle",
 		"engine_run": "ywzj_vehicle:ztz99a_engine_run"
 	},
 	"tab_index": 1009

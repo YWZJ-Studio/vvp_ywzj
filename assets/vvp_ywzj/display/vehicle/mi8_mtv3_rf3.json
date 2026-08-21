@@ -1,0 +1,28 @@
+{
+	"type": "ywzj_vehicle:rotary_wing_vehicle",
+	"model": "vvp_ywzj:entity/mi8_mtv3",
+	"texture": "vvp_ywzj:textures/entity/mi8_rf3.png",
+	"slot_texture": "vvp_ywzj:textures/slot/mi8_mtv3.png",
+	"animations": "vvp_ywzj:entity/mi8_mtv3.animation",
+	"animation_controller": "vvp_ywzj:mi8_mtv3_controller",
+	"special_bone_effects": [
+		{
+			"bone": "door",
+			"type": "transparent"
+		},
+		{
+			"bone": "door2",
+			"type": "transparent"
+		},
+		{
+			"bone": "mi2",
+			"type": "transparent"
+		}
+	],
+	"sounds": {
+		"engine_start": "vvp_ywzj:uh60_start",
+		"engine_stop": "ywzj_vehicle:z10_engine_stop",
+		"engine_run": "vvp_ywzj:uh60_idle"
+	},
+	"tab_index": 2008
+}

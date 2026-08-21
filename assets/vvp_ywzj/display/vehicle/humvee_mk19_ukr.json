@@ -1,0 +1,40 @@
+{
+	"type": "ywzj_vehicle:wheeled_vehicle",
+	"model": "vvp_ywzj:entity/humvee_mk19",
+	"texture": "vvp_ywzj:textures/entity/humvee_mk19_ukr.png",
+	"slot_texture": "vvp_ywzj:textures/slot/humvee_mk19.png",
+	"animations": "vvp_ywzj:entity/humvee_mk19.animation",
+	"animation_controller": "vvp_ywzj:humvee_mk19_controller",
+	"special_bone_effects": [
+		{
+			"bone": "door",
+			"type": "transparent"
+		},
+		{
+			"bone": "door2",
+			"type": "transparent"
+		},
+		{
+			"bone": "door3",
+			"type": "transparent"
+		},
+		{
+			"bone": "door4",
+			"type": "transparent"
+		},
+		{
+			"bone": "base2",
+			"type": "transparent"
+		},
+		{
+			"bone": "Thehatch",
+			"type": "transparent"
+		}
+	],
+	"sounds": {
+		"engine_start": "ywzj_vehicle:lav150_engine_start",
+		"engine_idle": "ywzj_vehicle:truck_engine_idle",
+		"engine_run": "ywzj_vehicle:truck_engine_run"
+	},
+	"tab_index": 103
+}

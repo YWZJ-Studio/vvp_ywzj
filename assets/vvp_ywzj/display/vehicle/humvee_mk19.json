@@ -1,7 +1,7 @@
 {
 	"type": "ywzj_vehicle:wheeled_vehicle",
 	"model": "vvp_ywzj:entity/humvee_mk19",
-	"texture": "vvp_ywzj:textures/entity/humvee_mk19.png",
+	"texture": "vvp_ywzj:textures/entity/humvee_mk19_green.png",
 	"slot_texture": "vvp_ywzj:textures/slot/humvee_mk19.png",
 	"animations": "vvp_ywzj:entity/humvee_mk19.animation",
 	"animation_controller": "vvp_ywzj:humvee_mk19_controller",

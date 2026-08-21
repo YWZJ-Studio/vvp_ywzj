@@ -1,7 +1,7 @@
 {
 	"type": "ywzj_vehicle:wheeled_vehicle",
 	"model": "vvp_ywzj:entity/centauro",
-	"texture": "vvp_ywzj:textures/entity/centauro.png",
+	"texture": "vvp_ywzj:textures/entity/centauro_green.png",
 	"slot_texture": "vvp_ywzj:textures/slot/centauro.png",
 	"animations": "vvp_ywzj:entity/centauro.animation",
 	"animation_controller": "vvp_ywzj:centauro_controller",
