@@ -21,32 +21,10 @@
 				}
 			}
 		},
-		"mg2_shoot": {
-			"animation_length": 0.0417,
-			"bones": {
-				"M2_mas2": {
-					"position": {
-						"0.0": [0, 0, 0],
-						"0.0417": [0, 0, 0.3]
-					}
-				}
-			}
-		},
 		"turret_mg2_shoot": {
 			"animation_length": 0.0417,
 			"bones": {
 				"M2_mas2": {
-					"position": {
-						"0.0": [0, 0, 0],
-						"0.0417": [0, 0, 0.3]
-					}
-				}
-			}
-		},
-		"mg3_shoot": {
-			"animation_length": 0.0417,
-			"bones": {
-				"gun_barrel": {
 					"position": {
 						"0.0": [0, 0, 0],
 						"0.0417": [0, 0, 0.3]
