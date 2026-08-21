@@ -3,7 +3,23 @@
 	"script": "vvp_ywzj:m1a1_ukr",
 	"parameters": {},
 	"event_animations": {
-		"turret_fire": ["turret_shoot"]
+		"turret_fire": ["turret_shoot"],
+		"turret_mg2_fire": ["turret_mg2_shoot"],
+		"turret_mg3_fire": ["turret_mg3_shoot"]
+	},
+	"switchable_animations": {
+		"hatch_1": {
+			"part_id": "hatch_1",
+			"animation": "hatch_1"
+		},
+		"hatch_2": {
+			"part_id": "hatch_2",
+			"animation": "hatch_2"
+		},
+		"hatch_3": {
+			"part_id": "hatch_3",
+			"animation": "hatch_3"
+		}
 	},
 	"graph": {
 		"type": "merge",
@@ -17,13 +33,13 @@
 							"type": "bone_binding",
 							"special_bindings": [
 								{
-									"bones": ["wheelL0", "wheelL1", "wheelL2", "wheelL3", "wheelL4", "wheelL5", "wheelL6", "wheelL7"],
+									"bones": ["wheelL0", "wheelL1", "wheelL2", "wheelL3", "wheelL4", "wheelL5", "wheelL6", "wheelL7", "wheelL8"],
 									"source": "left_wheel_rotation",
 									"axis": "x",
 									"param": -0.375
 								},
 								{
-									"bones": ["wheelR0", "wheelR1", "wheelR2", "wheelR3", "wheelR4", "wheelR5", "wheelR6", "wheelR7"],
+									"bones": ["wheelR0", "wheelR1", "wheelR2", "wheelR3", "wheelR4", "wheelR5", "wheelR6", "wheelR7", "wheelR8"],
 									"source": "right_wheel_rotation",
 									"axis": "x",
 									"param": -0.375
@@ -45,27 +61,46 @@
 									"invert": true
 								},
 								{
-									"bone": "pkt",
-									"part": "turret",
-									"rotation_type": "x",
-									"axis": "x",
-									"invert": true
-								},
-								{
-									"bone": "gun_cannon",
-									"part": "commander_machine_gun",
+									"bone": "M2_mas",
+									"part": "turret_mg2",
 									"rotation_type": "y",
 									"axis": "y",
 									"invert": true
 								},
 								{
-									"bone": "gun_cannon",
-									"part": "commander_machine_gun",
+									"bone": "M2_mas2",
+									"part": "turret_mg2",
+									"rotation_type": "x",
+									"axis": "x",
+									"invert": true
+								},
+								{
+									"bone": "gun",
+									"part": "turret_mg3",
+									"rotation_type": "y",
+									"axis": "y",
+									"invert": true
+								},
+								{
+									"bone": "gun_barrel",
+									"part": "turret_mg3",
 									"rotation_type": "x",
 									"axis": "x",
 									"invert": true
 								}
 							]
+						},
+						{
+							"type": "switchable_animation",
+							"ref": "hatch_1"
+						},
+						{
+							"type": "switchable_animation",
+							"ref": "hatch_2"
+						},
+						{
+							"type": "switchable_animation",
+							"ref": "hatch_3"
 						},
 						{
 							"type": "track_animation"
