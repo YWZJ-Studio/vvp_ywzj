@@ -6,7 +6,7 @@
 				"identifier": "geometry.unknown",
 				"texture_width": 16,
 				"texture_height": 16,
-				"visible_bounds_width": 16,
+				"visible_bounds_width": 17,
 				"visible_bounds_height": 6,
 				"visible_bounds_offset": [0, 2, 0]
 			},
@@ -38,7 +38,7 @@
 					"parent": "turret",
 					"pivot": [-0.01716, 37.70808, 33.88047],
 					"cubes": [
-						{"origin": [-1.67831, 35.8457, 45.65258], "size": [3.67507, 3.75, 71.29665], "uv": [65, 54]}
+						{"origin": [-1.67831, 35.8457, 45.65258], "size": [3.67507, 3.75, 74.74665], "uv": [62, 51]}
 					]
 				},
 				{
@@ -97,6 +97,106 @@
 					]
 				},
 				{
+					"name": "turret_mg2",
+					"parent": "turret",
+					"pivot": [-16.5397, 48.7761, -1.519],
+					"cubes": [
+						{
+							"origin": [-17.577, 49.0601, -8.3759],
+							"size": [2.7987, 7.0516, 10.9473],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [1, 1]},
+								"east": {"uv": [0, 0], "uv_size": [1, 1]},
+								"south": {"uv": [0, 0], "uv_size": [1, 1]},
+								"west": {"uv": [0, 0], "uv_size": [1, 1]},
+								"up": {"uv": [1, 1], "uv_size": [-1, -1]},
+								"down": {"uv": [1, 1], "uv_size": [-1, -1]}
+							}
+						},
+						{
+							"origin": [-14.627, 51.0351, -1.8259],
+							"size": [5.8487, 11.1516, 4.5223],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [1, 1]},
+								"east": {"uv": [0, 0], "uv_size": [1, 1]},
+								"south": {"uv": [0, 0], "uv_size": [1, 1]},
+								"west": {"uv": [0, 0], "uv_size": [1, 1]},
+								"up": {"uv": [1, 1], "uv_size": [-1, -1]},
+								"down": {"uv": [1, 1], "uv_size": [-1, -1]}
+							}
+						},
+						{
+							"origin": [-23.702, 51.0351, -1.8259],
+							"size": [5.8487, 11.1516, 4.5223],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [1, 1]},
+								"east": {"uv": [0, 0], "uv_size": [1, 1]},
+								"south": {"uv": [0, 0], "uv_size": [1, 1]},
+								"west": {"uv": [0, 0], "uv_size": [1, 1]},
+								"up": {"uv": [1, 1], "uv_size": [-1, -1]},
+								"down": {"uv": [1, 1], "uv_size": [-1, -1]}
+							}
+						}
+					]
+				},
+				{
+					"name": "turret_mg2_barrel",
+					"parent": "turret_mg2",
+					"pivot": [-16.5573, 53.1678, 0.8456],
+					"cubes": [
+						{
+							"origin": [-16.427, 54.8394, 2.4991],
+							"size": [0.5114, 0.6723, 11.2723],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [1, 1]},
+								"east": {"uv": [0, 0], "uv_size": [1, 1]},
+								"south": {"uv": [0, 0], "uv_size": [1, 1]},
+								"west": {"uv": [0, 0], "uv_size": [1, 1]},
+								"up": {"uv": [1, 1], "uv_size": [-1, -1]},
+								"down": {"uv": [1, 1], "uv_size": [-1, -1]}
+							}
+						}
+					]
+				},
+				{
+					"name": "turret_mg3",
+					"parent": "turret",
+					"pivot": [14.7634, 51.0858, 13.7573],
+					"cubes": [
+						{
+							"origin": [12.4695, 58.9603, 4.1968],
+							"size": [3.9192, 9.3612, 14.7094],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [1, 1]},
+								"east": {"uv": [0, 0], "uv_size": [1, 1]},
+								"south": {"uv": [0, 0], "uv_size": [1, 1]},
+								"west": {"uv": [0, 0], "uv_size": [1, 1]},
+								"up": {"uv": [1, 1], "uv_size": [-1, -1]},
+								"down": {"uv": [1, 1], "uv_size": [-1, -1]}
+							}
+						}
+					]
+				},
+				{
+					"name": "turret_mg3_barrel",
+					"parent": "turret_mg3",
+					"pivot": [14.0266, 65.7679, 13.6452],
+					"cubes": [
+						{
+							"origin": [14.1569, 66.0381, 18.6902],
+							"size": [1.0759, 1.0287, 18.4626],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [1, 1]},
+								"east": {"uv": [0, 0], "uv_size": [1, 1]},
+								"south": {"uv": [0, 0], "uv_size": [1, 1]},
+								"west": {"uv": [0, 0], "uv_size": [1, 1]},
+								"up": {"uv": [1, 1], "uv_size": [-1, -1]},
+								"down": {"uv": [1, 1], "uv_size": [-1, -1]}
+							}
+						}
+					]
+				},
+				{
 					"name": "hatch_1",
 					"parent": "turret",
 					"pivot": [10.6, 51.6, -6.875],
@@ -149,106 +249,6 @@
 								"west": {"uv": [0, 0], "uv_size": [2, 2]},
 								"up": {"uv": [2, 2], "uv_size": [-2, -2]},
 								"down": {"uv": [2, 2], "uv_size": [-2, -2]}
-							}
-						}
-					]
-				},
-				{
-					"name": "turret_mg2",
-					"parent": "turret",
-					"pivot": [-16.5397, 48.7761, -1.519],
-					"cubes": [
-						{
-							"origin": [-17.577, 49.0601, -8.3759],
-							"size": [2.7987, 7.0516, 10.9473],
-							"uv": {
-								"north": {"uv": [0, 0], "uv_size": [1, 1]},
-								"east": {"uv": [0, 0], "uv_size": [1, 1]},
-								"south": {"uv": [0, 0], "uv_size": [1, 1]},
-								"west": {"uv": [0, 0], "uv_size": [1, 1]},
-								"up": {"uv": [1, 1], "uv_size": [-1, -1]},
-								"down": {"uv": [1, 1], "uv_size": [-1, -1]}
-							}
-						},
-						{
-							"origin": [-14.627, 51.0351, -1.8259],
-							"size": [5.8487, 11.1516, 4.5223],
-							"uv": {
-								"north": {"uv": [0, 0], "uv_size": [1, 1]},
-								"east": {"uv": [0, 0], "uv_size": [1, 1]},
-								"south": {"uv": [0, 0], "uv_size": [1, 1]},
-								"west": {"uv": [0, 0], "uv_size": [1, 1]},
-								"up": {"uv": [1, 1], "uv_size": [-1, -1]},
-								"down": {"uv": [1, 1], "uv_size": [-1, -1]}
-							}
-						},
-						{
-							"origin": [-23.702, 51.0351, -1.8259],
-							"size": [5.8487, 11.1516, 4.5223],
-							"uv": {
-								"north": {"uv": [0, 0], "uv_size": [1, 1]},
-								"east": {"uv": [0, 0], "uv_size": [1, 1]},
-								"south": {"uv": [0, 0], "uv_size": [1, 1]},
-								"west": {"uv": [0, 0], "uv_size": [1, 1]},
-								"up": {"uv": [1, 1], "uv_size": [-1, -1]},
-								"down": {"uv": [1, 1], "uv_size": [-1, -1]}
-							}
-						}
-					]
-				},
-				{
-					"name": "turret_mg2_barrel",
-					"parent": "turret_mg2",
-					"pivot": [-16.5573, 53.1678, -1.5044],
-					"cubes": [
-						{
-							"origin": [-16.427, 54.8394, 2.4991],
-							"size": [0.5114, 0.6723, 11.2723],
-							"uv": {
-								"north": {"uv": [0, 0], "uv_size": [1, 1]},
-								"east": {"uv": [0, 0], "uv_size": [1, 1]},
-								"south": {"uv": [0, 0], "uv_size": [1, 1]},
-								"west": {"uv": [0, 0], "uv_size": [1, 1]},
-								"up": {"uv": [1, 1], "uv_size": [-1, -1]},
-								"down": {"uv": [1, 1], "uv_size": [-1, -1]}
-							}
-						}
-					]
-				},
-				{
-					"name": "turret_mg3",
-					"parent": "turret",
-					"pivot": [14.7634, 51.0858, 13.7573],
-					"cubes": [
-						{
-							"origin": [12.4695, 58.9603, 4.1968],
-							"size": [3.9192, 9.3612, 14.7094],
-							"uv": {
-								"north": {"uv": [0, 0], "uv_size": [1, 1]},
-								"east": {"uv": [0, 0], "uv_size": [1, 1]},
-								"south": {"uv": [0, 0], "uv_size": [1, 1]},
-								"west": {"uv": [0, 0], "uv_size": [1, 1]},
-								"up": {"uv": [1, 1], "uv_size": [-1, -1]},
-								"down": {"uv": [1, 1], "uv_size": [-1, -1]}
-							}
-						}
-					]
-				},
-				{
-					"name": "turret_mg3_barrel",
-					"parent": "turret_mg3",
-					"pivot": [14.0266, 65.7679, 13.6452],
-					"cubes": [
-						{
-							"origin": [14.1569, 66.0381, 18.6902],
-							"size": [1.0759, 1.0287, 18.4626],
-							"uv": {
-								"north": {"uv": [0, 0], "uv_size": [1, 1]},
-								"east": {"uv": [0, 0], "uv_size": [1, 1]},
-								"south": {"uv": [0, 0], "uv_size": [1, 1]},
-								"west": {"uv": [0, 0], "uv_size": [1, 1]},
-								"up": {"uv": [1, 1], "uv_size": [-1, -1]},
-								"down": {"uv": [1, 1], "uv_size": [-1, -1]}
 							}
 						}
 					]

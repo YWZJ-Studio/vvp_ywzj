@@ -6,7 +6,7 @@
 				"identifier": "geometry.unknown",
 				"texture_width": 16,
 				"texture_height": 16,
-				"visible_bounds_width": 16,
+				"visible_bounds_width": 17,
 				"visible_bounds_height": 6,
 				"visible_bounds_offset": [0, 2, 0]
 			},
@@ -38,7 +38,7 @@
 					"parent": "turret",
 					"pivot": [-0.01716, 37.70808, 33.88047],
 					"cubes": [
-						{"origin": [-1.67831, 35.8457, 45.65258], "size": [3.67507, 3.75, 71.29665], "uv": [65, 54]}
+						{"origin": [-1.67831, 35.8457, 45.65258], "size": [3.67507, 3.75, 74.74665], "uv": [62, 51]}
 					]
 				},
 				{
@@ -80,7 +80,7 @@
 				{
 					"name": "turret_mg2_barrel",
 					"parent": "turret_mg2",
-					"pivot": [-5.3777, 52.6006, 1.7367],
+					"pivot": [-5.3777, 52.6006, 4.5867],
 					"cubes": [
 						{
 							"origin": [-4.977, 54.5644, 6.2491],
