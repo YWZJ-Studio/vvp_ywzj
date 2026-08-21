@@ -11,17 +11,14 @@
 	},
 	"max_health": 350,
 	"view_info": {
-		"third_person_center_offset": [
-			0,
-			3,
-			0
-		],
+		"third_person_center_offset": [0, 3, 0],
 		"third_person_distance": 8,
 		"sound_distance": 4
 	},
 	"energy_info": {
 		"energy_capacity": 1,
-		"energy_consumption_per_tick": 0.00001
+		"energy_consumption_per_tick": 0.00001,
+		"engine_particle_offsets": [[1.9046875, 2.4984375, 1.49375]]
 	},
 	"structure_model": "vvp_ywzj:vehicle/bradley",
 	"parts": [
@@ -30,22 +27,9 @@
 			"name": "turret",
 			"type": "ywzj_vehicle:weapon",
 			"structure_bone": "turret",
-			"seat_offset": [
-				0,
-				2,
-				0
-			],
-			"owner_view_offset": [
-				0,
-				2.5,
-				0
-			],
-			"operator_on_weapon_unit": false,
-			"optical_sight_offset": [
-				0,
-				0.5,
-				1
-			],
+			"seat_offset": [0.646875, 3.0496875, -0.9203125],
+			"operator_view_offset": [0, 5, 0],
+			"optical_sight_offset": [-0.518385625, 1.1761625, 0.630365625],
 			"optical_sight_type": "crt",
 			"fire_control_sensor_type": "eo",
 			"with_stabilizer": true,
@@ -57,23 +41,112 @@
 				"x_rot_max": 45,
 				"x_rot_min": -20
 			},
-			"bolts": [
-				{
-					"offset": [
-						0,
-						0.25,
-						0.5
-					],
-					"barrel_length": 1,
-					"x_rot": 0,
-					"y_rot": 0
-				}
-			],
 			"weapons": [
 				"vvp_ywzj:cannon_25mm",
-				"vvp_ywzj:gun_7.62mm",
-				"vvp_ywzj:tow"
+				{
+					"id": "vvp_ywzj:gun_7.62mm",
+					"part_unit_id": "turret_machine_gun",
+					"secondary": true
+				},
+				{
+					"id": "vvp_ywzj:tow",
+					"part_unit_id": "turret_missile"
+				},
+				{
+					"id": "ywzj_vehicle:launcher_smoke_grenade",
+					"part_unit_id": "turret_smoke_grenade"
+				}
 			]
+		},
+		{
+			"id": "turret_machine_gun",
+			"name": "turret_machine_gun",
+			"type": "ywzj_vehicle:weapon",
+			"structure_bone": "turret_mg",
+			"is_seat": false,
+			"rot_info": {
+				"x_rot_speed": 3,
+				"y_rot_speed": 3,
+				"x_rot_max": 10,
+				"x_rot_min": -20
+			}
+		},
+		{
+			"id": "turret_missile",
+			"name": "turret_missile",
+			"type": "ywzj_vehicle:weapon",
+			"structure_bone": "turret_msl",
+			"fire_control_sensor_type": "eo",
+			"fire_control_lock_type": "aim_hit",
+			"parent_weapon_unit_aim": true,
+			"crosshair_style": "none",
+			"ammo_capacity": 2,
+			"is_seat": false,
+			"rot_info": {
+				"x_rot_speed": 0,
+				"y_rot_speed": 0
+			}
+		},
+		{
+			"id": "turret_smoke_grenade",
+			"name": "turret_smoke_grenade",
+			"type": "ywzj_vehicle:weapon",
+			"structure_bone": "turret_gr",
+			"ammo_capacity": 8,
+			"is_seat": false,
+			"rot_info": {
+				"x_rot_speed": 0,
+				"y_rot_speed": 0
+			}
+		},
+		{
+			"id": "passenger_seat1",
+			"name": "passenger_seat1",
+			"type": "ywzj_vehicle:generic",
+			"is_seat": true,
+			"structure_bone": "seat",
+			"seat_offset": [-0.646875, 3.0496875, -0.9203125],
+			"owner_view_offset": [0, 5, 0]
+		},
+		{
+			"id": "passenger_seat2",
+			"name": "passenger_seat2",
+			"type": "ywzj_vehicle:generic",
+			"is_seat": true,
+			"seat_offset": [-0.7515625, 2.191875, 1.9],
+			"owner_view_offset": [-0.7515625, 4, 1.9]
+		},
+		{
+			"id": "passenger_seat3",
+			"name": "passenger_seat3",
+			"type": "ywzj_vehicle:generic",
+			"is_seat": true,
+			"seat_offset": [0.7609375, 2.191875, -1.8359375],
+			"owner_view_offset": [0, 5, 0]
+		},
+		{
+			"id": "passenger_seat4",
+			"name": "passenger_seat4",
+			"type": "ywzj_vehicle:generic",
+			"is_seat": true,
+			"seat_offset": [0.7609375, 2.191875, -2.8359375],
+			"owner_view_offset": [0, 5, 0]
+		},
+		{
+			"id": "passenger_seat5",
+			"name": "passenger_seat5",
+			"type": "ywzj_vehicle:generic",
+			"is_seat": true,
+			"seat_offset": [-0.7609375, 2.191875, -1.8359375],
+			"owner_view_offset": [0, 5, 0]
+		},
+		{
+			"id": "passenger_seat6",
+			"name": "passenger_seat6",
+			"type": "ywzj_vehicle:generic",
+			"is_seat": true,
+			"seat_offset": [-0.7609375, 2.191875, -2.8359375],
+			"owner_view_offset": [0, 5, 0]
 		},
 		{
 			"id": "track",
@@ -81,6 +154,5 @@
 			"type": "ywzj_vehicle:track",
 			"structure_bone": "tracks"
 		}
-	],
-	"experimental": true
+	]
 }
