@@ -1,0 +1,21 @@
+{
+	"type": "ywzj_vehicle:cannon",
+	"name": "L30A1 120mm",
+	"caliber": 120,
+	"damage": 1200,
+	"velocity": 24,
+	"headshot_multiplier": 1.5,
+	"recoil": 1,
+	"shoot_interval": 500,
+	"max_capacity": 1,
+	"reload": {
+		"time": 100,
+		"ammo": "ywzj_vehicle:ammo_artillery"
+	},
+	"explosion": {
+		"explode": true,
+		"damage": 100,
+		"radius": 5,
+		"destroy_block": true
+	}
+}
