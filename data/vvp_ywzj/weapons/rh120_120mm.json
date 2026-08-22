@@ -3,6 +3,7 @@
 	"name": "Rh-120",
 	"caliber": 120,
 	"damage": 1100,
+	"velocity": 24,
 	"headshot_multiplier": 1,
 	"recoil": 1,
 	"shoot_interval": 400,

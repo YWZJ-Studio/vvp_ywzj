@@ -12,12 +12,30 @@
 			},
 			"bones": [
 				{
-					"name": "vehicle_body",
+					"name": "main_structure",
 					"pivot": [1.8569, 24.45, -2.3109],
 					"cubes": [
 						{
 							"origin": [-30, 0.1349, -75.9563],
 							"size": [60, 32.1866, 142.7687],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [1, 1]},
+								"east": {"uv": [0, 0], "uv_size": [1, 1]},
+								"south": {"uv": [0, 0], "uv_size": [1, 1]},
+								"west": {"uv": [0, 0], "uv_size": [1, 1]},
+								"up": {"uv": [1, 1], "uv_size": [-1, -1]},
+								"down": {"uv": [1, 1], "uv_size": [-1, -1]}
+							}
+						}
+					]
+				},
+				{
+					"name": "vehicle_body",
+					"pivot": [1.8569, 24.45, -2.3109],
+					"cubes": [
+						{
+							"origin": [-30, 8.1349, -75.9563],
+							"size": [60, 24.1866, 142.7687],
 							"uv": {
 								"north": {"uv": [0, 0], "uv_size": [1, 1]},
 								"east": {"uv": [0, 0], "uv_size": [1, 1]},
