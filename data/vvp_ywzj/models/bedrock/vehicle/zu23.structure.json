@@ -6,38 +6,66 @@
 				"identifier": "geometry.unknown",
 				"texture_width": 16,
 				"texture_height": 16,
-				"visible_bounds_width": 2,
-				"visible_bounds_height": 2,
-				"visible_bounds_offset": [
-					0,
-					1,
-					0
-				]
+				"visible_bounds_width": 7,
+				"visible_bounds_height": 3,
+				"visible_bounds_offset": [0, 1.5, 0]
 			},
 			"bones": [
 				{
-					"name": "main_structure",
-					"pivot": [
-						0,
-						0,
-						0
-					],
+					"name": "vehicle_body",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-11.6, 0, -21], "size": [24.15, 8.625, 31.45], "uv": [-17, -14]},
+						{"origin": [-11.6, 8.25, -21.125], "size": [24.15, 16.225, 3.225], "uv": [12, 15]},
+						{"origin": [-14.175, 8.25, 2.825], "size": [28.45, 20.125, 5.45], "pivot": [0.475, 16.3625, 6.6625], "rotation": [36.5, 0, 0], "uv": [8, 13]}
+					]
+				},
+				{
+					"name": "turret",
+					"pivot": [0, 0, -6.2661],
 					"cubes": [
 						{
-							"origin": [
-								-8,
-								0,
-								-8
-							],
-							"size": [
-								16,
-								16,
-								16
-							],
-							"uv": [
-								0,
-								0
-							]
+							"origin": [-5, 7.814, -8.5079],
+							"size": [10.325, 9.083, 14.5853],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [1, 1]},
+								"east": {"uv": [0, 0], "uv_size": [1, 1]},
+								"south": {"uv": [0, 0], "uv_size": [1, 1]},
+								"west": {"uv": [0, 0], "uv_size": [1, 1]},
+								"up": {"uv": [1, 1], "uv_size": [-1, -1]},
+								"down": {"uv": [1, 1], "uv_size": [-1, -1]}
+							}
+						}
+					]
+				},
+				{
+					"name": "turret_barrel",
+					"parent": "turret",
+					"pivot": [0, 14.3011, 2.7339],
+					"cubes": [
+						{
+							"origin": [-2.55, 12.1646, 5.3728],
+							"size": [1.2, 1.125, 38],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [1, 1]},
+								"east": {"uv": [0, 0], "uv_size": [1, 1]},
+								"south": {"uv": [0, 0], "uv_size": [1, 1]},
+								"west": {"uv": [0, 0], "uv_size": [1, 1]},
+								"up": {"uv": [1, 1], "uv_size": [-1, -1]},
+								"down": {"uv": [1, 1], "uv_size": [-1, -1]}
+							}
+						},
+						{
+							"origin": [1.375, 12.1646, 5.3728],
+							"size": [1.2, 1.125, 38],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [1, 1]},
+								"east": {"uv": [0, 0], "uv_size": [1, 1]},
+								"south": {"uv": [0, 0], "uv_size": [1, 1]},
+								"west": {"uv": [0, 0], "uv_size": [1, 1]},
+								"up": {"uv": [1, 1], "uv_size": [-1, -1]},
+								"down": {"uv": [1, 1], "uv_size": [-1, -1]}
+							}
 						}
 					]
 				}

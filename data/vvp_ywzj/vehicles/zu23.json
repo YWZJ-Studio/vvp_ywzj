@@ -1,7 +1,7 @@
 {
 	"type": "ywzj_vehicle:generic",
 	"attributes": {},
-	"max_health": 250,
+	"max_health": 80,
 	"view_info": {
 		"third_person_center_offset": [0, 3, 0],
 		"third_person_distance": 8,
@@ -11,21 +11,22 @@
 		"energy_capacity": 1,
 		"energy_consumption_per_tick": 0.00001
 	},
+	"defense_stats": {
+		"damage_threshold": 10
+	},
+	"protect_passenger": false,
 	"structure_model": "vvp_ywzj:vehicle/zu23",
 	"parts": [
 		{
-			"id": "weapon_station",
-			"name": "weapon_station",
+			"id": "turret",
+			"name": "turret",
 			"type": "ywzj_vehicle:weapon",
-			"structure_bone": "weapon_station",
-			"seat_offset": [0, 1.25, 0],
-			"owner_view_offset": [0, 1.75, 0],
-			"operator_on_weapon_unit": false,
-			"optical_sight_offset": [0, 0.5, 1],
-			"optical_sight_type": "crt",
-			"fire_control_sensor_type": "eo",
-			"with_stabilizer": false,
-			"zoom_max": 8,
+			"structure_bone": "turret",
+			"seat_offset": [0.55, 1.329375, -1.1171875],
+			"operator_view_offset": [0.4046875, 1.34375, 1.06663125],
+			"optical_sight_type": "operator",
+			"fire_control_sensor_type": "ccip",
+			"zoom_max": 2,
 			"crosshair_style": "circle",
 			"rot_info": {
 				"x_rot_speed": 3,
@@ -33,16 +34,16 @@
 				"x_rot_max": 45,
 				"x_rot_min": -20
 			},
-			"bolts": [
-				{
-					"offset": [0, 0.25, 0.5],
-					"barrel_length": 1,
-					"x_rot": 0,
-					"y_rot": 0
-				}
-			],
 			"weapons": ["vvp_ywzj:zu_23"]
+		},
+		{
+			"id": "passenger_seat1",
+			"name": "passenger_seat1",
+			"type": "ywzj_vehicle:generic",
+			"structure_bone": "turret",
+			"is_seat": true,
+			"seat_offset": [-0.55, 1.329375, -1.1171875],
+			"owner_view_offset": [-0.55, 1.329375, -1.1171875]
 		}
-	],
-	"experimental": true
+	]
 }

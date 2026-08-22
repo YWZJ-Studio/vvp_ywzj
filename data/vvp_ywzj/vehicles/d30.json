@@ -11,6 +11,10 @@
 		"energy_capacity": 1,
 		"energy_consumption_per_tick": 0.00001
 	},
+	"defense_stats": {
+		"damage_threshold": 10
+	},
+	"protect_passenger": false,
 	"structure_model": "vvp_ywzj:vehicle/d30",
 	"parts": [
 		{
