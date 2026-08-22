@@ -6,38 +6,52 @@
 				"identifier": "geometry.unknown",
 				"texture_width": 16,
 				"texture_height": 16,
-				"visible_bounds_width": 2,
-				"visible_bounds_height": 2,
-				"visible_bounds_offset": [
-					0,
-					1,
-					0
-				]
+				"visible_bounds_width": 4,
+				"visible_bounds_height": 3,
+				"visible_bounds_offset": [0, 1.5, 0]
 			},
 			"bones": [
 				{
-					"name": "main_structure",
-					"pivot": [
-						0,
-						0,
-						0
-					],
+					"name": "vehicle_body",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-8, 0, -8], "size": [16, 23.35, 16], "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "turret",
+					"pivot": [-0.321, 19.288, 0.48],
 					"cubes": [
 						{
-							"origin": [
-								-8,
-								0,
-								-8
-							],
-							"size": [
-								16,
-								16,
-								16
-							],
-							"uv": [
-								0,
-								0
-							]
+							"origin": [-1.7, 24.014, -7.5329],
+							"size": [7.75, 5.383, 18.2103],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [1, 1]},
+								"east": {"uv": [0, 0], "uv_size": [1, 1]},
+								"south": {"uv": [0, 0], "uv_size": [1, 1]},
+								"west": {"uv": [0, 0], "uv_size": [1, 1]},
+								"up": {"uv": [1, 1], "uv_size": [-1, -1]},
+								"down": {"uv": [1, 1], "uv_size": [-1, -1]}
+							}
+						}
+					]
+				},
+				{
+					"name": "turret_barrel",
+					"parent": "turret",
+					"pivot": [0.8689, 23.4219, -2.4979],
+					"cubes": [
+						{
+							"origin": [-2.6, 29.1146, -14.4772],
+							"size": [5.7, 5.625, 27.7],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [1, 1]},
+								"east": {"uv": [0, 0], "uv_size": [1, 1]},
+								"south": {"uv": [0, 0], "uv_size": [1, 1]},
+								"west": {"uv": [0, 0], "uv_size": [1, 1]},
+								"up": {"uv": [1, 1], "uv_size": [-1, -1]},
+								"down": {"uv": [1, 1], "uv_size": [-1, -1]}
+							}
 						}
 					]
 				}
