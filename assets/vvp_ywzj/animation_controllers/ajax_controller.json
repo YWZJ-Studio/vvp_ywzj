@@ -3,7 +3,8 @@
 	"script": "vvp_ywzj:ajax",
 	"parameters": {},
 	"event_animations": {
-		"turret_fire": ["turret_shoot"]
+		"turret_fire": ["turret_shoot"],
+		"commander_machine_gun_fire": ["commander_machine_gun_shoot"]
 	},
 	"graph": {
 		"type": "merge",
@@ -17,13 +18,13 @@
 							"type": "bone_binding",
 							"special_bindings": [
 								{
-									"bones": ["wheelL0", "wheelL1", "wheelL2", "wheelL3", "wheelL4", "wheelL5", "wheelL6", "wheelL7"],
+									"bones": ["wheelL0", "wheelL1", "wheelL2", "wheelL3", "wheelL4", "wheelL5", "wheelL6", "wheelL7", "wheelL8"],
 									"source": "left_wheel_rotation",
 									"axis": "x",
 									"param": -0.375
 								},
 								{
-									"bones": ["wheelR0", "wheelR1", "wheelR2", "wheelR3", "wheelR4", "wheelR5", "wheelR6", "wheelR7"],
+									"bones": ["wheelR0", "wheelR1", "wheelR2", "wheelR3", "wheelR4", "wheelR5", "wheelR6", "wheelR7", "wheelR8"],
 									"source": "right_wheel_rotation",
 									"axis": "x",
 									"param": -0.375
@@ -31,7 +32,7 @@
 							],
 							"part_bindings": [
 								{
-									"bone": "cannon",
+									"bone": "turret",
 									"part": "turret",
 									"rotation_type": "y",
 									"axis": "y",
@@ -45,21 +46,14 @@
 									"invert": true
 								},
 								{
-									"bone": "pkt",
-									"part": "turret",
-									"rotation_type": "x",
-									"axis": "x",
-									"invert": true
-								},
-								{
-									"bone": "gun_cannon",
+									"bone": "passengerWeaponStationYaw",
 									"part": "commander_machine_gun",
 									"rotation_type": "y",
 									"axis": "y",
 									"invert": true
 								},
 								{
-									"bone": "gun_cannon",
+									"bone": "passengerWeaponStationPitch",
 									"part": "commander_machine_gun",
 									"rotation_type": "x",
 									"axis": "x",

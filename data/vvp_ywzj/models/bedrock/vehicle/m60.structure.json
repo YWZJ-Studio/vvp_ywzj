@@ -96,6 +96,25 @@
 					]
 				},
 				{
+					"name": "seat",
+					"parent": "turret",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{
+							"origin": [-1, 23.325, 7.175],
+							"size": [2, 2, 2],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [2, 2]},
+								"east": {"uv": [0, 0], "uv_size": [2, 2]},
+								"south": {"uv": [0, 0], "uv_size": [2, 2]},
+								"west": {"uv": [0, 0], "uv_size": [2, 2]},
+								"up": {"uv": [2, 2], "uv_size": [-2, -2]},
+								"down": {"uv": [2, 2], "uv_size": [-2, -2]}
+							}
+						}
+					]
+				},
+				{
 					"name": "tracks",
 					"pivot": [0, 0, 0]
 				},
