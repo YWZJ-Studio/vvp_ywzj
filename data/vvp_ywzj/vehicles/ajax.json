@@ -9,7 +9,7 @@
 		"turn_acceleration": 1,
 		"max_turn": 2
 	},
-	"max_health": 480,
+	"max_health": 2000,
 	"view_info": {
 		"third_person_center_offset": [0, 3, 0],
 		"third_person_distance": 8,
@@ -20,13 +20,19 @@
 		"energy_consumption_per_tick": 0.00001,
 		"engine_particle_offsets": [[-1.2640625, 2.1125, 1.315625]]
 	},
+	"physics_info": {
+		"destroy_explosion_velocity": 0.5
+	},
 	"structure_model": "vvp_ywzj:vehicle/ajax",
 	"parts": [
 		{
 			"id": "turret",
 			"name": "turret",
 			"type": "ywzj_vehicle:weapon",
+			"max_health": 600,
+			"render_bone": "turret",
 			"structure_bone": "turret",
+			"ammo_capacity": 200,
 			"seat_offset": [0.6421875, 2.24375, -0.83125],
 			"rot_info": {
 				"x_rot_speed": 1.5,
@@ -37,13 +43,14 @@
 			"optical_sight_offset": [0.69145625, 0.2578125, 0.424425625],
 			"operator_view_offset": [0, 1.5, 0],
 			"optical_sight_type": "crt",
+			"zoom_min": 6,
+			"zoom_max": 6,
 			"with_stabilizer": true,
 			"with_thermal_imager": true,
-			"zoom_max": 8,
 			"weapons": [
-				"vvp_ywzj:ajax_weapon",
+				"vvp_ywzj:ct40_40mm",
 				{
-					"id": "vvp_ywzj:gun_7.62mm",
+					"id": "vvp_ywzj:l94a1_7_62mm",
 					"part_unit_id": "turret_machine_gun",
 					"secondary": true
 				},
@@ -81,6 +88,8 @@
 			"id": "commander_machine_gun",
 			"name": "commander_machine_gun",
 			"type": "ywzj_vehicle:weapon",
+			"max_health": 200,
+			"render_bone": "passengerWeaponStationYaw",
 			"structure_bone": "turret_st",
 			"seat_offset": [-0.6421875, 2.24375, -0.83125],
 			"operator_on_weapon_unit": false,
@@ -94,14 +103,15 @@
 			"operator_view_offset": [0, 1.5, 0],
 			"optical_sight_offset": [-0.0375, 0.2670375, 0.26814375],
 			"optical_sight_type": "crt",
+			"zoom_min": 6,
+			"zoom_max": 6,
 			"with_stabilizer": true,
 			"with_thermal_imager": true,
-			"zoom_max": 8,
-			"weapons": ["vvp_ywzj:gun_7.62mm"]
+			"weapons": ["vvp_ywzj:l7a2_7_62mm"]
 		},
 		{
-			"id": "passenger_seat1",
-			"name": "passenger_seat1",
+			"id": "driver_seat_2",
+			"name": "driver_seat_2",
 			"type": "ywzj_vehicle:generic",
 			"is_seat": true,
 			"structure_bone": "seat",
@@ -116,4 +126,3 @@
 		}
 	]
 }
-

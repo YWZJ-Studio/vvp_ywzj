@@ -1,7 +1,7 @@
 {
 	"type": "ywzj_vehicle:rocket",
 	"name": "Hydra 70 Rocket",
-	"damage": 85,
+	"damage": 100,
 	"headshot_multiplier": 1.5,
 	"shoot_interval": 400,
 	"max_capacity": 38,
@@ -11,7 +11,7 @@
 	},
 	"explosion": {
 		"explode": true,
-		"damage": 42,
+		"damage": 100,
 		"radius": 6,
 		"destroy_block": true
 	}

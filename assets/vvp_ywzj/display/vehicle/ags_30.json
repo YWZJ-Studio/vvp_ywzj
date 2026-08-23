@@ -5,5 +5,5 @@
 	"slot_texture": "vvp_ywzj:textures/slot/ags_30.png",
 	"animations": "vvp_ywzj:entity/ags_30.animation",
 	"animation_controller": "vvp_ywzj:ags_30_controller",
-	"tab_index": 4000
+	"tab_index": 4020
 }

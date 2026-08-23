@@ -1,6 +1,6 @@
 {
 	"type": "ywzj_vehicle:cannon",
-	"name": "MK 30-2/ABM",
+	"name": "MK 30-2/ABM 30mm",
 	"caliber": 30,
 	"tracer_r": 0.1,
 	"tracer_g": 0.7,
@@ -17,7 +17,7 @@
 	},
 	"explosion": {
 		"explode": true,
-		"damage": 5,
+		"damage": 10,
 		"radius": 0.5,
 		"destroy_block": true
 	}

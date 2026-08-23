@@ -1,7 +1,7 @@
 {
 	"type": "ywzj_vehicle:generic",
 	"attributes": {},
-	"max_health": 80,
+	"max_health": 100,
 	"view_info": {
 		"third_person_center_offset": [0, 3, 0],
 		"third_person_distance": 8,
@@ -15,12 +15,17 @@
 		"damage_threshold": 10
 	},
 	"protect_passenger": false,
+	"physics_info": {
+		"destroy_explosion_velocity": 0.3
+	},
 	"structure_model": "vvp_ywzj:vehicle/kornet",
 	"parts": [
 		{
 			"id": "turret",
 			"name": "turret",
 			"type": "ywzj_vehicle:weapon",
+			"max_health": 100,
+			"render_bone": "turret",
 			"structure_bone": "turret",
 			"ammo_capacity": 1,
 			"seat_offset": [0, 1.6, -1],
@@ -30,9 +35,10 @@
 			},
 			"optical_sight_offset": [-0.2106875, 0.37575, 0.745],
 			"optical_sight_type": "crt",
+			"zoom_min": 4,
+			"zoom_max": 12,
 			"fire_control_sensor_type": "eo",
 			"fire_control_lock_type": "aim_hit",
-			"zoom_max": 4,
 			"crosshair_style": "circle",
 			"rot_info": {
 				"x_rot_speed": 3,

@@ -9,10 +9,10 @@
 		"turn_acceleration": 1,
 		"max_turn": 2
 	},
-	"max_health": 275,
+	"max_health": 3000,
 	"view_info": {
-		"third_person_center_offset": [0, 4, 0],
-		"third_person_distance": 10,
+		"third_person_center_offset": [0, 3.5, 0],
+		"third_person_distance": 8,
 		"sound_distance": 7
 	},
 	"energy_info": {
@@ -21,7 +21,8 @@
 		"engine_particle_offsets": [[2.4578125, 1.58125, -2.05625]]
 	},
 	"physics_info": {
-		"can_destroy_block": true
+		"can_destroy_block": true,
+		"destroy_explosion_velocity": 0.5
 	},
 	"structure_model": "vvp_ywzj:vehicle/terminator",
 	"parts": [
@@ -29,7 +30,10 @@
 			"id": "turret",
 			"name": "turret",
 			"type": "ywzj_vehicle:weapon",
+			"max_health": 600,
+			"render_bone": "turret",
 			"structure_bone": "turret",
+			"ammo_capacity": 850,
 			"fire_control_sensor_type": "eo",
 			"fire_control_lock_type": "aim_hit",
 			"seat_offset": [0.8, 1.8, 1.5],
@@ -44,9 +48,10 @@
 			"optical_sight_offset": [0.7807375, 1.57155, -1.3671625],
 			"operator_view_offset": [0, 1.5, 0],
 			"optical_sight_type": "crt",
+			"zoom_min": 4,
+			"zoom_max": 12,
 			"with_stabilizer": true,
 			"with_thermal_imager": true,
-			"zoom_max": 16,
 			"weapons": [
 				"vvp_ywzj:2a42",
 				{
@@ -54,7 +59,7 @@
 					"part_unit_id": "turret_missile"
 				},
 				{
-					"id": "ywzj_vehicle:gun_7.62mm",
+					"id": "vvp_ywzj:pktm_7_62mm",
 					"part_unit_id": "turret_machine_gun",
 					"secondary": true
 				},
@@ -110,16 +115,22 @@
 			}
 		},
 		{
-			"id": "seat2",
-			"name": "seat2",
+			"id": "passenger_seat_1",
+			"name": "passenger_seat_1",
 			"type": "ywzj_vehicle:generic",
 			"seat_offset": [-0.8, 1.8, 1.5]
 		},
 		{
-			"id": "seat3",
-			"name": "seat3",
+			"id": "driver_seat_2",
+			"name": "driver_seat_2",
 			"type": "ywzj_vehicle:generic",
 			"seat_offset": [0, 1.8, 1.2]
+		},
+		{
+			"id": "track",
+			"name": "track",
+			"type": "ywzj_vehicle:track",
+			"structure_bone": "tracks"
 		}
 	]
 }

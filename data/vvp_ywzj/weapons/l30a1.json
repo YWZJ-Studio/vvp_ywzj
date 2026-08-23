@@ -2,7 +2,7 @@
 	"type": "ywzj_vehicle:cannon",
 	"name": "L30A1 120mm",
 	"caliber": 120,
-	"damage": 1200,
+	"damage": 2000,
 	"velocity": 24,
 	"headshot_multiplier": 1.5,
 	"recoil": 1,

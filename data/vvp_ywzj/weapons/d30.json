@@ -1,8 +1,8 @@
 {
 	"type": "ywzj_vehicle:cannon",
-	"name": "D-30 122mm Howitzer",
+	"name": "2A18 122mm",
 	"caliber": 122,
-	"damage": 800,
+	"damage": 1000,
 	"velocity": 24,
 	"headshot_multiplier": 1.5,
 	"recoil": 0.3,
@@ -14,7 +14,7 @@
 	},
 	"explosion": {
 		"explode": true,
-		"damage": 160,
+		"damage": 1500,
 		"radius": 10,
 		"destroy_block": true
 	}

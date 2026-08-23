@@ -1,11 +1,11 @@
 {
 	"type": "ywzj_vehicle:grenade",
 	"grenade": "frag",
-	"name": "AGS-30 Automatic Grenade Launcher",
+	"name": "AGS-30 30mm",
 	"caliber": 30,
 	"damage": 30,
 	"velocity": 6,
-	"shoot_interval": 400,
+	"shoot_interval": 150,
 	"max_capacity": 32,
 	"reload": {
 		"time": 100,

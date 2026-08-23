@@ -9,10 +9,11 @@
 		"turn_step": 0.4,
 		"max_turn": 2
 	},
-	"max_health": 245,
+	"max_health": 2000,
+	"can_wade": true,
 	"view_info": {
 		"third_person_center_offset": [0, 3, 0],
-		"third_person_distance": 8,
+		"third_person_distance": 7,
 		"sound_distance": 4,
 		"passenger_view_rot": {
 			"rot_by_vehicle_in_third_person": false,
@@ -23,22 +24,30 @@
 		"energy_capacity": 1,
 		"energy_consumption_per_tick": 0.00001
 	},
+	"physics_info": {
+		"density": 0.75,
+		"destroy_explosion_velocity": 0.3
+	},
 	"structure_model": "vvp_ywzj:vehicle/btr_3",
 	"parts": [
 		{
 			"id": "turret",
 			"name": "turret",
 			"type": "ywzj_vehicle:weapon",
+			"max_health": 600,
+			"render_bone": "turret",
 			"structure_bone": "turret",
+			"ammo_capacity": 350,
 			"operator_on_weapon_unit": false,
 			"seat_offset": [0, 2, 1],
 			"operator_view_offset": [0, 1, 0],
 			"optical_sight_offset": [0.8609375, 0.344419375, 0.107589375],
 			"optical_sight_type": "crt",
+			"zoom_min": 2,
+			"zoom_max": 4,
 			"fire_control_sensor_type": "eo",
 			"with_stabilizer": true,
 			"with_thermal_imager": true,
-			"zoom_max": 8,
 			"crosshair_style": "circle",
 			"rot_info": {
 				"x_rot_speed": 3,
@@ -47,14 +56,14 @@
 				"x_rot_min": -20
 			},
 			"weapons": [
-				"vvp_ywzj:2a72",
+				"vvp_ywzj:ztm1_30mm",
 				{
-					"id": "vvp_ywzj:gun_7.62mm",
+					"id": "vvp_ywzj:kt_7_62_7_62mm",
 					"part_unit_id": "turret_machine_gun",
 					"secondary": true
 				},
 				{
-					"id": "vvp_ywzj:9m113",
+					"id": "vvp_ywzj:rk2s_barrier",
 					"part_unit_id": "turret_missile"
 				},
 				{
@@ -105,48 +114,48 @@
 			}
 		},
 		{
-			"id": "passenger_seat1",
-			"name": "passenger_seat1",
+			"id": "driver_seat_2",
+			"name": "driver_seat_2",
 			"type": "ywzj_vehicle:generic",
 			"is_seat": true,
 			"seat_offset": [0, 1, -1],
 			"owner_view_offset": [0, 3.3, 1]
 		},
 		{
-			"id": "passenger_seat2",
-			"name": "passenger_seat2",
+			"id": "passenger_seat_1",
+			"name": "passenger_seat_1",
 			"type": "ywzj_vehicle:generic",
 			"is_seat": true,
 			"seat_offset": [0, 1, -1],
 			"owner_view_offset": [0, 3.3, 1]
 		},
 		{
-			"id": "passenger_seat3",
-			"name": "passenger_seat3",
+			"id": "passenger_seat_2",
+			"name": "passenger_seat_2",
 			"type": "ywzj_vehicle:generic",
 			"is_seat": true,
 			"seat_offset": [0, 1, -1],
 			"owner_view_offset": [0, 3.3, 1]
 		},
 		{
-			"id": "passenger_seat4",
-			"name": "passenger_seat4",
+			"id": "passenger_seat_3",
+			"name": "passenger_seat_3",
 			"type": "ywzj_vehicle:generic",
 			"is_seat": true,
 			"seat_offset": [0, 1, -1],
 			"owner_view_offset": [0, 3.3, 1]
 		},
 		{
-			"id": "passenger_seat5",
-			"name": "passenger_seat5",
+			"id": "passenger_seat_4",
+			"name": "passenger_seat_4",
 			"type": "ywzj_vehicle:generic",
 			"is_seat": true,
 			"seat_offset": [0, 1, -1],
 			"owner_view_offset": [0, 3.3, 1]
 		},
 		{
-			"id": "passenger_seat6",
-			"name": "passenger_seat6",
+			"id": "passenger_seat_5",
+			"name": "passenger_seat_5",
 			"type": "ywzj_vehicle:generic",
 			"is_seat": true,
 			"seat_offset": [0, 1, -1],

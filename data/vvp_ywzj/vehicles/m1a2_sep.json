@@ -9,16 +9,19 @@
 		"turn_acceleration": 1,
 		"max_turn": 2
 	},
-	"max_health": 480,
+	"max_health": 3000,
 	"view_info": {
 		"third_person_center_offset": [0, 3, 0],
-		"third_person_distance": 8,
-		"sound_distance": 4
+		"third_person_distance": 9,
+		"sound_distance": 7
 	},
 	"energy_info": {
 		"energy_capacity": 1,
 		"energy_consumption_per_tick": 0.00001,
 		"engine_particle_offsets": [[-0.121875, 1.490625, -5.1796875]]
+	},
+	"physics_info": {
+		"destroy_explosion_velocity": 0.5
 	},
 	"structure_model": "vvp_ywzj:vehicle/m1a2_sep",
 	"parts": [
@@ -26,30 +29,33 @@
 			"id": "turret",
 			"name": "turret",
 			"type": "ywzj_vehicle:weapon",
+			"max_health": 1000,
+			"render_bone": "turret",
 			"structure_bone": "turret",
 			"seat_offset": [-0.6046875, 2.7184375, -0.43125],
 			"rot_info": {
-				"x_rot_speed": 1.5,
-				"y_rot_speed": 1.5,
-				"x_rot_max": 5,
-				"x_rot_min": -13
+				"x_rot_speed": 1.2,
+				"y_rot_speed": 2,
+				"x_rot_max": 10,
+				"x_rot_min": -20
 			},
 			"optical_sight_offset": [-1.06914, 0.4, 0.872685],
 			"operator_view_offset": [0, 1.5, 0],
 			"fire_control_lock_type": "aim_hit",
 			"optical_sight_type": "crt",
+			"zoom_min": 3,
+			"zoom_max": 13,
 			"with_stabilizer": true,
 			"with_thermal_imager": true,
-			"zoom_max": 8,
 			"weapons": [
-				["vvp_ywzj:cannon_120mm"],
+				["vvp_ywzj:m256_120mm_apfsds", "vvp_ywzj:m256_120mm_heat"],
 				{
-					"id": "vvp_ywzj:gun_7.62mm",
+					"id": "vvp_ywzj:m240_7_62mm",
 					"part_unit_id": "turret_machine_gun",
 					"secondary": true
 				},
 				{
-					"id": "vvp_ywzj:gun_7.62mm",
+					"id": "vvp_ywzj:m240_7_62mm",
 					"part_unit_id": "turret_mg2"
 				},
 				{
@@ -69,10 +75,10 @@
 			"structure_bone": "turret_mg",
 			"is_seat": false,
 			"rot_info": {
-				"x_rot_speed": 1.5,
+				"x_rot_speed": 1.2,
 				"y_rot_speed": 0,
-				"x_rot_max": 5,
-				"x_rot_min": -13
+				"x_rot_max": 10,
+				"x_rot_min": -20
 			}
 		},
 		{
@@ -90,13 +96,15 @@
 			"id": "turret_mg2",
 			"name": "turret_mg2",
 			"type": "ywzj_vehicle:weapon",
+			"max_health": 200,
+			"render_bone": "M2_masept",
 			"structure_bone": "turret_mg2",
 			"is_seat": false,
 			"rot_info": {
 				"x_rot_speed": 4.5,
 				"y_rot_speed": 4.5,
-				"x_rot_max": 15,
-				"x_rot_min": -45,
+				"x_rot_max": 9,
+				"x_rot_min": -65,
 				"need_power": false
 			}
 		},
@@ -115,20 +123,23 @@
 			"id": "turret_mg3",
 			"name": "turret_mg3",
 			"type": "ywzj_vehicle:weapon",
+			"max_health": 200,
+			"render_bone": "passengerWeaponStationYaw",
 			"structure_bone": "turret_mg3",
 			"seat_offset": [0.553125, 2.229375, -0.3640625],
 			"operator_on_weapon_unit": false,
 			"rot_info": {
 				"x_rot_speed": 4.5,
 				"y_rot_speed": 4.5,
-				"x_rot_max": 15,
-				"x_rot_min": -45
+				"x_rot_max": 9,
+				"x_rot_min": -65
 			},
 			"optical_sight_offset": [0.0039625, 0.5071375, 0.50735625],
 			"optical_sight_type": "crt",
+			"zoom_min": 3,
+			"zoom_max": 13,
 			"with_stabilizer": true,
 			"with_thermal_imager": true,
-			"zoom_max": 8,
 			"weapons": ["vvp_ywzj:m2_50cal"]
 		},
 		{
@@ -137,7 +148,7 @@
 			"type": "ywzj_vehicle:generic",
 			"structure_bone": "era_1",
 			"is_seat": false,
-			"max_health": 50,
+			"max_health": 100,
 			"defense_stats": {
 				"damage_transfer_coefficient": 0.01
 			}
@@ -148,7 +159,7 @@
 			"type": "ywzj_vehicle:generic",
 			"structure_bone": "era_2",
 			"is_seat": false,
-			"max_health": 50,
+			"max_health": 100,
 			"defense_stats": {
 				"damage_transfer_coefficient": 0.01
 			}
@@ -159,7 +170,7 @@
 			"type": "ywzj_vehicle:generic",
 			"structure_bone": "era_3",
 			"is_seat": false,
-			"max_health": 50,
+			"max_health": 100,
 			"defense_stats": {
 				"damage_transfer_coefficient": 0.01
 			}
@@ -170,14 +181,14 @@
 			"type": "ywzj_vehicle:generic",
 			"structure_bone": "era_4",
 			"is_seat": false,
-			"max_health": 50,
+			"max_health": 100,
 			"defense_stats": {
 				"damage_transfer_coefficient": 0.01
 			}
 		},
 		{
-			"id": "passenger_seat1",
-			"name": "passenger_seat1",
+			"id": "driver_seat_2",
+			"name": "driver_seat_2",
 			"type": "ywzj_vehicle:generic",
 			"is_seat": true,
 			"structure_bone": "seat",
@@ -185,8 +196,8 @@
 			"owner_view_offset": [0, 4, 0]
 		},
 		{
-			"id": "passenger_seat2",
-			"name": "passenger_seat2",
+			"id": "passenger_seat_2",
+			"name": "passenger_seat_2",
 			"type": "ywzj_vehicle:generic",
 			"is_seat": true,
 			"seat_offset": [0.015625, 1.691875, 1.759375],

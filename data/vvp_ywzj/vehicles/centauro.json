@@ -9,10 +9,10 @@
 		"turn_step": 0.4,
 		"max_turn": 2
 	},
-	"max_health": 325,
+	"max_health": 2000,
 	"view_info": {
 		"third_person_center_offset": [0, 3, 0],
-		"third_person_distance": 8,
+		"third_person_distance": 7,
 		"sound_distance": 4,
 		"passenger_view_rot": {
 			"rot_by_vehicle_in_third_person": false,
@@ -23,31 +23,37 @@
 		"energy_capacity": 1,
 		"energy_consumption_per_tick": 0.00001
 	},
+	"physics_info": {
+		"destroy_explosion_velocity": 0.3
+	},
 	"structure_model": "vvp_ywzj:vehicle/centauro",
 	"parts": [
 		{
 			"id": "turret",
 			"name": "turret",
 			"type": "ywzj_vehicle:weapon",
+			"max_health": 600,
+			"render_bone": "turret",
 			"structure_bone": "turret",
 			"seat_offset": [-0.628125, 2, -0.784375],
 			"operator_view_offset": [0, 1, 0],
 			"optical_sight_offset": [-0.53125, 0.61664625, 0.676563125],
 			"operator_on_weapon_unit": true,
 			"optical_sight_type": "crt",
+			"zoom_min": 3,
+			"zoom_max": 10,
 			"fire_control_sensor_type": "eo",
 			"with_stabilizer": true,
 			"with_thermal_imager": true,
-			"zoom_max": 8,
 			"crosshair_style": "circle",
 			"rot_info": {
-				"x_rot_speed": 3,
-				"y_rot_speed": 3,
-				"x_rot_max": 10,
-				"x_rot_min": -20
+				"x_rot_speed": 1.43,
+				"y_rot_speed": 1.43,
+				"x_rot_max": 6,
+				"x_rot_min": -16
 			},
 			"weapons": [
-				"vvp_ywzj:cannon_120mm",
+				["vvp_ywzj:oto_120_45_120mm_apfsds", "vvp_ywzj:oto_120_45_120mm_heat"],
 				{
 					"id": "ywzj_vehicle:launcher_smoke_grenade",
 					"part_unit_id": "turret_smoke_grenade"
@@ -58,20 +64,23 @@
 			"id": "passenger_weapon_station",
 			"name": "passenger_weapon_station",
 			"type": "ywzj_vehicle:weapon",
+			"max_health": 200,
+			"render_bone": "passengerWeaponStationYaw",
 			"structure_bone": "passengerWeaponStation",
 			"operator_on_weapon_unit": false,
 			"seat_offset": [0.5515625, 2, -1.3359375],
 			"operator_view_offset": [0, 1.5, 0],
 			"optical_sight_offset": [-0.08965375, 0.718164375, 0.500235],
 			"optical_sight_type": "crt",
+			"zoom_min": 1,
+			"zoom_max": 4,
 			"with_stabilizer": true,
 			"with_thermal_imager": true,
-			"zoom_max": 8,
 			"crosshair_style": "circle",
 			"rot_info": {
-				"x_rot_speed": 3,
-				"y_rot_speed": 3,
-				"x_rot_max": 10,
+				"x_rot_speed": 4.5,
+				"y_rot_speed": 4.5,
+				"x_rot_max": 8,
 				"x_rot_min": -20
 			},
 			"weapons": ["vvp_ywzj:m2_50cal"]
@@ -89,8 +98,8 @@
 			}
 		},
 		{
-			"id": "passenger_seat",
-			"name": "passenger_seat",
+			"id": "driver_seat_2",
+			"name": "driver_seat_2",
 			"type": "ywzj_vehicle:generic",
 			"is_seat": true,
 			"seat_offset": [-0.6328125, 1.596875, 0.9953125],

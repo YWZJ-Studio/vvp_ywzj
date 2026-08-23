@@ -5,17 +5,12 @@
 	"slot_texture": "vvp_ywzj:textures/slot/terminator.png",
 	"animations": "vvp_ywzj:entity/terminator.animation",
 	"animation_controller": "vvp_ywzj:terminator_controller",
-	"track_config": {
-		"left_track": "tread_l_move",
-		"right_track": "tread_r_move",
-		"module_length": 0.25,
-		"track_width": 3
-	},
+	"track_config": {},
 	"sounds": {
 		"engine_start": "ywzj_vehicle:ztz99a_engine_start",
 		"engine_idle": "vvp_ywzj:t72_engine_idle",
 		"engine_run": "ywzj_vehicle:ztz99a_engine_run",
 		"track_run": "ywzj_vehicle:track_run"
 	},
-	"tab_index": 1001
+	"tab_index": 1070
 }

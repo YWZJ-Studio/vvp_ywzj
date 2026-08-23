@@ -1,7 +1,7 @@
 {
 	"type": "ywzj_vehicle:generic",
 	"attributes": {},
-	"max_health": 80,
+	"max_health": 100,
 	"view_info": {
 		"third_person_center_offset": [0, 3, 0],
 		"third_person_distance": 8,
@@ -15,13 +15,19 @@
 		"damage_threshold": 10
 	},
 	"protect_passenger": false,
+	"physics_info": {
+		"destroy_explosion_velocity": 0.3
+	},
 	"structure_model": "vvp_ywzj:vehicle/zu23",
 	"parts": [
 		{
 			"id": "turret",
 			"name": "turret",
 			"type": "ywzj_vehicle:weapon",
+			"max_health": 100,
+			"render_bone": "turret",
 			"structure_bone": "turret",
+			"ammo_capacity": 100,
 			"seat_offset": [0.55, 1.329375, -1.1171875],
 			"operator_view_offset": [0.4046875, 1.34375, 1.06663125],
 			"optical_sight_type": "operator",
@@ -37,8 +43,8 @@
 			"weapons": ["vvp_ywzj:zu_23"]
 		},
 		{
-			"id": "passenger_seat1",
-			"name": "passenger_seat1",
+			"id": "passenger_seat_1",
+			"name": "passenger_seat_1",
 			"type": "ywzj_vehicle:generic",
 			"structure_bone": "turret",
 			"is_seat": true,

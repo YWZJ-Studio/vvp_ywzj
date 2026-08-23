@@ -1,7 +1,7 @@
 {
 	"type": "ywzj_vehicle:missile",
 	"name": "Kh-25 Air-to-Ground Missile",
-	"damage": 650,
+	"damage": 1000,
 	"headshot_multiplier": 1.5,
 	"shoot_interval": 1000,
 	"max_capacity": 4,

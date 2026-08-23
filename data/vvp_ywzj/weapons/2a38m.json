@@ -1,8 +1,8 @@
 {
   "type": "ywzj_vehicle:cannon",
-  "name": "2A38M 30mm",
+	"name": "2A38M 30mm",
   "caliber": 30,
-  "damage": 30,
+  "damage": 40,
   "velocity": 16,
   "inaccuracy": 0.1,
   "recoil": 0.3,

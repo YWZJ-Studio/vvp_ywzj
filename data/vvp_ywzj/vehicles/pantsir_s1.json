@@ -9,9 +9,9 @@
 		"turn_step": 0.4,
 		"max_turn": 2
 	},
-	"max_health": 1000,
+	"max_health": 2000,
 	"view_info": {
-		"third_person_center_offset": [0, 6, 0],
+		"third_person_center_offset": [0, 5, 0],
 		"third_person_distance": 12,
 		"sound_distance": 7
 	},
@@ -20,24 +20,32 @@
 		"energy_consumption_per_tick": 0.00001,
 		"engine_particle_offsets": []
 	},
+	"physics_info": {
+		"destroy_explosion_velocity": 0.3
+	},
 	"structure_model": "vvp_ywzj:vehicle/pantsir_s1",
 	"parts": [
 		{
 			"id": "turret",
 			"name": "turret",
 			"type": "ywzj_vehicle:weapon",
+			"max_health": 600,
+			"render_bone": "turret",
 			"structure_bone": "turret",
+			"ammo_capacity": 1400,
 			"seat_offset": [0.75625, 2.7140625, 4.3],
 			"operator_on_weapon_unit": false,
 			"rot_info": {
-				"x_rot_speed": 3,
-				"y_rot_speed": 3,
-				"x_rot_max": 5,
-				"x_rot_min": -45
+				"x_rot_speed": 3.5,
+				"y_rot_speed": 3.35,
+				"x_rot_max": 1,
+				"x_rot_min": -85
 			},
 			"optical_sight_offset": [0, 1.5, 2],
 			"operator_view_offset": [0.7, -0.7, 6.3],
 			"optical_sight_type": "crt",
+			"zoom_min": 5.8,
+			"zoom_max": 28,
 			"sub_part_unit_ids": ["lock_radar", "scan_radar"],
 			"weapons": [
 				"vvp_ywzj:2a38m",
@@ -57,10 +65,10 @@
 			"crosshair_style": "none",
 			"is_seat": false,
 			"rot_info": {
-				"x_rot_speed": 3,
+				"x_rot_speed": 3.5,
 				"y_rot_speed": 0,
 				"x_rot_max": 0,
-				"x_rot_min": -45
+				"x_rot_min": -85
 			}
 		},
 		{
@@ -83,6 +91,8 @@
 			"id": "scan_radar",
 			"name": "scan_radar",
 			"type": "ywzj_vehicle:radar",
+			"max_health": 200,
+			"render_bone": "RADAR",
 			"structure_bone": "scan_radar",
 			"is_seat": false,
 			"base": "turret",
@@ -94,15 +104,15 @@
 			"max_scan_distance": 4096
 		},
 		{
-			"id": "seat_1",
-			"name": "seat_1",
+			"id": "driver_seat_2",
+			"name": "driver_seat_2",
 			"type": "ywzj_vehicle:generic",
 			"seat_offset": [-0.04375, 2.7140625, 4.3],
 			"owner_view_offset": [-0.04375, 2.7140625, 4.3]
 		},
 		{
-			"id": "seat_2",
-			"name": "seat_2",
+			"id": "passenger_seat_1",
+			"name": "passenger_seat_1",
 			"type": "ywzj_vehicle:generic",
 			"seat_offset": [-0.7953125, 2.7140625, 4.3],
 			"owner_view_offset": [-0.7953125, 2.7140625, 4.3]

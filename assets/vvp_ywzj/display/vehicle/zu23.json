@@ -5,5 +5,5 @@
 	"slot_texture": "vvp_ywzj:textures/slot/zu23.png",
 	"animations": "vvp_ywzj:entity/zu23.animation",
 	"animation_controller": "vvp_ywzj:zu23_controller",
-	"tab_index": 4003
+	"tab_index": 4000
 }

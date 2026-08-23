@@ -9,16 +9,19 @@
 		"turn_acceleration": 1,
 		"max_turn": 2
 	},
-	"max_health": 480,
+	"max_health": 3000,
 	"view_info": {
 		"third_person_center_offset": [0, 3, 0],
 		"third_person_distance": 8,
-		"sound_distance": 4
+		"sound_distance": 7
 	},
 	"energy_info": {
 		"energy_capacity": 1,
 		"energy_consumption_per_tick": 0.00001,
 		"engine_particle_offsets": [[0.4578125, 1.4640625, -3.5140625], [-0.4578125, 1.4640625, -3.5140625]]
+	},
+	"physics_info": {
+		"destroy_explosion_velocity": 0.5
 	},
 	"structure_model": "vvp_ywzj:vehicle/m60",
 	"parts": [
@@ -26,22 +29,24 @@
 			"id": "turret",
 			"name": "turret",
 			"type": "ywzj_vehicle:weapon",
+			"max_health": 1000,
+			"render_bone": "cannon",
 			"structure_bone": "turret",
 			"seat_offset": [-0.6046875, 2.7184375, -0.43125],
 			"rot_info": {
-				"x_rot_speed": 1.5,
-				"y_rot_speed": 1.5,
-				"x_rot_max": 5,
-				"x_rot_min": -13
+				"x_rot_speed": 0.2,
+				"y_rot_speed": 1.2,
+				"x_rot_max": 9,
+				"x_rot_min": -19
 			},
 			"optical_sight_offset": [-0.3171875, 0.5234375, 1.8515625],
 			"operator_view_offset": [0, 1.5, 0],
 			"optical_sight_type": "optical_scope",
 			"zoom_max": 8,
 			"weapons": [
-				"vvp_ywzj:cannon_105mm",
+				["vvp_ywzj:m68_105mm_apfsds", "vvp_ywzj:m68_105mm_heat"],
 				{
-					"id": "vvp_ywzj:gun_7.62mm",
+					"id": "vvp_ywzj:m73_7_62mm",
 					"part_unit_id": "turret_machine_gun",
 					"secondary": true
 				},
@@ -58,10 +63,10 @@
 			"structure_bone": "turret_mg",
 			"is_seat": false,
 			"rot_info": {
-				"x_rot_speed": 1.5,
+				"x_rot_speed": 0.2,
 				"y_rot_speed": 0,
-				"x_rot_max": 5,
-				"x_rot_min": -13
+				"x_rot_max": 9,
+				"x_rot_min": -19
 			}
 		},
 		{
@@ -79,25 +84,27 @@
 			"id": "commander_machine_gun",
 			"name": "commander_machine_gun",
 			"type": "ywzj_vehicle:weapon",
+			"max_health": 200,
+			"render_bone": "gun_turret",
 			"structure_bone": "turret_st",
 			"seat_offset": [0.553125, 2.229375, -0.3640625],
 			"operator_on_weapon_unit": false,
 			"rot_info": {
-				"x_rot_speed": 4.5,
-				"y_rot_speed": 4.5,
+				"x_rot_speed": 0.75,
+				"y_rot_speed": 1.2,
 				"x_rot_max": 15,
-				"x_rot_min": -45,
+				"x_rot_min": -60,
 				"need_power": false
 			},
 			"operator_view_offset": [0, 1.5, 0],
 			"optical_sight_offset": [-0.121875, 0.5, 0.5],
 			"optical_sight_type": "optical_scope",
 			"zoom_max": 2,
-			"weapons": ["vvp_ywzj:m2_50cal"]
+			"weapons": ["vvp_ywzj:m85_12_7mm"]
 		},
 		{
-			"id": "passenger_seat1",
-			"name": "passenger_seat1",
+			"id": "driver_seat_2",
+			"name": "driver_seat_2",
 			"type": "ywzj_vehicle:generic",
 			"is_seat": true,
 			"structure_bone": "seat",
@@ -105,8 +112,8 @@
 			"owner_view_offset": [0, 4, 0]
 		},
 		{
-			"id": "passenger_seat2",
-			"name": "passenger_seat2",
+			"id": "passenger_seat_2",
+			"name": "passenger_seat_2",
 			"type": "ywzj_vehicle:generic",
 			"is_seat": true,
 			"seat_offset": [0, 1.62, 1.084375],

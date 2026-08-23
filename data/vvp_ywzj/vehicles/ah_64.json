@@ -13,8 +13,8 @@
 	},
 	"max_health": 1000,
 	"view_info": {
-		"third_person_center_offset": [0, 6, 0],
-		"third_person_distance": 16,
+		"third_person_center_offset": [0, 4, 0],
+		"third_person_distance": 18,
 		"third_person_center_offset_zoomed": [0, 7, 0],
 		"third_person_distance_zoomed": 0,
 		"sound_distance": 8
@@ -30,6 +30,9 @@
 	},
 	"with_warning_receiver": true,
 	"center_offset": [0, 1.844, 0],
+	"physics_info": {
+		"destroy_explosion_velocity": 0.3
+	},
 	"structure_model": "vvp_ywzj:vehicle/ah_64",
 	"parts": [
 		{
@@ -50,13 +53,14 @@
 			"optical_sight_offset": [0, 0, 0.3],
 			"operator_view_offset": [-0.05, 1.312291875, -2.33408893125],
 			"optical_sight_type": "crt",
+			"zoom_min": 2,
+			"zoom_max": 12,
 			"with_stabilizer": true,
 			"with_focus_locker": true,
 			"with_thermal_imager": true,
-			"zoom_max": 12,
 			"weapons": [
 				{
-					"id": "ywzj_vehicle:auto_cannon",
+					"id": "vvp_ywzj:m230e1_30mm",
 					"part_unit_id": "turret"
 				},
 				{
@@ -78,6 +82,7 @@
 			"name": "turret",
 			"type": "ywzj_vehicle:weapon",
 			"structure_bone": "turret",
+			"ammo_capacity": 1200,
 			"fire_control_sensor_type": "eo",
 			"is_seat": false,
 			"crosshair_style": "square",
@@ -133,8 +138,8 @@
 			}
 		},
 		{
-			"id": "pilot_seat2",
-			"name": "pilot_seat2",
+			"id": "pilot_seat_2",
+			"name": "pilot_seat_2",
 			"type": "ywzj_vehicle:generic",
 			"seat_offset": [0, 2.6528125, 1.878125],
 			"owner_view_offset": [-0.05, 2.6528125, 1.878125]

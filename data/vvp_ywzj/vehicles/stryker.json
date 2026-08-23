@@ -9,9 +9,9 @@
 		"turn_step": 0.4,
 		"max_turn": 2
 	},
-	"max_health": 300,
+	"max_health": 2000,
 	"view_info": {
-		"third_person_center_offset": [0, 3, 0],
+		"third_person_center_offset": [0, 3.5, 0],
 		"third_person_distance": 8,
 		"sound_distance": 4,
 		"passenger_view_rot": {
@@ -24,13 +24,16 @@
 		"energy_consumption_per_tick": 0.00001,
 		"engine_particle_offsets": [[-1.36875, 2.6484375, 1.8125]]
 	},
+	"physics_info": {
+		"destroy_explosion_velocity": 0.3
+	},
 	"structure_model": "vvp_ywzj:vehicle/stryker",
 	"parts": [
 		{
 			"id": "turret",
 			"name": "turret",
 			"type": "ywzj_vehicle:weapon",
-			"max_health": 100,
+			"max_health": 600,
 			"render_bone": "turret",
 			"structure_bone": "turret",
 			"operator_on_weapon_unit": true,
@@ -38,18 +41,19 @@
 			"operator_view_offset": [0, 1.5, 0],
 			"optical_sight_offset": [0.576166875, 0.17854375, 0.640283125],
 			"optical_sight_type": "crt",
+			"zoom_min": 3,
+			"zoom_max": 10,
 			"with_stabilizer": true,
 			"with_thermal_imager": true,
-			"zoom_max": 8,
 			"crosshair_style": "circle",
 			"rot_info": {
-				"x_rot_speed": 3,
-				"y_rot_speed": 3,
+				"x_rot_speed": 1.8,
+				"y_rot_speed": 2,
 				"x_rot_max": 5,
-				"x_rot_min": -18
+				"x_rot_min": -15
 			},
 			"weapons": [
-				"vvp_ywzj:cannon_105mm",
+				["vvp_ywzj:m68a1e8_105mm_apfsds", "vvp_ywzj:m68a1e8_105mm_heat"],
 				{
 					"id": "ywzj_vehicle:launcher_smoke_grenade",
 					"part_unit_id": "turret_smoke_grenade"
@@ -72,7 +76,7 @@
 			"id": "turret_mg",
 			"name": "turret_mg",
 			"type": "ywzj_vehicle:weapon",
-			"max_health": 100,
+			"max_health": 200,
 			"render_bone": "M2Mashingun",
 			"structure_bone": "turret_mg",
 			"is_seat": true,
@@ -81,18 +85,18 @@
 			"optical_sight_type": "operator",
 			"zoom_max": 2,
 			"rot_info": {
-				"x_rot_speed": 3,
-				"y_rot_speed": 3,
+				"x_rot_speed": 1,
+				"y_rot_speed": 1.5,
 				"x_rot_max": 5,
-				"x_rot_min": -18,
-				"y_rot_max": 170,
-				"y_rot_min": -10
+				"x_rot_min": -30,
+				"y_rot_max": 70,
+				"y_rot_min": -5
 			},
 			"weapons": ["vvp_ywzj:m2_50cal"]
 		},
 		{
-			"id": "passenger_seat",
-			"name": "passenger_seat",
+			"id": "driver_seat_2",
+			"name": "driver_seat_2",
 			"type": "ywzj_vehicle:generic",
 			"is_seat": true,
 			"seat_offset": [0.5375, 2, 2.303125],

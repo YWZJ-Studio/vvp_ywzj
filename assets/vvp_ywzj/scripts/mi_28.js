@@ -16,9 +16,9 @@ function updateBones(context) {
     builder.setRotation("mg", 0, -context.getPartYRot("auto_cannon"), 0)
     builder.setRotation("mg_up", context.getPartXRot("auto_cannon"), 0, 0)
 
-    builder.setRotation("camera", context.getPartXRot("sighting_system2"), -context.getPartYRot("sighting_system2"), 0)
+    builder.setRotation("camera", context.getPartXRot("sighting_system"), -context.getPartYRot("sighting_system"), 0)
 
-    let remainLmur = context.getWeaponRemainAmmo("sighting_system2", 1)
+    let remainLmur = context.getWeaponRemainAmmo("sighting_system", 1)
     for (let i = 0; i < lmurs.length; i++) {
         if (i < lmurs.length - remainLmur) {
             builder.hideBone(lmurs[i])

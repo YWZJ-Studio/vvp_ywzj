@@ -2,7 +2,7 @@
 	"type": "ywzj_vehicle:missile",
 	"name": "9M123 Khrizantema",
 	"caliber": 152,
-	"damage": 850,
+	"damage": 1000,
 	"headshot_multiplier": 1.5,
 	"shoot_interval": 1000,
 	"max_capacity": 4,

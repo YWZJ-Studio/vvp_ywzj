@@ -9,7 +9,7 @@
 		"turn_acceleration": 1,
 		"max_turn": 2
 	},
-	"max_health": 275,
+	"max_health": 2000,
 	"view_info": {
 		"third_person_center_offset": [0, 4, 0],
 		"third_person_distance": 10,
@@ -21,7 +21,8 @@
 		"engine_particle_offsets": []
 	},
 	"physics_info": {
-		"can_destroy_block": true
+		"can_destroy_block": true,
+		"destroy_explosion_velocity": 0.5
 	},
 	"structure_model": "vvp_ywzj:vehicle/puma",
 	"parts": [
@@ -29,7 +30,10 @@
 			"id": "turret",
 			"name": "turret",
 			"type": "ywzj_vehicle:weapon",
+			"max_health": 600,
+			"render_bone": "turret",
 			"structure_bone": "turret",
+			"ammo_capacity": 400,
 			"fire_control_sensor_type": "eo",
 			"fire_control_lock_type": "aim_hit",
 			"seat_offset": [0.8, 1.8, 1.5],
@@ -97,15 +101,15 @@
 			"structure_bone": "tracks"
 		},
 		{
-			"id": "seat2",
-			"name": "seat2",
+			"id": "passenger_seat_1",
+			"name": "passenger_seat_1",
 			"type": "ywzj_vehicle:generic",
 			"seat_offset": [-0.8, 1.8, 1.5],
 			"owner_view_offset": [-0.8, 4, 1.5]
 		},
 		{
-			"id": "seat3",
-			"name": "seat3",
+			"id": "driver_seat_2",
+			"name": "driver_seat_2",
 			"type": "ywzj_vehicle:generic",
 			"seat_offset": [0, 1.8, 1.2],
 			"owner_view_offset": [0, 4, 1.2]

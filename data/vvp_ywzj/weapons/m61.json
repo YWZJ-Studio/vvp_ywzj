@@ -1,6 +1,6 @@
 {
 	"type": "ywzj_vehicle:cannon",
-	"name": "M61 Vulcan 20mm",
+	"name": "M61A1 Vulcan 20mm",
 	"caliber": 20,
 	"damage": 25,
 	"velocity": 20,
@@ -14,7 +14,7 @@
 	},
 	"explosion": {
 		"explode": true,
-		"damage": 4,
+		"damage": 10,
 		"radius": 0.5,
 		"destroy_block": true
 	}

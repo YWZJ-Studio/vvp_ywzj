@@ -9,10 +9,10 @@
 		"turn_step": 0.4,
 		"max_turn": 2
 	},
-	"max_health": 250,
+	"max_health": 500,
 	"view_info": {
 		"third_person_center_offset": [0, 3, 0],
-		"third_person_distance": 8,
+		"third_person_distance": 6,
 		"sound_distance": 4,
 		"passenger_view_rot": {
 			"rot_by_vehicle_in_third_person": false,
@@ -23,19 +23,22 @@
 		"energy_capacity": 1,
 		"energy_consumption_per_tick": 0.00001
 	},
+	"physics_info": {
+		"destroy_explosion_velocity": 0.3
+	},
 	"structure_model": "vvp_ywzj:vehicle/toyota",
 	"parts": [
 		{
-			"id": "passenger_seat1",
-			"name": "passenger_seat1",
+			"id": "driver_seat_1",
+			"name": "driver_seat_1",
 			"type": "ywzj_vehicle:generic",
 			"is_seat": true,
 			"seat_offset": [0.490625, 2.0078125, 0.30625],
 			"owner_view_offset": [0.52, 2.0078125, 0.30625]
 		},
 		{
-			"id": "passenger_seat2",
-			"name": "passenger_seat2",
+			"id": "passenger_seat_1",
+			"name": "passenger_seat_1",
 			"type": "ywzj_vehicle:generic",
 			"is_seat": true,
 			"seat_offset": [-0.490625, 2.0078125, 0.30625],

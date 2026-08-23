@@ -9,10 +9,10 @@
 		"turn_step": 0.4,
 		"max_turn": 2
 	},
-	"max_health": 150,
+	"max_health": 500,
 	"view_info": {
-		"third_person_center_offset": [0, 3, 0],
-		"third_person_distance": 8,
+		"third_person_center_offset": [0, 5, 0],
+		"third_person_distance": 10,
 		"sound_distance": 4,
 		"passenger_view_rot": {
 			"rot_by_vehicle_in_third_person": false,
@@ -23,35 +23,38 @@
 		"energy_capacity": 1,
 		"energy_consumption_per_tick": 0.00001
 	},
+	"physics_info": {
+		"destroy_explosion_velocity": 0.3
+	},
 	"structure_model": "vvp_ywzj:vehicle/ural",
 	"parts": [
 		{
-			"id": "driver_seat",
-			"name": "driver_seat",
+			"id": "driver_seat_1",
+			"name": "driver_seat_1",
 			"type": "ywzj_vehicle:generic",
 			"is_seat": true,
 			"seat_offset": [0.6152125, 2.65, 1.45],
 			"owner_view_offset": [0.6152125, 2.65, 1.45]
 		},
 		{
-			"id": "passenger_seat2",
-			"name": "passenger_seat2",
+			"id": "passenger_seat_1",
+			"name": "passenger_seat_1",
 			"type": "ywzj_vehicle:generic",
 			"is_seat": true,
 			"seat_offset": [-0.0722875, 2.65, 1.45],
 			"owner_view_offset": [-0.0722875, 2.65, 1.45]
 		},
 		{
-			"id": "passenger_seat3",
-			"name": "passenger_seat3",
+			"id": "passenger_seat_2",
+			"name": "passenger_seat_2",
 			"type": "ywzj_vehicle:generic",
 			"is_seat": true,
 			"seat_offset": [-0.6347875, 2.65, 1.45],
 			"owner_view_offset": [-0.6347875, 2.65, 1.45]
 		},
 		{
-			"id": "passenger_seat4",
-			"name": "passenger_seat4",
+			"id": "passenger_seat_3",
+			"name": "passenger_seat_3",
 			"type": "ywzj_vehicle:generic",
 			"is_seat": true,
 			"seat_offset": [0.9902125, 3.0, -0.59856875],
@@ -60,8 +63,8 @@
 			"dismount_offset": [0, 1.678125, -5.634375]
 		},
 		{
-			"id": "passenger_seat5",
-			"name": "passenger_seat5",
+			"id": "passenger_seat_4",
+			"name": "passenger_seat_4",
 			"type": "ywzj_vehicle:generic",
 			"is_seat": true,
 			"seat_offset": [0.9902125, 3.0, -1.53606875],
@@ -70,8 +73,8 @@
 			"dismount_offset": [0, 1.678125, -5.634375]
 		},
 		{
-			"id": "passenger_seat6",
-			"name": "passenger_seat6",
+			"id": "passenger_seat_5",
+			"name": "passenger_seat_5",
 			"type": "ywzj_vehicle:generic",
 			"is_seat": true,
 			"seat_offset": [0.9902125, 3.0, -2.66106875],
@@ -80,8 +83,8 @@
 			"dismount_offset": [0, 1.678125, -5.634375]
 		},
 		{
-			"id": "passenger_seat7",
-			"name": "passenger_seat7",
+			"id": "passenger_seat_6",
+			"name": "passenger_seat_6",
 			"type": "ywzj_vehicle:generic",
 			"is_seat": true,
 			"seat_offset": [0.9902125, 3.0, -3.66106875],
@@ -90,8 +93,8 @@
 			"dismount_offset": [0, 1.678125, -5.634375]
 		},
 		{
-			"id": "passenger_seat8",
-			"name": "passenger_seat8",
+			"id": "passenger_seat_7",
+			"name": "passenger_seat_7",
 			"type": "ywzj_vehicle:generic",
 			"is_seat": true,
 			"seat_offset": [0.9902125, 3.0, -4.59856875],
@@ -100,8 +103,8 @@
 			"dismount_offset": [0, 1.678125, -5.634375]
 		},
 		{
-			"id": "passenger_seat9",
-			"name": "passenger_seat9",
+			"id": "passenger_seat_8",
+			"name": "passenger_seat_8",
 			"type": "ywzj_vehicle:generic",
 			"is_seat": true,
 			"seat_offset": [-0.9902125, 3.0, -0.59856875],
@@ -110,8 +113,8 @@
 			"dismount_offset": [0, 1.678125, -5.634375]
 		},
 		{
-			"id": "passenger_seat10",
-			"name": "passenger_seat10",
+			"id": "passenger_seat_9",
+			"name": "passenger_seat_9",
 			"type": "ywzj_vehicle:generic",
 			"is_seat": true,
 			"seat_offset": [-0.9902125, 3.0, -1.53606875],
@@ -120,8 +123,8 @@
 			"dismount_offset": [0, 1.678125, -5.634375]
 		},
 		{
-			"id": "passenger_seat11",
-			"name": "passenger_seat11",
+			"id": "passenger_seat_10",
+			"name": "passenger_seat_10",
 			"type": "ywzj_vehicle:generic",
 			"is_seat": true,
 			"seat_offset": [-0.9902125, 3.0, -2.66106875],
@@ -130,8 +133,8 @@
 			"dismount_offset": [0, 1.678125, -5.634375]
 		},
 		{
-			"id": "passenger_seat12",
-			"name": "passenger_seat12",
+			"id": "passenger_seat_11",
+			"name": "passenger_seat_11",
 			"type": "ywzj_vehicle:generic",
 			"is_seat": true,
 			"seat_offset": [-0.9902125, 3.0, -3.66106875],
@@ -140,8 +143,8 @@
 			"dismount_offset": [0, 1.678125, -5.634375]
 		},
 		{
-			"id": "passenger_seat13",
-			"name": "passenger_seat13",
+			"id": "passenger_seat_12",
+			"name": "passenger_seat_12",
 			"type": "ywzj_vehicle:generic",
 			"is_seat": true,
 			"seat_offset": [-0.9902125, 3.0, -4.59856875],

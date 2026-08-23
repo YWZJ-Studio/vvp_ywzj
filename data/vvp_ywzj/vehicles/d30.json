@@ -1,7 +1,7 @@
 {
 	"type": "ywzj_vehicle:generic",
 	"attributes": {},
-	"max_health": 80,
+	"max_health": 100,
 	"view_info": {
 		"third_person_center_offset": [0, 3, 0],
 		"third_person_distance": 8,
@@ -15,12 +15,17 @@
 		"damage_threshold": 10
 	},
 	"protect_passenger": false,
+	"physics_info": {
+		"destroy_explosion_velocity": 0.3
+	},
 	"structure_model": "vvp_ywzj:vehicle/d30",
 	"parts": [
 		{
 			"id": "turret",
 			"name": "turret",
 			"type": "ywzj_vehicle:weapon",
+			"max_health": 100,
+			"render_bone": "turret",
 			"structure_bone": "turret",
 			"seat_offset": [0.6, 1.6, -1],
 			"passenger_pose": {

@@ -1,0 +1,11 @@
+{
+	"type": "ywzj_vehicle:rocket",
+	"name": "S-8 80mm",
+	"damage": 100,
+	"headshot_multiplier": 1.5,
+	"inaccuracy": 0.05,
+	"shoot_interval": 100,
+	"max_capacity": 52,
+	"reload": { "time": 80, "ammo": "ywzj_vehicle:ammo_rocket" },
+	"explosion": { "explode": true, "damage": 100, "radius": 4, "destroy_block": true }
+}

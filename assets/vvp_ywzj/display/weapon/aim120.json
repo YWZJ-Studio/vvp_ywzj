@@ -1,10 +1,10 @@
 {
-	"type": "ywzj_vehicle:weapon",
-	"model": "vvp_ywzj:entity/aim120",
-	"texture": "vvp_ywzj:textures/entity/aim120.png",
-	"sounds": {
-		"fire": "ywzj_vehicle:missile_launch",
-		"reload": "ywzj_vehicle:common_reload"
-	},
-	"description": "weapon.aim120"
+  "type": "ywzj_vehicle:weapon",
+  "model": "vvp_ywzj:entity/aim120",
+  "texture": "vvp_ywzj:textures/entity/aim120.png",
+  "sounds": {
+    "fire": "ywzj_vehicle:missile_launch",
+    "reload": "ywzj_vehicle:common_reload"
+  },
+  "description": "weapon.aim120"
 }

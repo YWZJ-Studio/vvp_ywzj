@@ -9,10 +9,10 @@
 		"turn_acceleration": 1,
 		"max_turn": 2
 	},
-	"max_health": 350,
+	"max_health": 2000,
 	"view_info": {
-		"third_person_center_offset": [0, 3, 0],
-		"third_person_distance": 8,
+		"third_person_center_offset": [0, 4, 0],
+		"third_person_distance": 9,
 		"sound_distance": 4
 	},
 	"energy_info": {
@@ -20,31 +20,38 @@
 		"energy_consumption_per_tick": 0.00001,
 		"engine_particle_offsets": [[1.9046875, 2.4984375, 1.49375]]
 	},
+	"physics_info": {
+		"destroy_explosion_velocity": 0.5
+	},
 	"structure_model": "vvp_ywzj:vehicle/bradley",
 	"parts": [
 		{
 			"id": "turret",
 			"name": "turret",
 			"type": "ywzj_vehicle:weapon",
+			"max_health": 600,
+			"render_bone": "turret",
 			"structure_bone": "turret",
+			"ammo_capacity": 1500,
 			"seat_offset": [0.646875, 3.0496875, -0.9203125],
 			"operator_view_offset": [0, 5, 0],
 			"optical_sight_offset": [-0.518385625, 1.1761625, 0.630365625],
 			"optical_sight_type": "crt",
+			"zoom_min": 4,
+			"zoom_max": 12,
 			"fire_control_sensor_type": "eo",
 			"with_stabilizer": true,
-			"zoom_max": 8,
 			"crosshair_style": "circle",
 			"rot_info": {
 				"x_rot_speed": 3,
 				"y_rot_speed": 3,
-				"x_rot_max": 45,
-				"x_rot_min": -20
+				"x_rot_max": 9,
+				"x_rot_min": -59
 			},
 			"weapons": [
-				"vvp_ywzj:cannon_25mm",
+				"vvp_ywzj:m242_bushmaster_25mm",
 				{
-					"id": "vvp_ywzj:gun_7.62mm",
+					"id": "vvp_ywzj:m240_7_62mm",
 					"part_unit_id": "turret_machine_gun",
 					"secondary": true
 				},
@@ -67,8 +74,8 @@
 			"rot_info": {
 				"x_rot_speed": 3,
 				"y_rot_speed": 3,
-				"x_rot_max": 10,
-				"x_rot_min": -20
+				"x_rot_max": 9,
+				"x_rot_min": -59
 			}
 		},
 		{
@@ -100,8 +107,8 @@
 			}
 		},
 		{
-			"id": "passenger_seat1",
-			"name": "passenger_seat1",
+			"id": "driver_seat_2",
+			"name": "driver_seat_2",
 			"type": "ywzj_vehicle:generic",
 			"is_seat": true,
 			"structure_bone": "seat",
@@ -109,40 +116,40 @@
 			"owner_view_offset": [0, 5, 0]
 		},
 		{
-			"id": "passenger_seat2",
-			"name": "passenger_seat2",
+			"id": "passenger_seat_1",
+			"name": "passenger_seat_1",
 			"type": "ywzj_vehicle:generic",
 			"is_seat": true,
 			"seat_offset": [-0.7515625, 2.191875, 1.9],
 			"owner_view_offset": [-0.7515625, 4, 1.9]
 		},
 		{
-			"id": "passenger_seat3",
-			"name": "passenger_seat3",
+			"id": "passenger_seat_2",
+			"name": "passenger_seat_2",
 			"type": "ywzj_vehicle:generic",
 			"is_seat": true,
 			"seat_offset": [0.7609375, 2.191875, -1.8359375],
 			"owner_view_offset": [0, 5, 0]
 		},
 		{
-			"id": "passenger_seat4",
-			"name": "passenger_seat4",
+			"id": "passenger_seat_3",
+			"name": "passenger_seat_3",
 			"type": "ywzj_vehicle:generic",
 			"is_seat": true,
 			"seat_offset": [0.7609375, 2.191875, -2.8359375],
 			"owner_view_offset": [0, 5, 0]
 		},
 		{
-			"id": "passenger_seat5",
-			"name": "passenger_seat5",
+			"id": "passenger_seat_4",
+			"name": "passenger_seat_4",
 			"type": "ywzj_vehicle:generic",
 			"is_seat": true,
 			"seat_offset": [-0.7609375, 2.191875, -1.8359375],
 			"owner_view_offset": [0, 5, 0]
 		},
 		{
-			"id": "passenger_seat6",
-			"name": "passenger_seat6",
+			"id": "passenger_seat_5",
+			"name": "passenger_seat_5",
 			"type": "ywzj_vehicle:generic",
 			"is_seat": true,
 			"seat_offset": [-0.7609375, 2.191875, -2.8359375],

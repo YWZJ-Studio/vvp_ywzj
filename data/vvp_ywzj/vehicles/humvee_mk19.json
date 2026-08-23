@@ -9,9 +9,9 @@
 		"turn_step": 0.4,
 		"max_turn": 2
 	},
-	"max_health": 250,
+	"max_health": 500,
 	"view_info": {
-		"third_person_center_offset": [0, 3, 0],
+		"third_person_center_offset": [0, 4, 0],
 		"third_person_distance": 8,
 		"sound_distance": 4,
 		"passenger_view_rot": {
@@ -30,8 +30,8 @@
 	"structure_model": "vvp_ywzj:vehicle/humvee_mk19",
 	"parts": [
 		{
-			"id": "driver_seat",
-			"name": "driver_seat",
+			"id": "driver_seat_1",
+			"name": "driver_seat_1",
 			"type": "ywzj_vehicle:generic",
 			"is_seat": true,
 			"seat_offset": [0.890625, 1.890625, 0.20625],
@@ -56,27 +56,27 @@
 				"x_rot_max": 45,
 				"x_rot_min": -20
 			},
-			"weapons": ["vvp_ywzj:hk_gmg"]
+			"weapons": ["vvp_ywzj:mk19_40mm"]
 		},
 		{
-			"id": "passenger_seat2",
-			"name": "passenger_seat2",
+			"id": "passenger_seat_2",
+			"name": "passenger_seat_2",
 			"type": "ywzj_vehicle:generic",
 			"is_seat": true,
 			"seat_offset": [-0.890625, 1.890625, 0.20625],
 			"owner_view_offset": [-0.77, 1.890625, 0.20625]
 		},
 		{
-			"id": "passenger_seat3",
-			"name": "passenger_seat3",
+			"id": "passenger_seat_3",
+			"name": "passenger_seat_3",
 			"type": "ywzj_vehicle:generic",
 			"is_seat": true,
 			"seat_offset": [0.890625, 1.890625, -0.734375],
 			"owner_view_offset": [0.77, 1.890625, -0.734375]
 		},
 		{
-			"id": "passenger_seat4",
-			"name": "passenger_seat4",
+			"id": "passenger_seat_4",
+			"name": "passenger_seat_4",
 			"type": "ywzj_vehicle:generic",
 			"is_seat": true,
 			"seat_offset": [-0.890625, 1.890625, -0.734375],

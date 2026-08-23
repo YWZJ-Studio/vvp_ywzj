@@ -15,7 +15,7 @@
 	"y_rot_min": -180,
 	"explosion": {
 		"explode": true,
-		"damage": 120,
+		"damage": 500,
 		"radius": 8,
 		"proximity_fuze": true,
 		"proximity_radius": 2,

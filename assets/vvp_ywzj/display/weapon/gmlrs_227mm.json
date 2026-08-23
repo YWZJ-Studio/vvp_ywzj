@@ -1,0 +1,9 @@
+{
+  "type": "ywzj_vehicle:weapon",
+  "model": "vvp_ywzj:entity/himars_missile",
+  "texture": "vvp_ywzj:textures/entity/himars_missile.png",
+  "sounds": {
+    "fire": "ywzj_vehicle:large_missile_launch",
+    "reload": "ywzj_vehicle:common_reload"
+  }
+}

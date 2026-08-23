@@ -1,0 +1,15 @@
+{
+	"type": "ywzj_vehicle:grenade",
+	"grenade": "frag",
+	"name": "AG-30M 30mm",
+	"caliber": 30,
+	"damage": 30,
+	"velocity": 6,
+	"shoot_interval": 150,
+	"max_capacity": 32,
+	"reload": { "time": 100, "ammo": "ywzj_vehicle:ammo_grenade" },
+	"gravity": 0.07,
+	"should_bounce": false,
+	"broke_on_ground": true,
+	"explosion": { "damage": 50, "radius": 5 }
+}

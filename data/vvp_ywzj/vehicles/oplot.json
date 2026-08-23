@@ -9,10 +9,10 @@
 		"turn_acceleration": 1,
 		"max_turn": 2
 	},
-	"max_health": 300,
+	"max_health": 3000,
 	"view_info": {
-		"third_person_center_offset": [0, 4, 0],
-		"third_person_distance": 10,
+		"third_person_center_offset": [0, 3, 0],
+		"third_person_distance": 8,
 		"sound_distance": 7
 	},
 	"energy_info": {
@@ -21,7 +21,8 @@
 		"engine_particle_offsets": [[-1.0546875, 1.1671875, -4.309375]]
 	},
 	"physics_info": {
-		"can_destroy_block": true
+		"can_destroy_block": true,
+		"destroy_explosion_velocity": 0.5
 	},
 	"structure_model": "vvp_ywzj:vehicle/oplot",
 	"parts": [
@@ -29,6 +30,8 @@
 			"id": "turret",
 			"name": "turret",
 			"type": "ywzj_vehicle:weapon",
+			"max_health": 1000,
+			"render_bone": "turret",
 			"structure_bone": "turret",
 			"seat_offset": [-0.5, 1.5, 0.375],
 			"rot_info": {
@@ -41,13 +44,14 @@
 			"operator_view_offset": [0, 1.5, 0],
 			"fire_control_lock_type": "aim_hit",
 			"optical_sight_type": "crt",
+			"zoom_min": 2.7,
+			"zoom_max": 12,
 			"with_stabilizer": true,
 			"with_thermal_imager": true,
-			"zoom_max": 8,
 			"weapons": [
-				["ywzj_vehicle:cannon_125mm_apfsds", "ywzj_vehicle:cannon_125mm_heat"],
+				["vvp_ywzj:kba3_125mm_apfsds", "vvp_ywzj:kba3_125mm_heat"],
 				{
-					"id": "ywzj_vehicle:gun_7.62mm",
+					"id": "vvp_ywzj:kt_7_62_7_62mm",
 					"part_unit_id": "turret_machine_gun",
 					"secondary": true
 				},
@@ -82,15 +86,15 @@
 			}
 		},
 		{
-			"id": "seat2",
-			"name": "seat2",
+			"id": "passenger_seat_1",
+			"name": "passenger_seat_1",
 			"type": "ywzj_vehicle:generic",
 			"seat_offset": [0.5, 1.5, 0.275],
 			"owner_view_offset": [0, 3.5, 1.7]
 		},
 		{
-			"id": "seat",
-			"name": "seat",
+			"id": "driver_seat_2",
+			"name": "driver_seat_2",
 			"type": "ywzj_vehicle:generic",
 			"seat_offset": [0, 1.5, 1.7],
 			"owner_view_offset": [0, 3.5, 1.7]

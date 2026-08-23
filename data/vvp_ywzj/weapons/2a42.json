@@ -2,7 +2,7 @@
 	"type": "ywzj_vehicle:cannon",
 	"name": "2A42 30mm",
 	"caliber": 30,
-	"damage": 30,
+	"damage": 40,
 	"velocity": 16,
 	"headshot_multiplier": 1.5,
 	"recoil": 0.2,
@@ -14,7 +14,7 @@
 	},
 	"explosion": {
 		"explode": true,
-		"damage": 5,
+		"damage": 10,
 		"radius": 0.5,
 		"destroy_block": true
 	}

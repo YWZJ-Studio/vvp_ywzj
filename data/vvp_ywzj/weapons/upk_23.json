@@ -1,12 +1,12 @@
 {
 	"type": "ywzj_vehicle:cannon",
-	"name": "UPK-23 23mm",
+	"name": "GSh-23L 23mm",
 	"caliber": 23,
 	"damage": 30,
 	"velocity": 18,
 	"headshot_multiplier": 1.5,
 	"recoil": 0.2,
-	"shoot_interval": 60,
+	"shoot_interval": 17,
 	"max_capacity": 250,
 	"reload": {
 		"time": 80,
@@ -14,7 +14,7 @@
 	},
 	"explosion": {
 		"explode": true,
-		"damage": 8,
+		"damage": 10,
 		"radius": 1,
 		"destroy_block": true
 	}

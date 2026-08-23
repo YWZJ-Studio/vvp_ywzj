@@ -1,7 +1,7 @@
 {
 	"type": "ywzj_vehicle:rotary_wing_vehicle",
 	"model": "vvp_ywzj:entity/mi17_a",
-	"texture": "vvp_ywzj:textures/entity/mi8.png",
+	"texture": "vvp_ywzj:textures/entity/mi8_rf.png",
 	"slot_texture": "vvp_ywzj:textures/slot/mi17_a.png",
 	"animations": "vvp_ywzj:entity/mi17_a.animation",
 	"animation_controller": "vvp_ywzj:mi17_a_controller",
@@ -24,5 +24,5 @@
 		"engine_stop": "ywzj_vehicle:z10_engine_stop",
 		"engine_run": "vvp_ywzj:uh60_idle"
 	},
-	"tab_index": 2003
+	"tab_index": 2030
 }

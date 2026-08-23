@@ -4,7 +4,7 @@
 	"name": "HK GMG 40mm",
 	"damage": 40,
 	"velocity": 6,
-	"shoot_interval": 400,
+	"shoot_interval": 177,
 	"max_capacity": 32,
 	"reload": {
 		"time": 100,

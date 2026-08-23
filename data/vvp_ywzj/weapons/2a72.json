@@ -6,7 +6,7 @@
 	"velocity": 20,
 	"headshot_multiplier": 1.5,
 	"recoil": 0.2,
-	"shoot_interval": 120,
+	"shoot_interval": 182,
 	"max_capacity": 300,
 	"reload": {
 		"time": 80,

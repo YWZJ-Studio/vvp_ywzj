@@ -1,12 +1,12 @@
 {
 	"type": "ywzj_vehicle:cannon",
-	"name": "ZU-23-2 23mm",
+	"name": "2A14 23mm",
 	"caliber": 23,
 	"damage": 30,
 	"velocity": 20,
 	"headshot_multiplier": 1.5,
 	"recoil": 0.05,
-	"shoot_interval": 60,
+	"shoot_interval": 30,
 	"max_capacity": 200,
 	"reload": {
 		"time": 80,
@@ -14,7 +14,7 @@
 	},
 	"explosion": {
 		"explode": true,
-		"damage": 8,
+		"damage": 10,
 		"radius": 1,
 		"destroy_block": true
 	}

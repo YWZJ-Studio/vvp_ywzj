@@ -24,7 +24,7 @@
 	"max_health": 500,
 	"view_info": {
 		"third_person_center_offset": [0, 6, 0],
-		"third_person_distance": 32,
+		"third_person_distance": 36,
 		"third_person_center_offset_zoomed": [0, 7, 0],
 		"third_person_distance_zoomed": 4,
 		"sound_distance": 8
@@ -39,6 +39,9 @@
 	},
 	"with_warning_receiver": true,
 	"center_offset": [0, 4.146875, 0],
+	"physics_info": {
+		"destroy_explosion_velocity": 0.3
+	},
 	"structure_model": "vvp_ywzj:vehicle/tu22m3",
 	"parts": [
 		{
@@ -142,22 +145,22 @@
 			"is_seat": false
 		},
 		{
-			"id": "seat2",
-			"name": "seat2",
+			"id": "pilot_seat_2",
+			"name": "pilot_seat_2",
 			"type": "ywzj_vehicle:generic",
 			"seat_offset": [-0.646875, 5.553125, 14.1078125],
 			"owner_view_offset": [-0.646875, 5.553125, 14.1078125]
 		},
 		{
-			"id": "seat3",
-			"name": "seat3",
+			"id": "passenger_seat_1",
+			"name": "passenger_seat_1",
 			"type": "ywzj_vehicle:generic",
 			"seat_offset": [0.4984375, 5.6625, 11.496875],
 			"owner_view_offset": [0.4984375, 5.6625, 11.496875]
 		},
 		{
-			"id": "seat4",
-			"name": "seat4",
+			"id": "passenger_seat_2",
+			"name": "passenger_seat_2",
 			"type": "ywzj_vehicle:generic",
 			"seat_offset": [-0.4984375, 5.6625, 11.496875],
 			"owner_view_offset": [-0.4984375, 5.6625, 11.496875]

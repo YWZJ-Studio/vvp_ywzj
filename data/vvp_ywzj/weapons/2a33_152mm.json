@@ -1,6 +1,6 @@
 {
 	"type": "ywzj_vehicle:cannon",
-	"name": "2A33 152mm Howitzer",
+	"name": "2A33 152mm",
 	"caliber": 152,
 	"damage": 1100,
 	"velocity": 24,
@@ -9,12 +9,12 @@
 	"shoot_interval": 1200,
 	"max_capacity": 1,
 	"reload": {
-		"time": 100,
+		"time": 266,
 		"ammo": "ywzj_vehicle:ammo_artillery"
 	},
 	"explosion": {
 		"explode": true,
-		"damage": 220,
+		"damage": 2000,
 		"radius": 12,
 		"destroy_block": true
 	}
