@@ -9,7 +9,7 @@
 	"shoot_interval": 500,
 	"max_capacity": 1,
 	"reload": {
-		"time": 20,
+		"time": 80,
 		"ammo": "ywzj_vehicle:ammo_artillery"
 	},
 	"explosion": {

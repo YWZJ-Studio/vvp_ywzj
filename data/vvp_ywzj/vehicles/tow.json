@@ -1,0 +1,53 @@
+{
+	"type": "ywzj_vehicle:generic",
+	"attributes": {},
+	"max_health": 100,
+	"view_info": {
+		"third_person_center_offset": [0, 3, 0],
+		"third_person_distance": 8,
+		"sound_distance": 4
+	},
+	"energy_info": {
+		"energy_capacity": 1,
+		"energy_consumption_per_tick": 0.00001
+	},
+	"defense_stats": {
+		"damage_threshold": 10
+	},
+	"protect_passenger": false,
+	"physics_info": {
+		"destroy_explosion_velocity": 0.3
+	},
+	"structure_model": "vvp_ywzj:vehicle/tow",
+	"parts": [
+		{
+			"id": "turret",
+			"name": "turret",
+			"type": "ywzj_vehicle:weapon",
+			"max_health": 100,
+			"render_bone": "turret",
+			"structure_bone": "turret",
+			"ammo_capacity": 1,
+			"seat_offset": [0.5, 1.6, -0.7],
+			"passenger_pose": {
+				"left_leg_rot_x": 0,
+				"right_leg_rot_x": 0
+			},
+			"optical_sight_offset": [-0.2106875, 0.37575, 0.745],
+			"optical_sight_type": "crt",
+			"zoom_min": 4,
+			"zoom_max": 12,
+			"fire_control_sensor_type": "eo",
+			"fire_control_lock_type": "aim_hit",
+			"crosshair_style": "circle",
+			"rot_info": {
+				"x_rot_speed": 3,
+				"y_rot_speed": 3,
+				"x_rot_max": 45,
+				"x_rot_min": -20,
+				"need_power": false
+			},
+			"weapons": ["vvp_ywzj:tow"]
+		}
+	]
+}

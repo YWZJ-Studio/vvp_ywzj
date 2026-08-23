@@ -1,0 +1,9 @@
+{
+	"type": "ywzj_vehicle:generic",
+	"model": "vvp_ywzj:entity/tow",
+	"texture": "vvp_ywzj:textures/entity/tow.png",
+	"slot_texture": "vvp_ywzj:textures/slot/tow.png",
+	"animations": "vvp_ywzj:entity/tow.animation",
+	"animation_controller": "vvp_ywzj:tow_controller",
+	"tab_index": 4030
+}

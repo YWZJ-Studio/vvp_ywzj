@@ -1,6 +1,7 @@
 {
 	"type": "ywzj_vehicle:missile",
 	"name": "BGM-71 TOW ATGM",
+	"caliber": 152,
 	"damage": 1000,
 	"headshot_multiplier": 1.5,
 	"shoot_interval": 1000,
@@ -26,6 +27,5 @@
 	"drag_coefficient": 0.005,
 	"max_g": 18,
 	"reference_speed": 2,
-	"guidance": "HOMING",
-	"homing_mode": "ELECTRO_OPTICAL"
+	"guidance": "SACLOS"
 }

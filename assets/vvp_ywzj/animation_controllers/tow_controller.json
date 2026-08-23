@@ -1,0 +1,36 @@
+{
+	"name": "tow_controller",
+	"script": "vvp_ywzj:tow",
+	"parameters": {},
+	"event_animations": {},
+	"graph": {
+		"type": "merge",
+		"inputs": [
+			{
+				"type": "additive",
+				"base": {
+					"type": "bone_binding",
+					"part_bindings": [
+						{
+							"bone": "turret",
+							"part": "turret",
+							"rotation_type": "y",
+							"axis": "y",
+							"invert": true
+						},
+						{
+							"bone": "barrel",
+							"part": "turret",
+							"rotation_type": "x",
+							"axis": "x",
+							"invert": false
+						}
+					]
+				},
+				"add": {
+					"type": "event_animation"
+				}
+			}
+		]
+	}
+}

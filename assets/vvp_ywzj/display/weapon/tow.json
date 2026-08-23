@@ -3,7 +3,5 @@
   "sounds": {
     "fire": "ywzj_vehicle:missile_launch",
     "reload": "ywzj_vehicle:common_reload"
-  },
-  "model": "vvp_ywzj:entity/tow",
-  "texture": "vvp_ywzj:textures/entity/tow.png"
+  }
 }
