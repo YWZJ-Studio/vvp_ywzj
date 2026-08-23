@@ -44,7 +44,8 @@
 				"x_rot_speed": 3,
 				"y_rot_speed": 3,
 				"x_rot_max": 45,
-				"x_rot_min": -20
+				"x_rot_min": -20,
+				"need_power": false
 			},
 			"weapons": ["vvp_ywzj:9m133"]
 		}
