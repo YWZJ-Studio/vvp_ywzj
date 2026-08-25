@@ -5,7 +5,11 @@
 	"slot_texture": "vvp_ywzj:textures/slot/bmp_2.png",
 	"animations": "vvp_ywzj:entity/bmp_2.animation",
 	"animation_controller": "vvp_ywzj:bmp_2_controller",
-	"track_config": {},
+	"track_config": {
+		"model": "vvp_ywzj:effect/bmp_3_track_link",
+		"texture": "vvp_ywzj:textures/effect/bmp_3_track_link.png",
+		"module_length": 0.2
+	},
 	"sounds": {
 		"engine_start": "vvp_ywzj:bmp_engine_start",
 		"engine_idle": "vvp_ywzj:bmp_engine_idle",
