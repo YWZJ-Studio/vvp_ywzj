@@ -1,22 +1,120 @@
 {
 	"uh60_start": {
-		"sounds": ["vvp_ywzj:vehicle/uh60_start"],
+		"sounds": ["vvp_ywzj:vehicle/uh60/uh60_start"],
 		"subtitle": "vvp_ywzj.sounds.uh60_start"
 	},
 	"uh60_idle": {
-		"sounds": ["vvp_ywzj:vehicle/uh60_idle"],
+		"sounds": ["vvp_ywzj:vehicle/uh60/uh60_idle"],
 		"subtitle": "vvp_ywzj.sounds.uh60_idle"
 	},
 	"t72_engine_idle": {
-		"sounds": ["vvp_ywzj:vehicle/t72_engine_idle"],
+		"sounds": ["vvp_ywzj:vehicle/t72/t72_engine_idle"],
 		"subtitle": "vvp_ywzj.sounds.t72_engine_idle"
 	},
-	"t90_autoreload": {
-		"sounds": ["vvp_ywzj:weapon/t90_autoreload"],
-		"subtitle": "vvp_ywzj.sounds.t90_autoreload"
+	"t72_engine_start": {
+		"sounds": ["vvp_ywzj:vehicle/t72/t72_engine_start"],
+		"subtitle": "vvp_ywzj.sounds.t72_engine_start"
+	},
+	"t72_engine_run": {
+		"sounds": ["vvp_ywzj:vehicle/t72/t72_engine_run"],
+		"subtitle": "vvp_ywzj.sounds.t72_engine_run"
+	},
+	"t90_engine_start": {
+		"sounds": ["vvp_ywzj:vehicle/t90/t90_engine_start"],
+		"subtitle": "vvp_ywzj.sounds.t90_engine_start"
+	},
+	"t90_engine_idle": {
+		"sounds": ["vvp_ywzj:vehicle/t90/t90_engine_idle"],
+		"subtitle": "vvp_ywzj.sounds.t90_engine_idle"
+	},
+	"t90_engine_run": {
+		"sounds": ["vvp_ywzj:vehicle/t90/t90_engine_run"],
+		"subtitle": "vvp_ywzj.sounds.t90_engine_run"
+	},
+	"t64_engine_start": {
+		"sounds": ["vvp_ywzj:vehicle/t64/t64_engine_start"],
+		"subtitle": "vvp_ywzj.sounds.t64_engine_start"
+	},
+	"t64_engine_idle": {
+		"sounds": ["vvp_ywzj:vehicle/t64/t64_engine_idle"],
+		"subtitle": "vvp_ywzj.sounds.t64_engine_idle"
+	},
+	"t64_engine_run": {
+		"sounds": ["vvp_ywzj:vehicle/t64/t64_engine_run"],
+		"subtitle": "vvp_ywzj.sounds.t64_engine_run"
+	},
+	"bmp_engine_start": {
+		"sounds": ["vvp_ywzj:vehicle/bmp/bmp_engine_start"],
+		"subtitle": "vvp_ywzj.sounds.bmp_engine_start"
+	},
+	"bmp_engine_idle": {
+		"sounds": ["vvp_ywzj:vehicle/bmp/bmp_engine_idle"],
+		"subtitle": "vvp_ywzj.sounds.bmp_engine_idle"
+	},
+	"bmp_engine_run": {
+		"sounds": ["vvp_ywzj:vehicle/bmp/bmp_engine_run"],
+		"subtitle": "vvp_ywzj.sounds.bmp_engine_run"
+	},
+	"bradley_engine_start": {
+		"sounds": ["vvp_ywzj:vehicle/bradley/bradley_engine_start"],
+		"subtitle": "vvp_ywzj.sounds.bradley_engine_start"
+	},
+	"bradley_engine_idle": {
+		"sounds": ["vvp_ywzj:vehicle/bradley/bradley_engine_idle"],
+		"subtitle": "vvp_ywzj.sounds.bradley_engine_idle"
+	},
+	"bradley_engine_run": {
+		"sounds": ["vvp_ywzj:vehicle/bradley/bradley_engine_run"],
+		"subtitle": "vvp_ywzj.sounds.bradley_engine_run"
+	},
+	"challenger_engine_idle": {
+		"sounds": ["vvp_ywzj:vehicle/challenger/challenger_engine_idle"],
+		"subtitle": "vvp_ywzj.sounds.challenger_engine_idle"
+	},
+	"challenger_engine_run": {
+		"sounds": ["vvp_ywzj:vehicle/challenger/challenger_engine_run"],
+		"subtitle": "vvp_ywzj.sounds.challenger_engine_run"
+	},
+	"m60_engine_start": {
+		"sounds": ["vvp_ywzj:vehicle/m60/m60_engine_start"],
+		"subtitle": "vvp_ywzj.sounds.m60_engine_start"
+	},
+	"m60_engine_idle": {
+		"sounds": ["vvp_ywzj:vehicle/m60/m60_engine_idle"],
+		"subtitle": "vvp_ywzj.sounds.m60_engine_idle"
+	},
+	"m60_engine_run": {
+		"sounds": ["vvp_ywzj:vehicle/m60/m60_engine_run"],
+		"subtitle": "vvp_ywzj.sounds.m60_engine_run"
+	},
+	"apache_engine_start": {
+		"sounds": ["vvp_ywzj:vehicle/apache/apache_engine_start"],
+		"subtitle": "vvp_ywzj.sounds.apache_engine_start"
+	},
+	"apache_engine_run": {
+		"sounds": ["vvp_ywzj:vehicle/apache/apache_engine_run"],
+		"subtitle": "vvp_ywzj.sounds.apache_engine_run"
+	},
+	"generic_diesel_engine_start": {
+		"sounds": ["vvp_ywzj:vehicle/generic_diesel/generic_diesel_engine_start"],
+		"subtitle": "vvp_ywzj.sounds.generic_diesel_engine_start"
+	},
+	"generic_diesel_engine_idle": {
+		"sounds": ["vvp_ywzj:vehicle/generic_diesel/generic_diesel_engine_idle"],
+		"subtitle": "vvp_ywzj.sounds.generic_diesel_engine_idle"
+	},
+	"generic_diesel_engine_run": {
+		"sounds": ["vvp_ywzj:vehicle/generic_diesel/generic_diesel_engine_run"],
+		"subtitle": "vvp_ywzj.sounds.generic_diesel_engine_run"
 	},
 	"mk30_2_abm_shot": {
-		"sounds": ["vvp_ywzj:weapon/mk30_2_abm/mk30_2_abm_shot-001", "vvp_ywzj:weapon/mk30_2_abm/mk30_2_abm_shot-002", "vvp_ywzj:weapon/mk30_2_abm/mk30_2_abm_shot-003", "vvp_ywzj:weapon/mk30_2_abm/mk30_2_abm_shot-004", "vvp_ywzj:weapon/mk30_2_abm/mk30_2_abm_shot-005", "vvp_ywzj:weapon/mk30_2_abm/mk30_2_abm_shot-006"],
+		"sounds": [
+			"vvp_ywzj:weapon/mk30_2_abm/mk30_2_abm_shot-001",
+			"vvp_ywzj:weapon/mk30_2_abm/mk30_2_abm_shot-002",
+			"vvp_ywzj:weapon/mk30_2_abm/mk30_2_abm_shot-003",
+			"vvp_ywzj:weapon/mk30_2_abm/mk30_2_abm_shot-004",
+			"vvp_ywzj:weapon/mk30_2_abm/mk30_2_abm_shot-005",
+			"vvp_ywzj:weapon/mk30_2_abm/mk30_2_abm_shot-006"],
 		"subtitle": "vvp_ywzj.sounds.mk30_2_abm_shot"
 	},
 	"120mm_rh120": {
@@ -42,5 +140,61 @@
 			"vvp_ywzj:weapon/pkt/pkt_last_interior-003"
 		],
 		"subtitle": "vvp_ywzj.sounds.pkt_shot"
+	},
+	"125mm_2a46_shot": {
+		"sounds": [
+			"vvp_ywzj:weapon/125mm_2a46/cannon_125mm_2a46_shot_01",
+			"vvp_ywzj:weapon/125mm_2a46/cannon_125mm_2a46_shot_02",
+			"vvp_ywzj:weapon/125mm_2a46/cannon_125mm_2a46_shot_03"
+		],
+		"subtitle": "vvp_ywzj.sounds.125mm_2a46_shot"
+	},
+	"2a42_shot": {
+		"sounds": [
+			"vvp_ywzj:weapon/2a42/2A42_shot-001",
+			"vvp_ywzj:weapon/2a42/2A42_shot-002",
+			"vvp_ywzj:weapon/2a42/2A42_shot-003"
+		],
+		"subtitle": "vvp_ywzj.sounds.2a42_shot"
+	},
+	"2a72_shot": {
+		"sounds": [
+			"vvp_ywzj:weapon/2a72/2a72_close-001",
+			"vvp_ywzj:weapon/2a72/2a72_close-002",
+			"vvp_ywzj:weapon/2a72/2a72_close-003"
+		],
+		"subtitle": "vvp_ywzj.sounds.2a72_shot"
+	},
+	"2a70_shot": {
+		"sounds": [
+			"vvp_ywzj:weapon/2a70/100mm_2a70_shot-001",
+			"vvp_ywzj:weapon/2a70/100mm_2a70_shot-002",
+			"vvp_ywzj:weapon/2a70/100mm_2a70_shot-003"
+		],
+		"subtitle": "vvp_ywzj.sounds.2a70_shot"
+	},
+	"105mm_l7_shot": {
+		"sounds": [
+			"vvp_ywzj:weapon/105mm_l7/cannon_105mm_l7_shot_01",
+			"vvp_ywzj:weapon/105mm_l7/cannon_105mm_l7_shot_02",
+			"vvp_ywzj:weapon/105mm_l7/cannon_105mm_l7_shot_03"
+		],
+		"subtitle": "vvp_ywzj.sounds.105mm_l7_shot"
+	},
+	"tow_shot": {
+		"sounds": [
+			"vvp_ywzj:weapon/tow/tow_shot-001",
+			"vvp_ywzj:weapon/tow/tow_shot-002",
+			"vvp_ywzj:weapon/tow/tow_shot-003"
+		],
+		"subtitle": "vvp_ywzj.sounds.tow_shot"
+	},
+	"kornet_shot": {
+		"sounds": [
+			"vvp_ywzj:weapon/kornet/atgm_kornet-001",
+			"vvp_ywzj:weapon/kornet/atgm_kornet-002",
+			"vvp_ywzj:weapon/kornet/atgm_kornet-003"
+		],
+		"subtitle": "vvp_ywzj.sounds.kornet_shot"
 	}
 }

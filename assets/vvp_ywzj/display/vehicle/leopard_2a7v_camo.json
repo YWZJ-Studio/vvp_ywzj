@@ -7,9 +7,9 @@
 	"animation_controller": "vvp_ywzj:leopard_2a7v_controller",
 	"track_config": {},
 	"sounds": {
-		"engine_start": "ywzj_vehicle:ztz99a_engine_start",
-		"engine_idle": "vvp_ywzj:t72_engine_idle",
-		"engine_run": "ywzj_vehicle:ztz99a_engine_run",
+		"engine_start": "vvp_ywzj:generic_diesel_engine_start",
+		"engine_idle": "vvp_ywzj:generic_diesel_engine_idle",
+		"engine_run": "vvp_ywzj:generic_diesel_engine_run",
 		"track_run": "ywzj_vehicle:track_run"
 	},
 	"tab_index": 1410
