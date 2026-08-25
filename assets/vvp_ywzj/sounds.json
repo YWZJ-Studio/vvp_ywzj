@@ -112,7 +112,7 @@
 		"subtitle": "vvp_ywzj.sounds.mk30_2_abm_shot"
 	},
 	"120mm_rh120": {
-		"sounds": ["vvp_ywzj:weapon/120mm_rh120/cannon_120mm_Rh120_shot_01", "vvp_ywzj:weapon/120mm_rh120/cannon_120mm_Rh120_shot_02", "vvp_ywzj:weapon/120mm_rh120/cannon_120mm_Rh120_shot_03"],
+		"sounds": ["vvp_ywzj:weapon/120mm_rh120/cannon_120mm_rh120_shot_01", "vvp_ywzj:weapon/120mm_rh120/cannon_120mm_rh120_shot_02", "vvp_ywzj:weapon/120mm_rh120/cannon_120mm_rh120_shot_03"],
 		"subtitle": "vvp_ywzj.sounds.120mm_rh120"
 	},
 	"gsh_30_1_shot": {
@@ -128,7 +128,7 @@
 		"subtitle": "vvp_ywzj.sounds.125mm_2a46_shot"
 	},
 	"2a42_shot": {
-		"sounds": ["vvp_ywzj:weapon/2a42/2A42_shot-001", "vvp_ywzj:weapon/2a42/2A42_shot-002", "vvp_ywzj:weapon/2a42/2A42_shot-003"],
+		"sounds": ["vvp_ywzj:weapon/2a42/2a42_shot-001", "vvp_ywzj:weapon/2a42/2a42_shot-002", "vvp_ywzj:weapon/2a42/2a42_shot-003"],
 		"subtitle": "vvp_ywzj.sounds.2a42_shot"
 	},
 	"2a72_shot": {
