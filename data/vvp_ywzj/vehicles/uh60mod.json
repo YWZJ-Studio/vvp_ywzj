@@ -23,10 +23,7 @@
 	"energy_info": {
 		"energy_capacity": 0.25,
 		"energy_consumption_per_tick": 0.00001,
-		"engine_particle_offsets": [
-			[1.5125, 3.1078125, -3.3296875],
-			[-1.5125, 3.1078125, -3.3296875]
-		]
+		"engine_particle_offsets": [[1.5125, 3.1078125, -3.3296875], [-1.5125, 3.1078125, -3.3296875]]
 	},
 	"with_warning_receiver": true,
 	"physics_info": {

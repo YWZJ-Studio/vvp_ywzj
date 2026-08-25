@@ -8,5 +8,8 @@
 	"recoil": 0,
 	"shoot_interval": 110,
 	"max_capacity": 500,
-	"reload": { "time": 80, "ammo": "ywzj_vehicle:ammo_auto_cannon" }
+	"reload": {
+		"time": 80,
+		"ammo": "ywzj_vehicle:ammo_auto_cannon"
+	}
 }

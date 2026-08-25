@@ -17,7 +17,7 @@
 	},
 	"energy_info": {
 		"energy_capacity": 1,
-		"energy_consumption_per_tick": 1e-05,
+		"energy_consumption_per_tick": 0.00001,
 		"engine_particle_offsets": [[0.9734375, 1.2171875, -3.978125], [-0.9734375, 1.2171875, -3.978125]]
 	},
 	"physics_info": {
@@ -106,9 +106,7 @@
 			"operator_view_offset": [0.3, 0.3, -0.7],
 			"optical_sight_type": "operator",
 			"zoom_max": 2,
-			"weapons": [
-				"vvp_ywzj:mg3a1_7_62mm"
-			]
+			"weapons": ["vvp_ywzj:mg3a1_7_62mm"]
 		},
 		{
 			"id": "track",

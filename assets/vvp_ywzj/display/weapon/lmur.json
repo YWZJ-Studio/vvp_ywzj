@@ -1,9 +1,9 @@
 {
-  "type": "ywzj_vehicle:weapon",
-  "model": "vvp_ywzj:entity/lmur",
-  "texture": "vvp_ywzj:textures/entity/lmur.png",
-  "sounds": {
-    "fire": "ywzj_vehicle:missile_launch",
-    "reload": "ywzj_vehicle:common_reload"
-  }
+	"type": "ywzj_vehicle:weapon",
+	"model": "vvp_ywzj:entity/lmur",
+	"texture": "vvp_ywzj:textures/entity/lmur.png",
+	"sounds": {
+		"fire": "ywzj_vehicle:missile_launch",
+		"reload": "ywzj_vehicle:common_reload"
+	}
 }

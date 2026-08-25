@@ -1,9 +1,9 @@
 {
-  "type": "ywzj_vehicle:weapon",
-  "model": "vvp_ywzj:entity/aim9",
-  "texture": "vvp_ywzj:textures/entity/aim9.png",
-  "sounds": {
-    "fire": "ywzj_vehicle:missile_launch",
-    "reload": "ywzj_vehicle:common_reload"
-  }
+	"type": "ywzj_vehicle:weapon",
+	"model": "vvp_ywzj:entity/aim9",
+	"texture": "vvp_ywzj:textures/entity/aim9.png",
+	"sounds": {
+		"fire": "ywzj_vehicle:missile_launch",
+		"reload": "ywzj_vehicle:common_reload"
+	}
 }

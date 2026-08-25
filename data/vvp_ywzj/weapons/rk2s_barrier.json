@@ -6,12 +6,20 @@
 	"headshot_multiplier": 1.5,
 	"shoot_interval": 1000,
 	"max_capacity": 4,
-	"reload": { "time": 100, "ammo": "ywzj_vehicle:ammo_missile" },
+	"reload": {
+		"time": 100,
+		"ammo": "ywzj_vehicle:ammo_missile"
+	},
 	"x_rot_max": 90,
 	"x_rot_min": -90,
 	"y_rot_max": 180,
 	"y_rot_min": -180,
-	"explosion": { "explode": true, "damage": 120, "radius": 7, "destroy_block": true },
+	"explosion": {
+		"explode": true,
+		"damage": 120,
+		"radius": 7,
+		"destroy_block": true
+	},
 	"seeker_fov": 30,
 	"mass": 0.05,
 	"thrust": 0.02,

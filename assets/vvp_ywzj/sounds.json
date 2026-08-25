@@ -108,93 +108,47 @@
 		"subtitle": "vvp_ywzj.sounds.generic_diesel_engine_run"
 	},
 	"mk30_2_abm_shot": {
-		"sounds": [
-			"vvp_ywzj:weapon/mk30_2_abm/mk30_2_abm_shot-001",
-			"vvp_ywzj:weapon/mk30_2_abm/mk30_2_abm_shot-002",
-			"vvp_ywzj:weapon/mk30_2_abm/mk30_2_abm_shot-003",
-			"vvp_ywzj:weapon/mk30_2_abm/mk30_2_abm_shot-004",
-			"vvp_ywzj:weapon/mk30_2_abm/mk30_2_abm_shot-005",
-			"vvp_ywzj:weapon/mk30_2_abm/mk30_2_abm_shot-006"],
+		"sounds": ["vvp_ywzj:weapon/mk30_2_abm/mk30_2_abm_shot-001", "vvp_ywzj:weapon/mk30_2_abm/mk30_2_abm_shot-002", "vvp_ywzj:weapon/mk30_2_abm/mk30_2_abm_shot-003", "vvp_ywzj:weapon/mk30_2_abm/mk30_2_abm_shot-004", "vvp_ywzj:weapon/mk30_2_abm/mk30_2_abm_shot-005", "vvp_ywzj:weapon/mk30_2_abm/mk30_2_abm_shot-006"],
 		"subtitle": "vvp_ywzj.sounds.mk30_2_abm_shot"
 	},
 	"120mm_rh120": {
-		"sounds": [
-			"vvp_ywzj:weapon/120mm_rh120/cannon_120mm_Rh120_shot_01",
-			"vvp_ywzj:weapon/120mm_rh120/cannon_120mm_Rh120_shot_02",
-			"vvp_ywzj:weapon/120mm_rh120/cannon_120mm_Rh120_shot_03"
-		],
+		"sounds": ["vvp_ywzj:weapon/120mm_rh120/cannon_120mm_Rh120_shot_01", "vvp_ywzj:weapon/120mm_rh120/cannon_120mm_Rh120_shot_02", "vvp_ywzj:weapon/120mm_rh120/cannon_120mm_Rh120_shot_03"],
 		"subtitle": "vvp_ywzj.sounds.120mm_rh120"
 	},
 	"gsh_30_1_shot": {
-		"sounds": [
-			"vvp_ywzj:weapon/gsh_30_1/gsh_30_1_001",
-			"vvp_ywzj:weapon/gsh_30_1/gsh_30_1_002",
-			"vvp_ywzj:weapon/gsh_30_1/gsh_30_1_003"
-		],
+		"sounds": ["vvp_ywzj:weapon/gsh_30_1/gsh_30_1_001", "vvp_ywzj:weapon/gsh_30_1/gsh_30_1_002", "vvp_ywzj:weapon/gsh_30_1/gsh_30_1_003"],
 		"subtitle": "vvp_ywzj.sounds.gsh_30_1_shot"
 	},
 	"pkt_shot": {
-		"sounds": [
-			"vvp_ywzj:weapon/pkt/pkt_last_interior-001",
-			"vvp_ywzj:weapon/pkt/pkt_last_interior-002",
-			"vvp_ywzj:weapon/pkt/pkt_last_interior-003"
-		],
+		"sounds": ["vvp_ywzj:weapon/pkt/pkt_last_interior-001", "vvp_ywzj:weapon/pkt/pkt_last_interior-002", "vvp_ywzj:weapon/pkt/pkt_last_interior-003"],
 		"subtitle": "vvp_ywzj.sounds.pkt_shot"
 	},
 	"125mm_2a46_shot": {
-		"sounds": [
-			"vvp_ywzj:weapon/125mm_2a46/cannon_125mm_2a46_shot_01",
-			"vvp_ywzj:weapon/125mm_2a46/cannon_125mm_2a46_shot_02",
-			"vvp_ywzj:weapon/125mm_2a46/cannon_125mm_2a46_shot_03"
-		],
+		"sounds": ["vvp_ywzj:weapon/125mm_2a46/cannon_125mm_2a46_shot_01", "vvp_ywzj:weapon/125mm_2a46/cannon_125mm_2a46_shot_02", "vvp_ywzj:weapon/125mm_2a46/cannon_125mm_2a46_shot_03"],
 		"subtitle": "vvp_ywzj.sounds.125mm_2a46_shot"
 	},
 	"2a42_shot": {
-		"sounds": [
-			"vvp_ywzj:weapon/2a42/2A42_shot-001",
-			"vvp_ywzj:weapon/2a42/2A42_shot-002",
-			"vvp_ywzj:weapon/2a42/2A42_shot-003"
-		],
+		"sounds": ["vvp_ywzj:weapon/2a42/2A42_shot-001", "vvp_ywzj:weapon/2a42/2A42_shot-002", "vvp_ywzj:weapon/2a42/2A42_shot-003"],
 		"subtitle": "vvp_ywzj.sounds.2a42_shot"
 	},
 	"2a72_shot": {
-		"sounds": [
-			"vvp_ywzj:weapon/2a72/2a72_close-001",
-			"vvp_ywzj:weapon/2a72/2a72_close-002",
-			"vvp_ywzj:weapon/2a72/2a72_close-003"
-		],
+		"sounds": ["vvp_ywzj:weapon/2a72/2a72_close-001", "vvp_ywzj:weapon/2a72/2a72_close-002", "vvp_ywzj:weapon/2a72/2a72_close-003"],
 		"subtitle": "vvp_ywzj.sounds.2a72_shot"
 	},
 	"2a70_shot": {
-		"sounds": [
-			"vvp_ywzj:weapon/2a70/100mm_2a70_shot-001",
-			"vvp_ywzj:weapon/2a70/100mm_2a70_shot-002",
-			"vvp_ywzj:weapon/2a70/100mm_2a70_shot-003"
-		],
+		"sounds": ["vvp_ywzj:weapon/2a70/100mm_2a70_shot-001", "vvp_ywzj:weapon/2a70/100mm_2a70_shot-002", "vvp_ywzj:weapon/2a70/100mm_2a70_shot-003"],
 		"subtitle": "vvp_ywzj.sounds.2a70_shot"
 	},
 	"105mm_l7_shot": {
-		"sounds": [
-			"vvp_ywzj:weapon/105mm_l7/cannon_105mm_l7_shot_01",
-			"vvp_ywzj:weapon/105mm_l7/cannon_105mm_l7_shot_02",
-			"vvp_ywzj:weapon/105mm_l7/cannon_105mm_l7_shot_03"
-		],
+		"sounds": ["vvp_ywzj:weapon/105mm_l7/cannon_105mm_l7_shot_01", "vvp_ywzj:weapon/105mm_l7/cannon_105mm_l7_shot_02", "vvp_ywzj:weapon/105mm_l7/cannon_105mm_l7_shot_03"],
 		"subtitle": "vvp_ywzj.sounds.105mm_l7_shot"
 	},
 	"tow_shot": {
-		"sounds": [
-			"vvp_ywzj:weapon/tow/tow_shot-001",
-			"vvp_ywzj:weapon/tow/tow_shot-002",
-			"vvp_ywzj:weapon/tow/tow_shot-003"
-		],
+		"sounds": ["vvp_ywzj:weapon/tow/tow_shot-001", "vvp_ywzj:weapon/tow/tow_shot-002", "vvp_ywzj:weapon/tow/tow_shot-003"],
 		"subtitle": "vvp_ywzj.sounds.tow_shot"
 	},
 	"kornet_shot": {
-		"sounds": [
-			"vvp_ywzj:weapon/kornet/atgm_kornet-001",
-			"vvp_ywzj:weapon/kornet/atgm_kornet-002",
-			"vvp_ywzj:weapon/kornet/atgm_kornet-003"
-		],
+		"sounds": ["vvp_ywzj:weapon/kornet/atgm_kornet-001", "vvp_ywzj:weapon/kornet/atgm_kornet-002", "vvp_ywzj:weapon/kornet/atgm_kornet-003"],
 		"subtitle": "vvp_ywzj.sounds.kornet_shot"
 	}
 }

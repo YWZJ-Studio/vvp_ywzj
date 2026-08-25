@@ -50,9 +50,7 @@
 				"x_rot_max": 10,
 				"x_rot_min": -20
 			},
-			"weapons": [
-				"vvp_ywzj:sosna_missile"
-			]
+			"weapons": ["vvp_ywzj:sosna_missile"]
 		},
 		{
 			"id": "driver_seat_2",

@@ -1,9 +1,9 @@
 {
-  "type": "ywzj_vehicle:weapon",
-  "sounds": {
-    "fire": "ywzj_vehicle:cannon_125mm_shot",
-    "reload": "ywzj_vehicle:artillery_reload"
-  },
-  "model": "vvp_ywzj:entity/d30",
-  "texture": "vvp_ywzj:textures/entity/d30.png"
+	"type": "ywzj_vehicle:weapon",
+	"model": "vvp_ywzj:entity/d30",
+	"texture": "vvp_ywzj:textures/entity/d30.png",
+	"sounds": {
+		"fire": "ywzj_vehicle:cannon_125mm_shot",
+		"reload": "ywzj_vehicle:artillery_reload"
+	}
 }

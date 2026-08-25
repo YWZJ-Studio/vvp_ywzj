@@ -3,12 +3,12 @@
 	"attributes": {
 		"main_rotor_force": 0.0392,
 		"ceiling": 256,
-		"x_rot_speed_acceleration": 1.0,
-		"x_rot_speed_max": 4.0,
-		"y_rot_speed_acceleration": 1.0,
-		"y_rot_speed_max": 4.0,
-		"z_rot_speed_acceleration": 1.0,
-		"z_rot_speed_max": 4.0,
+		"x_rot_speed_acceleration": 1,
+		"x_rot_speed_max": 4,
+		"y_rot_speed_acceleration": 1,
+		"y_rot_speed_max": 4,
+		"z_rot_speed_acceleration": 1,
+		"z_rot_speed_max": 4,
 		"max_air_speed": 1.5
 	},
 	"max_health": 1000,

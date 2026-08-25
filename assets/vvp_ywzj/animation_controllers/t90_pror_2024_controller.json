@@ -1,6 +1,6 @@
 {
-	"name": "t90_m_controller",
-	"script": "vvp_ywzj:t90_m",
+	"name": "t90_pror_2024_controller",
+	"script": "vvp_ywzj:t90_pror_2024",
 	"parameters": {},
 	"event_animations": {
 		"turret_fire": ["turret_shoot"],

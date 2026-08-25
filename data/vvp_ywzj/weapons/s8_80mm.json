@@ -6,6 +6,14 @@
 	"inaccuracy": 0.05,
 	"shoot_interval": 100,
 	"max_capacity": 52,
-	"reload": { "time": 80, "ammo": "ywzj_vehicle:ammo_rocket" },
-	"explosion": { "explode": true, "damage": 100, "radius": 4, "destroy_block": true }
+	"reload": {
+		"time": 80,
+		"ammo": "ywzj_vehicle:ammo_rocket"
+	},
+	"explosion": {
+		"explode": true,
+		"damage": 100,
+		"radius": 4,
+		"destroy_block": true
+	}
 }
