@@ -10,6 +10,6 @@
 	"max_capacity": 500,
 	"reload": {
 		"time": 80,
-		"ammo": "ywzj_vehicle:ammo_auto_cannon"
+		"ammo": "ywzj_vehicle:ammo_machine_gun"
 	}
 }
