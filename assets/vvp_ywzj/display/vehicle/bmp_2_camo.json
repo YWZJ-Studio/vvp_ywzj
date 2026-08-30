@@ -10,6 +10,12 @@
 		"texture": "vvp_ywzj:textures/effect/bmp_3_track_link.png",
 		"module_length": 0.2
 	},
+	"special_bone_effects": [
+		{
+			"bone": "NullNude2",
+			"type": "transparent"
+		}
+	],
 	"sounds": {
 		"engine_start": "vvp_ywzj:bmp_engine_start",
 		"engine_idle": "vvp_ywzj:bmp_engine_idle",

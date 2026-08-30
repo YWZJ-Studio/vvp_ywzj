@@ -6,6 +6,12 @@
 	"animations": "vvp_ywzj:entity/t72_b3m.animation",
 	"animation_controller": "vvp_ywzj:t72_b3m_controller",
 	"track_config": {},
+	"special_bone_effects": [
+		{
+			"bone": "base2",
+			"type": "transparent"
+		}
+	],
 	"sounds": {
 		"engine_start": "vvp_ywzj:t72_engine_start",
 		"engine_idle": "vvp_ywzj:t72_engine_idle",
