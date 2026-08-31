@@ -22,5 +22,6 @@
 		"engine_thrust": "ywzj_vehicle:jet_engine_thrust",
 		"passby": "ywzj_vehicle:jet_passby"
 	},
+	"description": "vehicle.f_16.description",
 	"tab_index": 3100
 }

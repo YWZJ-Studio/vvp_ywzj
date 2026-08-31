@@ -24,5 +24,6 @@
 		"engine_stop": "ywzj_vehicle:z10_engine_stop",
 		"engine_run": "vvp_ywzj:uh60_idle"
 	},
+	"description": "vehicle.nh_90.description",
 	"tab_index": 2200
 }

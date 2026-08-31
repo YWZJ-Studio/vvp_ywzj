@@ -24,5 +24,6 @@
 		"engine_idle": "ywzj_vehicle:truck_engine_idle",
 		"engine_run": "ywzj_vehicle:truck_engine_run"
 	},
+	"description": "vehicle.btr_4.description",
 	"tab_index": 30
 }

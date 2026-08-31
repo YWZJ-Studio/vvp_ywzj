@@ -18,5 +18,6 @@
 		"engine_thrust": "ywzj_vehicle:jet_engine_thrust",
 		"passby": "ywzj_vehicle:jet_passby"
 	},
+	"description": "vehicle.tu22m3.description",
 	"tab_index": 3010
 }

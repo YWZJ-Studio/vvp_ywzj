@@ -16,5 +16,6 @@
 		"engine_run": "vvp_ywzj:t90_engine_run",
 		"track_run": "ywzj_vehicle:track_run"
 	},
+	"description": "vehicle.t90_m.description",
 	"tab_index": 1030
 }

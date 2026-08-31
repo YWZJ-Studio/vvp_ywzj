@@ -16,5 +16,6 @@
 		"engine_run": "vvp_ywzj:bmp_engine_run",
 		"track_run": "ywzj_vehicle:track_run"
 	},
+	"description": "vehicle.bmp_3.description",
 	"tab_index": 1120
 }

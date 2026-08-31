@@ -5,5 +5,6 @@
 	"slot_texture": "vvp_ywzj:textures/slot/tow.png",
 	"animations": "vvp_ywzj:entity/tow.animation",
 	"animation_controller": "vvp_ywzj:tow_controller",
+	"description": "vehicle.tow.description",
 	"tab_index": 4030
 }

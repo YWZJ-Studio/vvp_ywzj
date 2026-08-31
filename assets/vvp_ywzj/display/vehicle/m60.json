@@ -12,5 +12,6 @@
 		"engine_run": "vvp_ywzj:m60_engine_run",
 		"track_run": "ywzj_vehicle:track_run"
 	},
+	"description": "vehicle.m60.description",
 	"tab_index": 1200
 }

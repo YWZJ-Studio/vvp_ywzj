@@ -12,5 +12,6 @@
 		"engine_run": "vvp_ywzj:t72_engine_run",
 		"track_run": "ywzj_vehicle:track_run"
 	},
+	"description": "vehicle.terminator.description",
 	"tab_index": 1070
 }

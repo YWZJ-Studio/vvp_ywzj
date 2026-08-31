@@ -12,5 +12,6 @@
 		"engine_run": "vvp_ywzj:generic_diesel_engine_run",
 		"track_run": "ywzj_vehicle:track_run"
 	},
+	"description": "vehicle.2c3m.description",
 	"tab_index": 1080
 }

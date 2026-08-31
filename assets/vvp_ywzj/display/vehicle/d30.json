@@ -5,5 +5,6 @@
 	"slot_texture": "vvp_ywzj:textures/slot/d30.png",
 	"animations": "vvp_ywzj:entity/d30.animation",
 	"animation_controller": "vvp_ywzj:d30_controller",
+	"description": "vehicle.d30.description",
 	"tab_index": 4010
 }
