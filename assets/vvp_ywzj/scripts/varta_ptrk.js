@@ -13,10 +13,10 @@ function updateBones(context) {
     const turnRotation = turnAngle * 16;
 
     const builder = createPoseBuilder()
-    builder.setRotation("wheelL0Turn", wheelRotation, -turnRotation, 0)
-    builder.setRotation("wheelR0Turn", wheelRotation, -turnRotation, 0)
-    builder.setRotation("wheelL1", wheelRotation, 0, 0)
-    builder.setRotation("wheelR1", wheelRotation, 0, 0)
+    builder.setRotation("wheelL0Turn", -wheelRotation, -turnRotation, 0)
+    builder.setRotation("wheelR0Turn", -wheelRotation, -turnRotation, 0)
+    builder.setRotation("wheelL1", -wheelRotation, 0, 0)
+    builder.setRotation("wheelR1", -wheelRotation, 0, 0)
     builder.setRotation("fxp", 0, 0, -turnRotation * 6)
 
     builder.setRotation("turret", 0, -context.getPartYRot("turret"), 0)
