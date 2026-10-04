@@ -16,13 +16,17 @@
 		"sound_distance": 7
 	},
 	"energy_info": {
-		"energy_capacity": 1,
-		"energy_consumption_per_tick": 0.00001,
+		"energy_capacity": 968,
+		"energy_consumption_per_tick": 0.002916667,
 		"engine_particle_offsets": [[0.9734375, 1.2171875, -3.978125], [-0.9734375, 1.2171875, -3.978125]]
 	},
 	"physics_info": {
+		"mass": 62932,
+		"friction": 125864,
 		"can_destroy_block": true,
-		"destroy_explosion_velocity": 0.5
+		"destroy_explosion_velocity": 0.5,
+		"suspension_response": 0.3,
+		"center": [0.00625, -0.1609, 0.170903]
 	},
 	"structure_model": "vvp_ywzj:vehicle/leopard_2a7v",
 	"parts": [
@@ -112,7 +116,27 @@
 			"id": "track",
 			"name": "track",
 			"type": "ywzj_vehicle:track",
-			"structure_bone": "tracks"
+			"structure_bone": "suspension_track_right",
+			"is_seat": false,
+			"spring_stiffness": 881048,
+			"damping": 15103.68,
+			"rest_length": 0.1,
+			"max_compression": 0.1,
+			"max_extension": 0.1,
+			"max_droop": 0.1
+		},
+		{
+			"id": "track_other_side",
+			"name": "track_other_side",
+			"type": "ywzj_vehicle:track",
+			"structure_bone": "suspension_track_left",
+			"is_seat": false,
+			"spring_stiffness": 881048,
+			"damping": 15103.68,
+			"rest_length": 0.1,
+			"max_compression": 0.1,
+			"max_extension": 0.1,
+			"max_droop": 0.1
 		},
 		{
 			"id": "passenger_seat_2",

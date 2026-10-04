@@ -1,7 +1,7 @@
 {
 	"type": "ywzj_vehicle:rotary_wing_vehicle",
 	"attributes": {
-		"main_rotor_force": 0.0343,
+		"main_rotor_force": 115728.2,
 		"ceiling": 256,
 		"x_rot_speed_acceleration": 1.3,
 		"x_rot_speed_max": 2,
@@ -23,11 +23,13 @@
 		"sound_distance": 8
 	},
 	"energy_info": {
-		"energy_capacity": 0.25,
-		"energy_consumption_per_tick": 0.00001
+		"energy_capacity": 2035,
+		"energy_consumption_per_tick": 0.008333333
 	},
 	"center_offset": [0, 1.5, 0],
 	"physics_info": {
+		"mass": 6400,
+		"friction": 12800,
 		"destroy_explosion_velocity": 0.3
 	},
 	"structure_model": "vvp_ywzj:vehicle/nh_90",

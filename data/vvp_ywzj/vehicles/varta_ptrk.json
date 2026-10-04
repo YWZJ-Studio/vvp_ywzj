@@ -1,9 +1,9 @@
 {
 	"type": "ywzj_vehicle:wheeled_vehicle",
 	"attributes": {
-		"brake_force": 0.025,
-		"forward_force": 0.03,
-		"backward_force": 0.02,
+		"brake_force": 176900,
+		"forward_force": 212280,
+		"backward_force": 141520,
 		"max_speed_forward": 0.8,
 		"max_speed_backward": 0.6,
 		"turn_step": 0.4,
@@ -22,11 +22,15 @@
 		}
 	},
 	"energy_info": {
-		"energy_capacity": 1,
-		"energy_consumption_per_tick": 0.00001
+		"energy_capacity": 210,
+		"energy_consumption_per_tick": 0.000583333
 	},
 	"physics_info": {
-		"destroy_explosion_velocity": 0.3
+		"mass": 17690,
+		"friction": 35380,
+		"destroy_explosion_velocity": 0.3,
+		"center": [0, -2.0974, 0],
+		"suspension_response": 0.65
 	},
 	"structure_model": "vvp_ywzj:vehicle/varta_ptrk",
 	"parts": [
@@ -212,6 +216,62 @@
 			"type": "ywzj_vehicle:switchable",
 			"structure_bone": "luke3",
 			"is_seat": false
+		},
+		{
+			"id": "suspension_wheelL0Turn",
+			"name": "suspension_wheelL0Turn",
+			"type": "ywzj_vehicle:suspension",
+			"render_bone": "wheelL0Turn",
+			"structure_bone": "wheelL0Turn",
+			"is_seat": false,
+			"spring_stiffness": 424560,
+			"damping": 11793.333,
+			"rest_length": 0.4,
+			"max_compression": 0.4,
+			"max_extension": 0.24,
+			"max_droop": 0.22
+		},
+		{
+			"id": "suspension_wheelR0Turn",
+			"name": "suspension_wheelR0Turn",
+			"type": "ywzj_vehicle:suspension",
+			"render_bone": "wheelR0Turn",
+			"structure_bone": "wheelR0Turn",
+			"is_seat": false,
+			"spring_stiffness": 424560,
+			"damping": 11793.333,
+			"rest_length": 0.4,
+			"max_compression": 0.4,
+			"max_extension": 0.24,
+			"max_droop": 0.22
+		},
+		{
+			"id": "suspension_wheelL1",
+			"name": "suspension_wheelL1",
+			"type": "ywzj_vehicle:suspension",
+			"render_bone": "wheelL1",
+			"structure_bone": "wheelL1",
+			"is_seat": false,
+			"spring_stiffness": 424560,
+			"damping": 11793.333,
+			"rest_length": 0.4,
+			"max_compression": 0.4,
+			"max_extension": 0.24,
+			"max_droop": 0.22
+		},
+		{
+			"id": "suspension_wheelR1",
+			"name": "suspension_wheelR1",
+			"type": "ywzj_vehicle:suspension",
+			"render_bone": "wheelR1",
+			"structure_bone": "wheelR1",
+			"is_seat": false,
+			"spring_stiffness": 424560,
+			"damping": 11793.333,
+			"rest_length": 0.4,
+			"max_compression": 0.4,
+			"max_extension": 0.24,
+			"max_droop": 0.22
 		}
 	]
 }

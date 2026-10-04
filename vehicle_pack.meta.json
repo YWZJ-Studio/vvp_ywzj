@@ -8,6 +8,6 @@
 	"authors": ["Team YWZJ, Team VVP, ROIF, FL"],
 	"url": "",
 	"dependencies": {
-		"ywzj_vehicle": "[0.5.9,)"
+		"ywzj_vehicle": "[0.6.0,)"
 	}
 }

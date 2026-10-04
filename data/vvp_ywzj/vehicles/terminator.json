@@ -16,13 +16,17 @@
 		"sound_distance": 7
 	},
 	"energy_info": {
-		"energy_capacity": 1,
-		"energy_consumption_per_tick": 0.00001,
+		"energy_capacity": 840,
+		"energy_consumption_per_tick": 0.002361111,
 		"engine_particle_offsets": [[2.4578125, 1.58125, -2.05625]]
 	},
 	"physics_info": {
+		"mass": 47160,
+		"friction": 94320,
 		"can_destroy_block": true,
-		"destroy_explosion_velocity": 0.5
+		"destroy_explosion_velocity": 0.5,
+		"suspension_response": 0.3,
+		"center": [-0.020312, -1.1081, 0.204688]
 	},
 	"structure_model": "vvp_ywzj:vehicle/terminator",
 	"parts": [
@@ -130,7 +134,27 @@
 			"id": "track",
 			"name": "track",
 			"type": "ywzj_vehicle:track",
-			"structure_bone": "tracks"
+			"structure_bone": "suspension_track_left",
+			"is_seat": false,
+			"spring_stiffness": 660240,
+			"damping": 11318.4,
+			"rest_length": 0.1,
+			"max_compression": 0.1,
+			"max_extension": 0.1,
+			"max_droop": 0.1
+		},
+		{
+			"id": "track_other_side",
+			"name": "track_other_side",
+			"type": "ywzj_vehicle:track",
+			"structure_bone": "suspension_track_right",
+			"is_seat": false,
+			"spring_stiffness": 660240,
+			"damping": 11318.4,
+			"rest_length": 0.1,
+			"max_compression": 0.1,
+			"max_extension": 0.1,
+			"max_droop": 0.1
 		}
 	]
 }

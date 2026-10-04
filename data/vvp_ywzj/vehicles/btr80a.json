@@ -1,9 +1,9 @@
 {
 	"type": "ywzj_vehicle:wheeled_vehicle",
 	"attributes": {
-		"brake_force": 0.025,
-		"forward_force": 0.03,
-		"backward_force": 0.02,
+		"brake_force": 142980,
+		"forward_force": 171576,
+		"backward_force": 114384,
 		"max_speed_forward": 0.8,
 		"max_speed_backward": 0.4,
 		"turn_step": 0.4,
@@ -21,12 +21,16 @@
 		}
 	},
 	"energy_info": {
-		"energy_capacity": 1,
-		"energy_consumption_per_tick": 0.00001
+		"energy_capacity": 252,
+		"energy_consumption_per_tick": 0.000625
 	},
 	"physics_info": {
+		"mass": 14298,
+		"friction": 28596,
 		"density": 0.75,
-		"destroy_explosion_velocity": 0.3
+		"destroy_explosion_velocity": 0.3,
+		"center": [0, -1.9686, 0],
+		"suspension_response": 1
 	},
 	"structure_model": "vvp_ywzj:vehicle/btr80a",
 	"parts": [
@@ -186,6 +190,118 @@
 			"type": "ywzj_vehicle:switchable",
 			"structure_bone": "cover",
 			"is_seat": false
+		},
+		{
+			"id": "suspension_wheel1",
+			"name": "suspension_wheel1",
+			"type": "ywzj_vehicle:suspension",
+			"render_bone": "wheel1",
+			"structure_bone": "wheel1",
+			"is_seat": false,
+			"spring_stiffness": 171576,
+			"damping": 8665.455,
+			"rest_length": 0.38,
+			"max_compression": 0.38,
+			"max_extension": 0.22,
+			"max_droop": 0.26
+		},
+		{
+			"id": "suspension_wheel2",
+			"name": "suspension_wheel2",
+			"type": "ywzj_vehicle:suspension",
+			"render_bone": "wheel2",
+			"structure_bone": "wheel2",
+			"is_seat": false,
+			"spring_stiffness": 171576,
+			"damping": 8665.455,
+			"rest_length": 0.38,
+			"max_compression": 0.38,
+			"max_extension": 0.22,
+			"max_droop": 0.26
+		},
+		{
+			"id": "suspension_wheel3",
+			"name": "suspension_wheel3",
+			"type": "ywzj_vehicle:suspension",
+			"render_bone": "wheel3",
+			"structure_bone": "wheel3",
+			"is_seat": false,
+			"spring_stiffness": 171576,
+			"damping": 8665.455,
+			"rest_length": 0.38,
+			"max_compression": 0.38,
+			"max_extension": 0.22,
+			"max_droop": 0.26
+		},
+		{
+			"id": "suspension_wheel4",
+			"name": "suspension_wheel4",
+			"type": "ywzj_vehicle:suspension",
+			"render_bone": "wheel4",
+			"structure_bone": "wheel4",
+			"is_seat": false,
+			"spring_stiffness": 171576,
+			"damping": 8665.455,
+			"rest_length": 0.38,
+			"max_compression": 0.38,
+			"max_extension": 0.22,
+			"max_droop": 0.26
+		},
+		{
+			"id": "suspension_wheel5",
+			"name": "suspension_wheel5",
+			"type": "ywzj_vehicle:suspension",
+			"render_bone": "wheel5",
+			"structure_bone": "wheel5",
+			"is_seat": false,
+			"spring_stiffness": 171576,
+			"damping": 8665.455,
+			"rest_length": 0.38,
+			"max_compression": 0.38,
+			"max_extension": 0.22,
+			"max_droop": 0.26
+		},
+		{
+			"id": "suspension_wheel6",
+			"name": "suspension_wheel6",
+			"type": "ywzj_vehicle:suspension",
+			"render_bone": "wheel6",
+			"structure_bone": "wheel6",
+			"is_seat": false,
+			"spring_stiffness": 171576,
+			"damping": 8665.455,
+			"rest_length": 0.38,
+			"max_compression": 0.38,
+			"max_extension": 0.22,
+			"max_droop": 0.26
+		},
+		{
+			"id": "suspension_wheel7",
+			"name": "suspension_wheel7",
+			"type": "ywzj_vehicle:suspension",
+			"render_bone": "wheel7",
+			"structure_bone": "wheel7",
+			"is_seat": false,
+			"spring_stiffness": 171576,
+			"damping": 8665.455,
+			"rest_length": 0.38,
+			"max_compression": 0.38,
+			"max_extension": 0.22,
+			"max_droop": 0.26
+		},
+		{
+			"id": "suspension_wheel8",
+			"name": "suspension_wheel8",
+			"type": "ywzj_vehicle:suspension",
+			"render_bone": "wheel8",
+			"structure_bone": "wheel8",
+			"is_seat": false,
+			"spring_stiffness": 171576,
+			"damping": 8665.455,
+			"rest_length": 0.38,
+			"max_compression": 0.38,
+			"max_extension": 0.22,
+			"max_droop": 0.26
 		}
 	]
 }

@@ -1,7 +1,7 @@
 {
 	"type": "ywzj_vehicle:rotary_wing_vehicle",
 	"attributes": {
-		"main_rotor_force": 0.0392,
+		"main_rotor_force": 110167.68,
 		"ceiling": 256,
 		"x_rot_speed_acceleration": 1,
 		"x_rot_speed_max": 4,
@@ -20,8 +20,8 @@
 		"sound_distance": 8
 	},
 	"energy_info": {
-		"energy_capacity": 0.25,
-		"energy_consumption_per_tick": 0.00001,
+		"energy_capacity": 1249,
+		"energy_consumption_per_tick": 0.006944444,
 		"engine_particle_offsets": [[0.7625, 2.0484375, -3.209375], [-0.7625, 2.0484375, -3.209375]]
 	},
 	"defense_stats": {
@@ -31,6 +31,8 @@
 	"with_warning_receiver": true,
 	"center_offset": [0, 1.844, 0],
 	"physics_info": {
+		"mass": 5777,
+		"friction": 11554,
 		"destroy_explosion_velocity": 0.3
 	},
 	"structure_model": "vvp_ywzj:vehicle/cobra",

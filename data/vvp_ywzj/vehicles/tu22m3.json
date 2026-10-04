@@ -1,14 +1,14 @@
 {
 	"type": "ywzj_vehicle:fixed_wing_vehicle",
 	"attributes": {
-		"thrust": 0.02,
-		"thrust_k": 1.4,
+		"thrust": 294200,
+		"thrust_k": 1.666,
 		"ceiling": 512,
 		"x_rot_input_step": 0.4,
 		"y_rot_input_step": 0.5,
 		"z_rot_input_step": 0.2,
-		"air_drag_k_min": 0.002,
-		"air_drag_k_max": 0.008,
+		"air_drag_k_min": 108,
+		"air_drag_k_max": 432,
 		"lift_to_drag_k": 3,
 		"x_rot_input_drag_k": 1.2,
 		"y_rot_input_drag_k": 0.25,
@@ -30,8 +30,8 @@
 		"sound_distance": 8
 	},
 	"energy_info": {
-		"energy_capacity": 0.25,
-		"energy_consumption_per_tick": 0.00001
+		"energy_capacity": 53550,
+		"energy_consumption_per_tick": 0.194444444
 	},
 	"defense_stats": {
 		"damage_threshold": 10,
@@ -40,6 +40,8 @@
 	"with_warning_receiver": true,
 	"center_offset": [0, 4.146875, 0],
 	"physics_info": {
+		"mass": 54000,
+		"friction": 108000,
 		"destroy_explosion_velocity": 0.3
 	},
 	"structure_model": "vvp_ywzj:vehicle/tu22m3",

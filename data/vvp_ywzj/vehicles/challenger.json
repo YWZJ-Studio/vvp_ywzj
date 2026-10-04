@@ -16,12 +16,16 @@
 		"sound_distance": 7
 	},
 	"energy_info": {
-		"energy_capacity": 1,
-		"energy_consumption_per_tick": 0.00001,
+		"energy_capacity": 1335,
+		"energy_consumption_per_tick": 0.003055556,
 		"engine_particle_offsets": [[1.8, 1.765625, -2.3484375], [-1.8, 1.765625, -2.3484375]]
 	},
 	"physics_info": {
-		"destroy_explosion_velocity": 0.5
+		"mass": 61165,
+		"friction": 122330,
+		"destroy_explosion_velocity": 0.5,
+		"suspension_response": 0.3,
+		"center": [0.001562, -0.1453, -0.05642]
 	},
 	"structure_model": "vvp_ywzj:vehicle/challenger",
 	"parts": [
@@ -173,7 +177,27 @@
 			"id": "track",
 			"name": "track",
 			"type": "ywzj_vehicle:track",
-			"structure_bone": "tracks"
+			"structure_bone": "suspension_track_left",
+			"is_seat": false,
+			"spring_stiffness": 856310,
+			"damping": 14679.6,
+			"rest_length": 0.1,
+			"max_compression": 0.1,
+			"max_extension": 0.1,
+			"max_droop": 0.1
+		},
+		{
+			"id": "track_other_side",
+			"name": "track_other_side",
+			"type": "ywzj_vehicle:track",
+			"structure_bone": "suspension_track_right",
+			"is_seat": false,
+			"spring_stiffness": 856310,
+			"damping": 14679.6,
+			"rest_length": 0.1,
+			"max_compression": 0.1,
+			"max_extension": 0.1,
+			"max_droop": 0.1
 		}
 	]
 }

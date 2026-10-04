@@ -171,7 +171,7 @@
 				},
 				{
 					"name": "track_right",
-					"parent": "tracks",
+					"parent": "suspension_track_right",
 					"pivot": [33.05, 19.05, 54.15],
 					"cubes": [
 						{
@@ -286,7 +286,7 @@
 				},
 				{
 					"name": "track_left",
-					"parent": "tracks",
+					"parent": "suspension_track_left",
 					"pivot": [-69.4, 19.05, 54.15],
 					"cubes": [
 						{
@@ -398,6 +398,16 @@
 							}
 						}
 					]
+				},
+				{
+					"name": "suspension_track_right",
+					"parent": "tracks",
+					"pivot": [26.25, 12.925, -1.9125]
+				},
+				{
+					"name": "suspension_track_left",
+					"parent": "tracks",
+					"pivot": [-25.05, 12.925, -1.9125]
 				}
 			]
 		}

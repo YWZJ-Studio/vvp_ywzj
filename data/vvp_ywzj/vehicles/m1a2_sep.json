@@ -16,12 +16,16 @@
 		"sound_distance": 7
 	},
 	"energy_info": {
-		"energy_capacity": 1,
-		"energy_consumption_per_tick": 0.00001,
+		"energy_capacity": 1525,
+		"energy_consumption_per_tick": 0.004444444,
 		"engine_particle_offsets": [[-0.121875, 1.490625, -5.1796875]]
 	},
 	"physics_info": {
-		"destroy_explosion_velocity": 0.5
+		"mass": 62475,
+		"friction": 124950,
+		"destroy_explosion_velocity": 0.5,
+		"suspension_response": 0.3,
+		"center": [-0.002346, -0.1531, -0.030123]
 	},
 	"structure_model": "vvp_ywzj:vehicle/m1a2_sep",
 	"parts": [
@@ -228,7 +232,27 @@
 			"id": "track",
 			"name": "track",
 			"type": "ywzj_vehicle:track",
-			"structure_bone": "tracks"
+			"structure_bone": "suspension_track_left",
+			"is_seat": false,
+			"spring_stiffness": 874650,
+			"damping": 14994,
+			"rest_length": 0.1,
+			"max_compression": 0.1,
+			"max_extension": 0.1,
+			"max_droop": 0.1
+		},
+		{
+			"id": "track_other_side",
+			"name": "track_other_side",
+			"type": "ywzj_vehicle:track",
+			"structure_bone": "suspension_track_right",
+			"is_seat": false,
+			"spring_stiffness": 874650,
+			"damping": 14994,
+			"rest_length": 0.1,
+			"max_compression": 0.1,
+			"max_extension": 0.1,
+			"max_droop": 0.1
 		}
 	]
 }

@@ -1,4 +1,7 @@
 {
+	"thrust": 4520,
+	"drag_coefficient": 0.0565,
+	"mass": 11.3,
 	"type": "ywzj_vehicle:rocket",
 	"name": "S-8 80mm",
 	"damage": 100,

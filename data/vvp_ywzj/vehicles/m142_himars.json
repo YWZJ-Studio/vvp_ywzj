@@ -1,9 +1,9 @@
 {
 	"type": "ywzj_vehicle:wheeled_vehicle",
 	"attributes": {
-		"brake_force": 0.025,
-		"forward_force": 0.03,
-		"backward_force": 0.02,
+		"brake_force": 160000,
+		"forward_force": 192000,
+		"backward_force": 128000,
 		"max_speed_forward": 0.8,
 		"max_speed_backward": 0.4,
 		"turn_step": 0.4,
@@ -20,12 +20,16 @@
 		}
 	},
 	"energy_info": {
-		"energy_capacity": 1,
-		"energy_consumption_per_tick": 0.00001,
+		"energy_capacity": 190,
+		"energy_consumption_per_tick": 0.000555556,
 		"engine_particle_offsets": [[1.2796875, 3.3859375, 1.8]]
 	},
 	"physics_info": {
-		"destroy_explosion_velocity": 0.3
+		"mass": 16000,
+		"friction": 32000,
+		"destroy_explosion_velocity": 0.3,
+		"center": [0, -1.9201, 0],
+		"suspension_response": 1.6
 	},
 	"structure_model": "vvp_ywzj:vehicle/m142_himars",
 	"parts": [
@@ -93,6 +97,90 @@
 			"type": "ywzj_vehicle:switchable",
 			"structure_bone": "hatch",
 			"is_seat": false
+		},
+		{
+			"id": "suspension_wheel1",
+			"name": "suspension_wheel1",
+			"type": "ywzj_vehicle:suspension",
+			"render_bone": "wheel1",
+			"structure_bone": "wheel1",
+			"is_seat": false,
+			"spring_stiffness": 192000,
+			"damping": 10666.667,
+			"rest_length": 0.55,
+			"max_compression": 0.55,
+			"max_extension": 0.26,
+			"max_droop": 0.22
+		},
+		{
+			"id": "suspension_wheel2",
+			"name": "suspension_wheel2",
+			"type": "ywzj_vehicle:suspension",
+			"render_bone": "wheel2",
+			"structure_bone": "wheel2",
+			"is_seat": false,
+			"spring_stiffness": 192000,
+			"damping": 10666.667,
+			"rest_length": 0.55,
+			"max_compression": 0.55,
+			"max_extension": 0.26,
+			"max_droop": 0.22
+		},
+		{
+			"id": "suspension_wheel3",
+			"name": "suspension_wheel3",
+			"type": "ywzj_vehicle:suspension",
+			"render_bone": "wheel3",
+			"structure_bone": "wheel3",
+			"is_seat": false,
+			"spring_stiffness": 192000,
+			"damping": 10666.667,
+			"rest_length": 0.55,
+			"max_compression": 0.55,
+			"max_extension": 0.26,
+			"max_droop": 0.22
+		},
+		{
+			"id": "suspension_wheel4",
+			"name": "suspension_wheel4",
+			"type": "ywzj_vehicle:suspension",
+			"render_bone": "wheel4",
+			"structure_bone": "wheel4",
+			"is_seat": false,
+			"spring_stiffness": 192000,
+			"damping": 10666.667,
+			"rest_length": 0.55,
+			"max_compression": 0.55,
+			"max_extension": 0.26,
+			"max_droop": 0.22
+		},
+		{
+			"id": "suspension_wheel5",
+			"name": "suspension_wheel5",
+			"type": "ywzj_vehicle:suspension",
+			"render_bone": "wheel5",
+			"structure_bone": "wheel5",
+			"is_seat": false,
+			"spring_stiffness": 192000,
+			"damping": 10666.667,
+			"rest_length": 0.55,
+			"max_compression": 0.55,
+			"max_extension": 0.26,
+			"max_droop": 0.22
+		},
+		{
+			"id": "suspension_wheel6",
+			"name": "suspension_wheel6",
+			"type": "ywzj_vehicle:suspension",
+			"render_bone": "wheel6",
+			"structure_bone": "wheel6",
+			"is_seat": false,
+			"spring_stiffness": 192000,
+			"damping": 10666.667,
+			"rest_length": 0.55,
+			"max_compression": 0.55,
+			"max_extension": 0.26,
+			"max_droop": 0.22
 		}
 	]
 }

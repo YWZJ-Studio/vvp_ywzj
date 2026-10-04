@@ -1,4 +1,7 @@
 {
+	"thrust": 17000,
+	"drag_coefficient": 0.2125,
+	"mass": 42.5,
 	"type": "ywzj_vehicle:missile",
 	"name": "9M120 Ataka",
 	"damage": 1000,

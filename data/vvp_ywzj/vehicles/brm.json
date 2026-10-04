@@ -17,13 +17,17 @@
 		"sound_distance": 4
 	},
 	"energy_info": {
-		"energy_capacity": 1,
-		"energy_consumption_per_tick": 0.00001,
+		"energy_capacity": 588,
+		"energy_consumption_per_tick": 0.00125,
 		"engine_particle_offsets": [[-2.0375, 1.759375, -3.228125]]
 	},
 	"physics_info": {
+		"mass": 19012,
+		"friction": 38024,
 		"density": 0.75,
-		"destroy_explosion_velocity": 0.5
+		"destroy_explosion_velocity": 0.5,
+		"suspension_response": 0.3,
+		"center": [0.000577, -0.4528, -0.312038]
 	},
 	"structure_model": "vvp_ywzj:vehicle/brm",
 	"parts": [
@@ -223,7 +227,27 @@
 			"id": "track",
 			"name": "track",
 			"type": "ywzj_vehicle:track",
-			"structure_bone": "tracks"
+			"structure_bone": "suspension_track_left",
+			"is_seat": false,
+			"spring_stiffness": 266168,
+			"damping": 4562.88,
+			"rest_length": 0.1,
+			"max_compression": 0.1,
+			"max_extension": 0.1,
+			"max_droop": 0.1
+		},
+		{
+			"id": "track_other_side",
+			"name": "track_other_side",
+			"type": "ywzj_vehicle:track",
+			"structure_bone": "suspension_track_right",
+			"is_seat": false,
+			"spring_stiffness": 266168,
+			"damping": 4562.88,
+			"rest_length": 0.1,
+			"max_compression": 0.1,
+			"max_extension": 0.1,
+			"max_droop": 0.1
 		}
 	]
 }

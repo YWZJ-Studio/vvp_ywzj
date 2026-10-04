@@ -2,6 +2,7 @@
 	"type": "ywzj_vehicle:cannon",
 	"name": "2A18 122mm",
 	"caliber": 122,
+	"artillery": true,
 	"damage": 1000,
 	"velocity": 24,
 	"headshot_multiplier": 1.5,

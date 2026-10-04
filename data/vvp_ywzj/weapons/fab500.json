@@ -1,4 +1,6 @@
 {
+	"drag_coefficient": 2.5,
+	"mass": 500,
 	"type": "ywzj_vehicle:aerial_bomb",
 	"name": "FAB-500 Bomb",
 	"damage": 10,

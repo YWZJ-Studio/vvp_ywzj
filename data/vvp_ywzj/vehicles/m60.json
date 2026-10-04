@@ -16,12 +16,16 @@
 		"sound_distance": 7
 	},
 	"energy_info": {
-		"energy_capacity": 1,
-		"energy_consumption_per_tick": 0.00001,
+		"energy_capacity": 1180,
+		"energy_consumption_per_tick": 0.002361111,
 		"engine_particle_offsets": [[0.4578125, 1.4640625, -3.5140625], [-0.4578125, 1.4640625, -3.5140625]]
 	},
 	"physics_info": {
-		"destroy_explosion_velocity": 0.5
+		"mass": 51220,
+		"friction": 102440,
+		"destroy_explosion_velocity": 0.5,
+		"suspension_response": 0.3,
+		"center": [0.001032, -0.1771, 0.006875]
 	},
 	"structure_model": "vvp_ywzj:vehicle/m60",
 	"parts": [
@@ -123,7 +127,27 @@
 			"id": "track",
 			"name": "track",
 			"type": "ywzj_vehicle:track",
-			"structure_bone": "tracks"
+			"structure_bone": "suspension_track_left",
+			"is_seat": false,
+			"spring_stiffness": 717080,
+			"damping": 12292.8,
+			"rest_length": 0.1,
+			"max_compression": 0.1,
+			"max_extension": 0.1,
+			"max_droop": 0.1
+		},
+		{
+			"id": "track_other_side",
+			"name": "track_other_side",
+			"type": "ywzj_vehicle:track",
+			"structure_bone": "suspension_track_right",
+			"is_seat": false,
+			"spring_stiffness": 717080,
+			"damping": 12292.8,
+			"rest_length": 0.1,
+			"max_compression": 0.1,
+			"max_extension": 0.1,
+			"max_droop": 0.1
 		}
 	]
 }

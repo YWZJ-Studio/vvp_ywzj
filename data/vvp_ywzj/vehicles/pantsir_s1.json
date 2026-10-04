@@ -1,9 +1,9 @@
 {
 	"type": "ywzj_vehicle:wheeled_vehicle",
 	"attributes": {
-		"brake_force": 0.025,
-		"forward_force": 0.02,
-		"backward_force": 0.02,
+		"brake_force": 297480,
+		"forward_force": 237984,
+		"backward_force": 237984,
 		"max_speed_forward": 0.8,
 		"max_speed_backward": 0.2,
 		"turn_step": 0.4,
@@ -16,12 +16,16 @@
 		"sound_distance": 7
 	},
 	"energy_info": {
-		"energy_capacity": 1,
-		"energy_consumption_per_tick": 0.00001,
+		"energy_capacity": 252,
+		"energy_consumption_per_tick": 0.000763889,
 		"engine_particle_offsets": []
 	},
 	"physics_info": {
-		"destroy_explosion_velocity": 0.3
+		"mass": 29748,
+		"friction": 59496,
+		"destroy_explosion_velocity": 0.3,
+		"center": [0, -2.0406, 0],
+		"suspension_response": 1.4
 	},
 	"structure_model": "vvp_ywzj:vehicle/pantsir_s1",
 	"parts": [
@@ -130,6 +134,118 @@
 			"type": "ywzj_vehicle:door",
 			"structure_bone": "door_2",
 			"is_seat": false
+		},
+		{
+			"id": "suspension_wheelL0Turn",
+			"name": "suspension_wheelL0Turn",
+			"type": "ywzj_vehicle:suspension",
+			"render_bone": "wheelL0Turn",
+			"structure_bone": "wheelL0Turn",
+			"is_seat": false,
+			"spring_stiffness": 356976,
+			"damping": 18029.091,
+			"rest_length": 0.52,
+			"max_compression": 0.52,
+			"max_extension": 0.26,
+			"max_droop": 0.26
+		},
+		{
+			"id": "suspension_wheelR0Turn",
+			"name": "suspension_wheelR0Turn",
+			"type": "ywzj_vehicle:suspension",
+			"render_bone": "wheelR0Turn",
+			"structure_bone": "wheelR0Turn",
+			"is_seat": false,
+			"spring_stiffness": 356976,
+			"damping": 18029.091,
+			"rest_length": 0.52,
+			"max_compression": 0.52,
+			"max_extension": 0.26,
+			"max_droop": 0.26
+		},
+		{
+			"id": "suspension_wheelL0",
+			"name": "suspension_wheelL0",
+			"type": "ywzj_vehicle:suspension",
+			"render_bone": "wheelL0",
+			"structure_bone": "wheelL0",
+			"is_seat": false,
+			"spring_stiffness": 356976,
+			"damping": 18029.091,
+			"rest_length": 0.52,
+			"max_compression": 0.52,
+			"max_extension": 0.26,
+			"max_droop": 0.26
+		},
+		{
+			"id": "suspension_wheelR0",
+			"name": "suspension_wheelR0",
+			"type": "ywzj_vehicle:suspension",
+			"render_bone": "wheelR0",
+			"structure_bone": "wheelR0",
+			"is_seat": false,
+			"spring_stiffness": 356976,
+			"damping": 18029.091,
+			"rest_length": 0.52,
+			"max_compression": 0.52,
+			"max_extension": 0.26,
+			"max_droop": 0.26
+		},
+		{
+			"id": "suspension_wheelL1",
+			"name": "suspension_wheelL1",
+			"type": "ywzj_vehicle:suspension",
+			"render_bone": "wheelL1",
+			"structure_bone": "wheelL1",
+			"is_seat": false,
+			"spring_stiffness": 356976,
+			"damping": 18029.091,
+			"rest_length": 0.52,
+			"max_compression": 0.52,
+			"max_extension": 0.26,
+			"max_droop": 0.26
+		},
+		{
+			"id": "suspension_wheelR1",
+			"name": "suspension_wheelR1",
+			"type": "ywzj_vehicle:suspension",
+			"render_bone": "wheelR1",
+			"structure_bone": "wheelR1",
+			"is_seat": false,
+			"spring_stiffness": 356976,
+			"damping": 18029.091,
+			"rest_length": 0.52,
+			"max_compression": 0.52,
+			"max_extension": 0.26,
+			"max_droop": 0.26
+		},
+		{
+			"id": "suspension_wheelL2",
+			"name": "suspension_wheelL2",
+			"type": "ywzj_vehicle:suspension",
+			"render_bone": "wheelL2",
+			"structure_bone": "wheelL2",
+			"is_seat": false,
+			"spring_stiffness": 356976,
+			"damping": 18029.091,
+			"rest_length": 0.52,
+			"max_compression": 0.52,
+			"max_extension": 0.26,
+			"max_droop": 0.26
+		},
+		{
+			"id": "suspension_wheelR2",
+			"name": "suspension_wheelR2",
+			"type": "ywzj_vehicle:suspension",
+			"render_bone": "wheelR2",
+			"structure_bone": "wheelR2",
+			"is_seat": false,
+			"spring_stiffness": 356976,
+			"damping": 18029.091,
+			"rest_length": 0.52,
+			"max_compression": 0.52,
+			"max_extension": 0.26,
+			"max_droop": 0.26
 		}
 	]
 }

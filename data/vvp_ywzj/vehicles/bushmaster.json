@@ -1,9 +1,9 @@
 {
 	"type": "ywzj_vehicle:wheeled_vehicle",
 	"attributes": {
-		"brake_force": 0.025,
-		"forward_force": 0.03,
-		"backward_force": 0.02,
+		"brake_force": 112480,
+		"forward_force": 134976,
+		"backward_force": 89984,
 		"max_speed_forward": 0.8,
 		"max_speed_backward": 0.4,
 		"turn_step": 0.4,
@@ -20,11 +20,15 @@
 		}
 	},
 	"energy_info": {
-		"energy_capacity": 1,
-		"energy_consumption_per_tick": 0.00001
+		"energy_capacity": 252,
+		"energy_consumption_per_tick": 0.000486111
 	},
 	"physics_info": {
-		"destroy_explosion_velocity": 0.3
+		"mass": 11248,
+		"friction": 22496,
+		"destroy_explosion_velocity": 0.3,
+		"center": [0, -2.0575, 0],
+		"suspension_response": 0.7
 	},
 	"structure_model": "vvp_ywzj:vehicle/bushmaster",
 	"parts": [
@@ -125,6 +129,62 @@
 			"type": "ywzj_vehicle:switchable",
 			"structure_bone": "hatch",
 			"is_seat": false
+		},
+		{
+			"id": "suspension_wheel4",
+			"name": "suspension_wheel4",
+			"type": "ywzj_vehicle:suspension",
+			"render_bone": "wheel4",
+			"structure_bone": "wheel4",
+			"is_seat": false,
+			"spring_stiffness": 269952,
+			"damping": 7498.667,
+			"rest_length": 0.4,
+			"max_compression": 0.4,
+			"max_extension": 0.24,
+			"max_droop": 0.22
+		},
+		{
+			"id": "suspension_wheel1",
+			"name": "suspension_wheel1",
+			"type": "ywzj_vehicle:suspension",
+			"render_bone": "wheel1",
+			"structure_bone": "wheel1",
+			"is_seat": false,
+			"spring_stiffness": 269952,
+			"damping": 7498.667,
+			"rest_length": 0.4,
+			"max_compression": 0.4,
+			"max_extension": 0.24,
+			"max_droop": 0.22
+		},
+		{
+			"id": "suspension_wheel3",
+			"name": "suspension_wheel3",
+			"type": "ywzj_vehicle:suspension",
+			"render_bone": "wheel3",
+			"structure_bone": "wheel3",
+			"is_seat": false,
+			"spring_stiffness": 269952,
+			"damping": 7498.667,
+			"rest_length": 0.4,
+			"max_compression": 0.4,
+			"max_extension": 0.24,
+			"max_droop": 0.22
+		},
+		{
+			"id": "suspension_wheel2",
+			"name": "suspension_wheel2",
+			"type": "ywzj_vehicle:suspension",
+			"render_bone": "wheel2",
+			"structure_bone": "wheel2",
+			"is_seat": false,
+			"spring_stiffness": 269952,
+			"damping": 7498.667,
+			"rest_length": 0.4,
+			"max_compression": 0.4,
+			"max_extension": 0.24,
+			"max_droop": 0.22
 		}
 	]
 }

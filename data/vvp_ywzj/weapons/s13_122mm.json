@@ -1,4 +1,7 @@
 {
+	"thrust": 27600,
+	"drag_coefficient": 0.345,
+	"mass": 69,
 	"type": "ywzj_vehicle:rocket",
 	"name": "S-13 122mm",
 	"damage": 100,
